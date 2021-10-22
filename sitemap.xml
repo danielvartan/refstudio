@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://gipso.github.io/refstudio//index.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/count_ref.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/guess_ref.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/provider_tags.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/query.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/raw_data.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/read_ref.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/refstudio-package.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/ris_tags.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/ris_types.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/refstudio//reference/tidy_keyword.html</loc>
+  </url>
+</urlset>
