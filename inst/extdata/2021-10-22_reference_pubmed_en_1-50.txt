@@ -1,0 +1,4101 @@
+PMID- 29098954
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180622
+LR  - 20210109
+IS  - 1552-4531 (Electronic)
+IS  - 0748-7304 (Print)
+IS  - 0748-7304 (Linking)
+VI  - 32
+IP  - 5
+DP  - 2017 Oct
+TI  - Guidelines for Genome-Scale Analysis of Biological Rhythms.
+PG  - 380-393
+LID - 10.1177/0748730417728663 [doi]
+AB  - Genome biology approaches have made enormous contributions to our understanding of 
+      biological rhythms, particularly in identifying outputs of the clock, including 
+      RNAs, proteins, and metabolites, whose abundance oscillates throughout the day. 
+      These methods hold significant promise for future discovery, particularly when 
+      combined with computational modeling. However, genome-scale experiments are costly 
+      and laborious, yielding "big data" that are conceptually and statistically difficult 
+      to analyze. There is no obvious consensus regarding design or analysis. Here we 
+      discuss the relevant technical considerations to generate reproducible, 
+      statistically sound, and broadly useful genome-scale data. Rather than suggest a set 
+      of rigid rules, we aim to codify principles by which investigators, reviewers, and 
+      readers of the primary literature can evaluate the suitability of different 
+      experimental designs for measuring different aspects of biological rhythms. We 
+      introduce CircaInSilico, a web-based application for generating synthetic genome 
+      biology data to benchmark statistical methods for studying biological rhythms. 
+      Finally, we discuss several unmet analytical needs, including applications to 
+      clinical medicine, and suggest productive avenues to address them.
+FAU - Hughes, Michael E
+AU  - Hughes ME
+AD  - 1 Division of Pulmonary and Critical Care Medicine, Washington University School of 
+      Medicine, St. Louis, Missouri, USA.
+FAU - Abruzzi, Katherine C
+AU  - Abruzzi KC
+AD  - 2 Department of Biology and Howard Hughes Medical Institute, Brandeis University, 
+      Waltham, Massachusetts, USA.
+FAU - Allada, Ravi
+AU  - Allada R
+AD  - 3 Department of Neurobiology, Northwestern University, Evanston, Illinois, USA.
+FAU - Anafi, Ron
+AU  - Anafi R
+AD  - 4 Division of Sleep Medicine, Department of Medicine, University of Pennsylvania 
+      Perelman School of Medicine, Philadelphia, USA.
+FAU - Arpat, Alaaddin Bulak
+AU  - Arpat AB
+AD  - 5 Center for Integrative Genomics, Génopode, University of Lausanne, Lausanne, 
+      Switzerland.
+AD  - 6 Vital-IT, Swiss Institute of Bioinformatics, Lausanne, Switzerland.
+FAU - Asher, Gad
+AU  - Asher G
+AD  - 7 Department of Biomolecular Sciences, Weizmann Institute of Science, Rehovot, 
+      Israel.
+FAU - Baldi, Pierre
+AU  - Baldi P
+AD  - 8 Institute for Genomics and Bioinformatics, University of California, Irvine, USA.
+FAU - de Bekker, Charissa
+AU  - de Bekker C
+AD  - 9 Department of Biology, University of Central Florida, Orlando, USA.
+FAU - Bell-Pedersen, Deborah
+AU  - Bell-Pedersen D
+AD  - 10 Department of Biology, Texas A&M University, College Station, USA.
+FAU - Blau, Justin
+AU  - Blau J
+AD  - 11 Department of Biology, New York University, New York, USA.
+FAU - Brown, Steve
+AU  - Brown S
+AD  - 12 Institute of Pharmacology and Toxicology, University of Zürich, Switzerland.
+FAU - Ceriani, M Fernanda
+AU  - Ceriani MF
+AD  - 13 Laboratorio de Genética del Comportamiento, Fundación Instituto Leloir, 
+      IIBBA-CONICET, Buenos Aires, Argentina.
+FAU - Chen, Zheng
+AU  - Chen Z
+AD  - 14 Department of Biochemistry and Molecular Biology, University of Texas Health 
+      Science Center, Houston, USA.
+FAU - Chiu, Joanna C
+AU  - Chiu JC
+AD  - 15 Department of Entomology and Nematology, University of California, Davis, USA.
+FAU - Cox, Juergen
+AU  - Cox J
+AD  - 16 Computational Systems Biochemistry, Max-Planck Institute of Biochemistry, 
+      Martinsried, Germany.
+FAU - Crowell, Alexander M
+AU  - Crowell AM
+AD  - 17 Department of Molecular and Systems Biology, Geisel School of Medicine at 
+      Dartmouth, Hanover, New Hampshire, USA.
+FAU - DeBruyne, Jason P
+AU  - DeBruyne JP
+AD  - 18 Department of Pharmacology and Toxicology, Morehouse School of Medicine, Atlanta, 
+      Georgia, USA.
+FAU - Dijk, Derk-Jan
+AU  - Dijk DJ
+AD  - 19 Surrey Sleep Research Centre, University of Surrey, Guildford, UK.
+FAU - DiTacchio, Luciano
+AU  - DiTacchio L
+AD  - 20 The University of Kansas Medical Center, University of Kansas, Kansas City, USA.
+FAU - Doyle, Francis J
+AU  - Doyle FJ
+AD  - 21 John A. Paulson School of Engineering and Applied Sciences, Harvard University, 
+      Boston, Massachusetts, USA.
+FAU - Duffield, Giles E
+AU  - Duffield GE
+AD  - 22 Department of Biological Sciences and Eck Institute for Global Health, University 
+      of Notre Dame, Notre Dame, Indiana, USA.
+FAU - Dunlap, Jay C
+AU  - Dunlap JC
+AD  - 17 Department of Molecular and Systems Biology, Geisel School of Medicine at 
+      Dartmouth, Hanover, New Hampshire, USA.
+FAU - Eckel-Mahan, Kristin
+AU  - Eckel-Mahan K
+AD  - 23 Institute of Molecular Medicine, McGovern Medical School, UT Health Houston, 
+      Houston, Texas, USA.
+FAU - Esser, Karyn A
+AU  - Esser KA
+AD  - 24 Department of Physiology and Functional Genomics, University of Florida College 
+      of Medicine, Gainesville, USA.
+FAU - FitzGerald, Garret A
+AU  - FitzGerald GA
+AD  - 25 Systems Pharmacology and Translational Therapeutics, University of Pennsylvania 
+      Perelman School of Medicine, Philadelphia, USA.
+FAU - Forger, Daniel B
+AU  - Forger DB
+AD  - 26 Department of Mathematics, University of Michigan, Ann Arbor, USA.
+FAU - Francey, Lauren J
+AU  - Francey LJ
+AD  - 27 Department of Pediatrics, Cincinnati Children's Hospital Medical Center, 
+      Cincinnati, Ohio, USA.
+FAU - Fu, Ying-Hui
+AU  - Fu YH
+AD  - 28 Kavli Institute for Fundamental Neuroscience, Weill Institute of Neuroscience, 
+      Department of Neurology, University of California, San Francisco, USA.
+FAU - Gachon, Frédéric
+AU  - Gachon F
+AD  - 29 Department of Diabetes and Circadian Rhythms, Nestlé Institute of Health 
+      Sciences, Lausanne, Switzerland.
+FAU - Gatfield, David
+AU  - Gatfield D
+AD  - 5 Center for Integrative Genomics, Génopode, University of Lausanne, Lausanne, 
+      Switzerland.
+FAU - de Goede, Paul
+AU  - de Goede P
+AD  - 30 Department of Endocrinology & Metabolism, Academic Medical Center, Amsterdam, the 
+      Netherlands.
+FAU - Golden, Susan S
+AU  - Golden SS
+AD  - 31 Center for Circadian Biology and Division of Biological Sciences, University of 
+      California, San Diego, La Jolla, USA.
+FAU - Green, Carla
+AU  - Green C
+AD  - 32 Department of Neuroscience, University of Texas Southwestern Medical Center, 
+      Dallas, USA.
+FAU - Harer, John
+AU  - Harer J
+AD  - 33 Department of Mathematics, Duke University, Durham, North Carolina, USA.
+FAU - Harmer, Stacey
+AU  - Harmer S
+AD  - 34 Department of Plant Biology, University of California, Davis, USA.
+FAU - Haspel, Jeff
+AU  - Haspel J
+AD  - 1 Division of Pulmonary and Critical Care Medicine, Washington University School of 
+      Medicine, St. Louis, Missouri, USA.
+FAU - Hastings, Michael H
+AU  - Hastings MH
+AD  - 35 Medical Research Council Laboratory of Molecular Biology, Cambridge, UK.
+FAU - Herzel, Hanspeter
+AU  - Herzel H
+AD  - 36 Institute for Theoretical Biology, Charité-Universitätsmedizin Berlin, Germany.
+FAU - Herzog, Erik D
+AU  - Herzog ED
+AD  - 37 Department of Biology, Washington University in St. Louis, Missouri, USA.
+FAU - Hoffmann, Christy
+AU  - Hoffmann C
+AD  - 1 Division of Pulmonary and Critical Care Medicine, Washington University School of 
+      Medicine, St. Louis, Missouri, USA.
+FAU - Hong, Christian
+AU  - Hong C
+AD  - 27 Department of Pediatrics, Cincinnati Children's Hospital Medical Center, 
+      Cincinnati, Ohio, USA.
+FAU - Hughey, Jacob J
+AU  - Hughey JJ
+AD  - 38 Department of Biomedical Informatics, Vanderbilt University School of Medicine, 
+      Nashville, Tennessee, USA.
+FAU - Hurley, Jennifer M
+AU  - Hurley JM
+AD  - 39 Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New 
+      York, USA.
+FAU - de la Iglesia, Horacio O
+AU  - de la Iglesia HO
+AD  - 40 Department of Biology, University of Washington, Seattle, USA.
+FAU - Johnson, Carl
+AU  - Johnson C
+AD  - 41 Department of Biological Sciences, Vanderbilt University, Nashville, Tennessee, 
+      USA.
+FAU - Kay, Steve A
+AU  - Kay SA
+AD  - 42 Department of Cell and Molecular Biology, The Scripps Research Institute, 
+      University of California, San Diego, La Jolla, USA.
+FAU - Koike, Nobuya
+AU  - Koike N
+AD  - 43 Department of Physiology and Systems Bioscience, Kyoto Prefectural University of 
+      Medicine, Japan.
+FAU - Kornacker, Karl
+AU  - Kornacker K
+AD  - 44 Division of Sensory Biophysics, The Ohio State University, Columbus, USA.
+FAU - Kramer, Achim
+AU  - Kramer A
+AD  - 45 Laboratory of Chronobiology, Charité Universitätsmedizin Berlin, Germany.
+FAU - Lamia, Katja
+AU  - Lamia K
+AD  - 46 Department of Molecular Medicine, The Scripps Research Institute, La Jolla, 
+      California, USA.
+FAU - Leise, Tanya
+AU  - Leise T
+AD  - 47 Department of Mathematics and Statistics, Amherst College, Amherst, 
+      Massachusetts, USA.
+FAU - Lewis, Scott A
+AU  - Lewis SA
+AD  - 1 Division of Pulmonary and Critical Care Medicine, Washington University School of 
+      Medicine, St. Louis, Missouri, USA.
+FAU - Li, Jiajia
+AU  - Li J
+AD  - 1 Division of Pulmonary and Critical Care Medicine, Washington University School of 
+      Medicine, St. Louis, Missouri, USA.
+AD  - 48 Department of Biology, University of Missouri-St. Louis, USA.
+FAU - Li, Xiaodong
+AU  - Li X
+AD  - 49 Department of Cell Biology, College of Life Sciences at Wuhan University, China.
+FAU - Liu, Andrew C
+AU  - Liu AC
+AD  - 50 Department of Biological Sciences, University of Memphis, Tennessee, USA.
+FAU - Loros, Jennifer J
+AU  - Loros JJ
+AD  - 51 Department of Biochemistry and Cell Biology, Geisel School of Medicine at 
+      Dartmouth, Hanover, New Hampshire, USA.
+FAU - Martino, Tami A
+AU  - Martino TA
+AD  - 52 Centre for Cardiovascular Investigations, Department of Biomedical Sciences, 
+      University of Guelph, Guelph, Ontario, Canada.
+FAU - Menet, Jerome S
+AU  - Menet JS
+AD  - 10 Department of Biology, Texas A&M University, College Station, USA.
+FAU - Merrow, Martha
+AU  - Merrow M
+AD  - 53 Institute of Medical Psychology, Faculty of Medicine, LMU Munich, Germany.
+FAU - Millar, Andrew J
+AU  - Millar AJ
+AD  - 54 SynthSys and School of Biological Sciences, University of Edinburgh, UK.
+FAU - Mockler, Todd
+AU  - Mockler T
+AD  - 55 Donald Danforth Plant Science Center, St. Louis, Missouri, USA.
+FAU - Naef, Felix
+AU  - Naef F
+AD  - 56 The Institute of Bioengineering, School of Life Sciences, Ecole Polytechnique 
+      Fédérale de Lausanne, Switzerland.
+FAU - Nagoshi, Emi
+AU  - Nagoshi E
+AD  - 57 Department of Genetics and Evolution, University of Geneva, Switzerland.
+FAU - Nitabach, Michael N
+AU  - Nitabach MN
+AD  - 58 Department of Cellular and Molecular Physiology, Department of Genetics, Kavli 
+      Institute for Neuroscience, Yale School of Medicine, New Haven, Connecticut, USA.
+FAU - Olmedo, Maria
+AU  - Olmedo M
+AD  - 59 Department of Genetics, University of Seville, Spain.
+FAU - Nusinow, Dmitri A
+AU  - Nusinow DA
+AD  - 55 Donald Danforth Plant Science Center, St. Louis, Missouri, USA.
+FAU - Ptáček, Louis J
+AU  - Ptáček LJ
+AD  - 60 Department of Neurology, University of California, San Francisco, USA.
+FAU - Rand, David
+AU  - Rand D
+AD  - 61 Warwick Systems Biology and Mathematics Institute, University of Warwick, 
+      Conventry, UK.
+FAU - Reddy, Akhilesh B
+AU  - Reddy AB
+AD  - 62 The Francis Crick Institute, London, UK, and UCL Institute of Neurology, Queen 
+      Square, London, UK.
+FAU - Robles, Maria S
+AU  - Robles MS
+AD  - 53 Institute of Medical Psychology, Faculty of Medicine, LMU Munich, Germany.
+FAU - Roenneberg, Till
+AU  - Roenneberg T
+AD  - 53 Institute of Medical Psychology, Faculty of Medicine, LMU Munich, Germany.
+FAU - Rosbash, Michael
+AU  - Rosbash M
+AD  - 2 Department of Biology and Howard Hughes Medical Institute, Brandeis University, 
+      Waltham, Massachusetts, USA.
+FAU - Ruben, Marc D
+AU  - Ruben MD
+AD  - 27 Department of Pediatrics, Cincinnati Children's Hospital Medical Center, 
+      Cincinnati, Ohio, USA.
+FAU - Rund, Samuel S C
+AU  - Rund SSC
+AD  - 63 Centre for Immunity, Infection and Evolution, University of Edinburgh, UK.
+FAU - Sancar, Aziz
+AU  - Sancar A
+AD  - 64 Department of Biochemistry and Biophysics, University of North Carolina, Chapel 
+      Hill, USA.
+FAU - Sassone-Corsi, Paolo
+AU  - Sassone-Corsi P
+AD  - 65 Department of Biological Chemistry, Center for Epigenetics and Metabolism, 
+      University of California, Irvine, USA.
+FAU - Sehgal, Amita
+AU  - Sehgal A
+AD  - 66 Howard Hughes Medical Institute, University of Pennsylvania Perelman School of 
+      Medicine, Philadelphia, USA.
+FAU - Sherrill-Mix, Scott
+AU  - Sherrill-Mix S
+AD  - 67 Department of Microbiology, University of Pennsylvania Perelman School of 
+      Medicine, Philadelphia, USA.
+FAU - Skene, Debra J
+AU  - Skene DJ
+AD  - 68 Chronobiology, Faculty of Health and Medical Sciences, University of Surrey, 
+      Guildford, UK.
+FAU - Storch, Kai-Florian
+AU  - Storch KF
+AD  - 69 Department of Psychiatry, Douglas Mental Health University Institute, McGill 
+      University, Montreal, Canada.
+FAU - Takahashi, Joseph S
+AU  - Takahashi JS
+AD  - 70 Howard Hughes Medical Institute, Department of Neuroscience, University of Texas 
+      Southwestern Medical Center, Dallas, USA.
+FAU - Ueda, Hiroki R
+AU  - Ueda HR
+AD  - 71 Department of Systems Pharmacology, Graduate School of Medicine, The University 
+      of Tokyo, Tokyo, Japan Laboratory for Synthetic Biology, RIKEN Quantitative Biology 
+      Center, Osaka, Japan.
+FAU - Wang, Han
+AU  - Wang H
+AD  - 72 Center for Circadian Clocks, Soochow University, Suzhou, Jiangsu, China.
+FAU - Weitz, Charles
+AU  - Weitz C
+AD  - 73 Department of Neurobiology, Harvard Medical School, Boston, Massachusetts, USA.
+FAU - Westermark, Pål O
+AU  - Westermark PO
+AD  - 74 Institute of Genetics and Biometry, Leibniz Institute for Farm Animal Biology, 
+      Dummerstorf, Germany.
+FAU - Wijnen, Herman
+AU  - Wijnen H
+AD  - 75 Biological Sciences and Institute for Life Sciences, University of Southampton, 
+      UK.
+FAU - Xu, Ying
+AU  - Xu Y
+AD  - 76 Cam-Su GRC, Soochow University, Suzhou, China.
+FAU - Wu, Gang
+AU  - Wu G
+AD  - 27 Department of Pediatrics, Cincinnati Children's Hospital Medical Center, 
+      Cincinnati, Ohio, USA.
+FAU - Yoo, Seung-Hee
+AU  - Yoo SH
+AD  - 14 Department of Biochemistry and Molecular Biology, University of Texas Health 
+      Science Center, Houston, USA.
+FAU - Young, Michael
+AU  - Young M
+AD  - 77 Laboratory of Genetics, Rockefeller University, New York, New York, USA.
+FAU - Zhang, Eric Erquan
+AU  - Zhang EE
+AD  - 78 National Institute of Biological Sciences, Beijing, China.
+FAU - Zielinski, Tomasz
+AU  - Zielinski T
+AD  - 54 SynthSys and School of Biological Sciences, University of Edinburgh, UK.
+FAU - Hogenesch, John B
+AU  - Hogenesch JB
+AD  - 27 Department of Pediatrics, Cincinnati Children's Hospital Medical Center, 
+      Cincinnati, Ohio, USA.
+LA  - eng
+GR  - R01 NS104497/NS/NINDS NIH HHS/United States
+GR  - R35 GM118022/GM/NIGMS NIH HHS/United States
+GR  - U54 HD083211/HD/NICHD NIH HHS/United States
+GR  - P30 ES013508/ES/NIEHS NIH HHS/United States
+GR  - U19 AI116491/AI/NIAID NIH HHS/United States
+GR  - R01 GM069418/GM/NIGMS NIH HHS/United States
+GR  - R01 NS095367/NS/NINDS NIH HHS/United States
+GR  - R01 AR066082/AR/NIAMS NIH HHS/United States
+GR  - WT_/Wellcome Trust/United Kingdom
+GR  - R35 GM118021/GM/NIGMS NIH HHS/United States
+GR  - R01 DK097164/DK/NIDDK NIH HHS/United States
+GR  - R01 GM102225/GM/NIGMS NIH HHS/United States
+GR  - SC1 GM109861/GM/NIGMS NIH HHS/United States
+GR  - R01 GM114424/GM/NIGMS NIH HHS/United States
+GR  - R01 GM112991/GM/NIGMS NIH HHS/United States
+GR  - R01 NS094211/NS/NINDS NIH HHS/United States
+GR  - R01 GM063911/GM/NIGMS NIH HHS/United States
+GR  - BB/F022883/1/BB_/Biotechnology and Biological Sciences Research Council/United 
+      Kingdom
+GR  - R01 GM107434/GM/NIGMS NIH HHS/United States
+GR  - R01 AG045795/AG/NIA NIH HHS/United States
+GR  - U01 EB021956/EB/NIBIB NIH HHS/United States
+GR  - R01 GM111387/GM/NIGMS NIH HHS/United States
+GR  - R35 GM124685/GM/NIGMS NIH HHS/United States
+GR  - U54 NS083932/NS/NINDS NIH HHS/United States
+GR  - MR/N006321/1/MRC_/Medical Research Council/United Kingdom
+GR  - MC_U105170643/MRC_/Medical Research Council/United Kingdom
+GR  - R01 GM067152/GM/NIGMS NIH HHS/United States
+GR  - R01 AG045828/AG/NIA NIH HHS/United States
+GR  - U01 EB022546/EB/NIBIB NIH HHS/United States
+GR  - R01 GM087508/GM/NIGMS NIH HHS/United States
+GR  - P30 AG028740/AG/NIA NIH HHS/United States
+GR  - R21 AR069266/AR/NIAMS NIH HHS/United States
+GR  - R01 GM058529/GM/NIGMS NIH HHS/United States
+GR  - R01 NS091070/NS/NINDS NIH HHS/United States
+GR  - R01 GM113673/GM/NIGMS NIH HHS/United States
+GR  - R01 NS054794/NS/NINDS NIH HHS/United States
+GR  - R01 GM098931/GM/NIGMS NIH HHS/United States
+GR  - R35 GM118290/GM/NIGMS NIH HHS/United States
+GR  - R01 GM104991/GM/NIGMS NIH HHS/United States
+GR  - R37 GM067152/GM/NIGMS NIH HHS/United States
+GR  - R01 GM106426/GM/NIGMS NIH HHS/United States
+PT  - Guideline
+PT  - Journal Article
+DEP - 20171103
+TA  - J Biol Rhythms
+JT  - Journal of biological rhythms
+JID - 8700115
+SB  - IM
+MH  - Biostatistics
+MH  - Circadian Rhythm/*genetics
+MH  - Computational Biology/methods
+MH  - *Genome
+MH  - *Genomics/statistics & numerical data
+MH  - Humans
+MH  - Metabolomics
+MH  - Proteomics
+MH  - Software
+MH  - Statistics as Topic/*methods
+MH  - Systems Biology
+PMC - PMC5692188
+OTO - NOTNLM
+OT  - ChIP-seq
+OT  - RNA-seq
+OT  - biostatistics
+OT  - circadian rhythms
+OT  - computational biology
+OT  - diurnal rhythms
+OT  - functional genomics
+OT  - guidelines
+OT  - metabolomics
+OT  - proteomics
+OT  - systems biology
+COIS- Conflict of Interest Statement: The author(s) have no potential conflicts of 
+      interest with respect to the research, authorship, and/or publication of this 
+      article.
+EDAT- 2017/11/04 06:00
+MHDA- 2018/06/23 06:00
+CRDT- 2017/11/04 06:00
+PHST- 2017/11/04 06:00 [pubmed]
+PHST- 2018/06/23 06:00 [medline]
+PHST- 2017/11/04 06:00 [entrez]
+AID - 10.1177_0748730417728663 [pii]
+AID - 10.1177/0748730417728663 [doi]
+PST - ppublish
+SO  - J Biol Rhythms. 2017 Oct;32(5):380-393. doi: 10.1177/0748730417728663. Epub 2017 Nov 
+      3.
+
+PMID- 31671606
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200429
+LR  - 20200429
+IS  - 2072-6643 (Electronic)
+IS  - 2072-6643 (Linking)
+VI  - 11
+IP  - 11
+DP  - 2019 Oct 30
+TI  - Chrononutrition and Polyphenols: Roles and Diseases.
+LID - 10.3390/nu11112602 [doi]
+LID - 2602
+AB  - Biological rhythms can influence the activity of bioactive compounds, and at the 
+      same time, the intake of these compounds can modulate biological rhythms. In this 
+      context, chrononutrition has appeared as a research field centered on the study of 
+      the interactions among biological rhythms, nutrition, and metabolism. This review 
+      summarizes the role of phenolic compounds in the modulation of biological rhythms, 
+      focusing on their effects in the treatment or prevention of chronic diseases. 
+      Heterotrophs are able to sense chemical cues mediated by phytochemicals such as 
+      phenolic compounds, promoting their adaptation to environmental conditions. This is 
+      called xenohormesis. Hence, the consumption of fruits and vegetables rich in 
+      phenolic compounds exerts several health benefits, mainly attributed to the product 
+      of their metabolism. However, the profile of phenolic compounds present in plants 
+      differs among species and is highly variable depending on agricultural and 
+      technological factors. In this sense, the seasonal consumption of polyphenol-rich 
+      fruits could induce important changes in the regulation of physiology and metabolism 
+      due to the particular phenolic profile that the fruits contain. This fact highlights 
+      the need for studies that evaluate the impact of these specific phenolic profiles on 
+      health to establish more accurate dietary recommendations.
+FAU - Arola-Arnal, Anna
+AU  - Arola-Arnal A
+AUID- ORCID: 0000-0001-6529-1345
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. anna.arola@urv.cat.
+FAU - Cruz-Carrión, Álvaro
+AU  - Cruz-Carrión Á
+AUID- ORCID: 0000-0002-4460-2340
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. alvarojavier.cruz@urv.cat.
+FAU - Torres-Fuentes, Cristina
+AU  - Torres-Fuentes C
+AUID- ORCID: 0000-0002-2917-6910
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. cristina.torres@urv.cat.
+FAU - Ávila-Román, Javier
+AU  - Ávila-Román J
+AUID- ORCID: 0000-0001-9766-8178
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. franciscojavier.avila@urv.cat.
+FAU - Aragonès, Gerard
+AU  - Aragonès G
+AUID- ORCID: 0000-0001-8657-5726
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. gerard.aragones@urv.cat.
+FAU - Mulero, Miquel
+AU  - Mulero M
+AUID- ORCID: 0000-0003-2545-2065
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. miquel.mulero@urv.cat.
+FAU - Bravo, Francisca Isabel
+AU  - Bravo FI
+AUID- ORCID: 0000-0002-6468-3088
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. franciscaisabel.bravo@urv.cat.
+FAU - Muguerza, Begoña
+AU  - Muguerza B
+AUID- ORCID: 0000-0001-7384-8588
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. begona.muguerza@urv.cat.
+FAU - Arola, Lluís
+AU  - Arola L
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. lluis.arola@urv.cat.
+AD  - Technological Unit of Nutrition and Health, EURECAT-Technology Centre of Catalonia, 
+      43204 Reus, Spain. lluis.arola@urv.cat.
+FAU - Suárez, Manuel
+AU  - Suárez M
+AUID- ORCID: 0000-0003-0122-8253
+AD  - Nutrigenomics Research Group, Departament de Bioquímica i Biotecnología, Universitat 
+      Rovira i Virgili, 43007 Tarragona, Spain. manuel.suarez@urv.cat.
+LA  - eng
+GR  - AGL2016-77105-R/MINISTERIO DE ECONOMÍA, INDUSTRIA Y COMPETITIVIDAD/
+GR  - PECT-NUTRISALT/EUROPEAN UNION OPERATIVE PROGRAM ERDF OF CATALONIA 2014-2020/
+GR  - 20017PMF-PIPF-64/Martí-Franquès/
+PT  - Journal Article
+PT  - Review
+DEP - 20191030
+TA  - Nutrients
+JT  - Nutrients
+JID - 101521595
+RN  - 0 (Polyphenols)
+SB  - IM
+MH  - *Circadian Rhythm
+MH  - Feeding Behavior
+MH  - Food Analysis
+MH  - Humans
+MH  - Polyphenols/*administration & dosage
+MH  - Seasons
+PMC - PMC6893786
+OTO - NOTNLM
+OT  - biological rhythms
+OT  - chrononutrition
+OT  - diseases
+OT  - health benefits
+OT  - metabolic syndrome
+OT  - nutrition
+OT  - polyphenols
+COIS- The authors declare no conflicts of interest.
+EDAT- 2019/11/02 06:00
+MHDA- 2020/04/30 06:00
+CRDT- 2019/11/02 06:00
+PHST- 2019/09/27 00:00 [received]
+PHST- 2019/10/23 00:00 [revised]
+PHST- 2019/10/24 00:00 [accepted]
+PHST- 2019/11/02 06:00 [entrez]
+PHST- 2019/11/02 06:00 [pubmed]
+PHST- 2020/04/30 06:00 [medline]
+AID - nu11112602 [pii]
+AID - nutrients-11-02602 [pii]
+AID - 10.3390/nu11112602 [doi]
+PST - epublish
+SO  - Nutrients. 2019 Oct 30;11(11):2602. doi: 10.3390/nu11112602.
+
+PMID- 31784960
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20191203
+LR  - 20200108
+IS  - 0065-2598 (Print)
+IS  - 0065-2598 (Linking)
+VI  - 1180
+DP  - 2019
+TI  - Biological Rhythms Advance in Depressive Disorder.
+PG  - 117-133
+LID - 10.1007/978-981-32-9271-0_6 [doi]
+AB  - Most processes of human body, such as brain function, are regulated by biological 
+      rhythms. Disturbance of biological rhythms impairs mood, behavior, cognition, sleep, 
+      and social activity and may lead to mental disorders. Disturbed rhythms are widely 
+      observable in patients with major depressive disorders (MDD) and make risk of onset, 
+      comorbidity, response of antidepressants, recurrence, cognition, social function, 
+      and complications of physical health. Therefore, it is crucial to assess and manage 
+      focus on biological rhythms for patients with MDD. There are several validated ways 
+      of assessing the biological rhythms, including 24 h fluctuations in cortisol or 
+      melatonin, sleep monitoring, actigraphy, and self-report scales. Chronotherapy, such 
+      as cognitive-behavioral therapy, interpersonal and social rhythm therapy, sleep 
+      deprivation, and bright light therapy was widely reported for treatment in patients 
+      with MDD. Monoamine antidepressants and lithium are attributed to regulation of 
+      biological rhythm. And some rhythm-regulated agents have been shown efficacy of 
+      antidepressant. Considering the crucial clinical significance of disturbed 
+      biological rhythms in MDD, we describe the mechanisms, clinical features, 
+      measurements, and treatments of the biological rhythms in patients with MDD.
+FAU - Hong, Wu
+AU  - Hong W
+AD  - Division of Mood Disorders, Shanghai Mental Health Center, Shanghai Jiao Tong 
+      University School of Medicine, Shanghai, China.
+FAU - Zhang, Qinting
+AU  - Zhang Q
+AD  - Shanghai Key Laboratory of Forensic Medicine, Shanghai Forensic Service Platform, 
+      Academy of Forensic Science, Shanghai, China. zhangqinting@126.com.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - United States
+TA  - Adv Exp Med Biol
+JT  - Advances in experimental medicine and biology
+JID - 0121103
+RN  - 0 (Antidepressive Agents)
+RN  - JL5DK93RCL (Melatonin)
+RN  - WI4X0X7BPJ (Hydrocortisone)
+SB  - IM
+MH  - Antidepressive Agents/therapeutic use
+MH  - *Circadian Rhythm
+MH  - Cognitive Behavioral Therapy
+MH  - Depressive Disorder, Major/*physiopathology/*therapy
+MH  - Humans
+MH  - Hydrocortisone/physiology
+MH  - Melatonin/physiology
+MH  - Sleep
+OTO - NOTNLM
+OT  - Biological rhythms
+OT  - Chronotherapy
+OT  - Circadian
+OT  - Depressive disorder
+EDAT- 2019/12/01 06:00
+MHDA- 2019/12/04 06:00
+CRDT- 2019/12/01 06:00
+PHST- 2019/12/01 06:00 [entrez]
+PHST- 2019/12/01 06:00 [pubmed]
+PHST- 2019/12/04 06:00 [medline]
+AID - 10.1007/978-981-32-9271-0_6 [doi]
+PST - ppublish
+SO  - Adv Exp Med Biol. 2019;1180:117-133. doi: 10.1007/978-981-32-9271-0_6.
+
+PMID- 25907430
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20160418
+LR  - 20150605
+IS  - 1872-8383 (Electronic)
+IS  - 0169-5347 (Linking)
+VI  - 30
+IP  - 6
+DP  - 2015 Jun
+TI  - The influence of biological rhythms on host-parasite interactions.
+PG  - 314-26
+LID - S0169-5347(15)00071-3 [pii]
+LID - 10.1016/j.tree.2015.03.012 [doi]
+AB  - Biological rhythms, from circadian control of cellular processes to annual cycles in 
+      life history, are a main structural element of biology. Biological rhythms are 
+      considered adaptive because they enable organisms to partition activities to cope 
+      with, and take advantage of, predictable fluctuations in environmental conditions. A 
+      flourishing area of immunology is uncovering rhythms in the immune system of 
+      animals, including humans. Given the temporal structure of immunity, and rhythms in 
+      parasite activity and disease incidence, we propose that the intersection of 
+      chronobiology, disease ecology, and evolutionary biology holds the key to 
+      understanding host-parasite interactions. Here, we review host-parasite interactions 
+      while explicitly considering biological rhythms, and propose that rhythms: influence 
+      within-host infection dynamics and transmission between hosts, might account for 
+      diel and annual periodicity in host-parasite systems, and can lead to a 
+      host-parasite arms race in the temporal domain.
+CI  - Copyright © 2015 Elsevier Ltd. All rights reserved.
+FAU - Martinez-Bakker, Micaela
+AU  - Martinez-Bakker M
+AD  - Department of Ecology & Evolutionary Biology, University of Michigan, Ann Arbor, MI 
+      48109, USA. Electronic address: bakkerma@umich.edu.
+FAU - Helm, Barbara
+AU  - Helm B
+AD  - Institute for Biodiversity, Animal Health, and Comparative Medicine, University of 
+      Glasgow, Glasgow, UK.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20150420
+PL  - England
+TA  - Trends Ecol Evol
+JT  - Trends in ecology & evolution
+JID - 8805125
+SB  - IM
+MH  - Animals
+MH  - Biological Evolution
+MH  - Host-Parasite Interactions/immunology/*physiology
+MH  - Life Cycle Stages
+MH  - Parasites/physiology
+MH  - *Periodicity
+OTO - NOTNLM
+OT  - biological rhythm
+OT  - circadian
+OT  - circannual
+OT  - infection
+OT  - parasite
+OT  - season
+OT  - temporal niche
+EDAT- 2015/04/25 06:00
+MHDA- 2016/04/19 06:00
+CRDT- 2015/04/25 06:00
+PHST- 2014/11/18 00:00 [received]
+PHST- 2015/02/22 00:00 [revised]
+PHST- 2015/03/12 00:00 [accepted]
+PHST- 2015/04/25 06:00 [entrez]
+PHST- 2015/04/25 06:00 [pubmed]
+PHST- 2016/04/19 06:00 [medline]
+AID - S0169-5347(15)00071-3 [pii]
+AID - 10.1016/j.tree.2015.03.012 [doi]
+PST - ppublish
+SO  - Trends Ecol Evol. 2015 Jun;30(6):314-26. doi: 10.1016/j.tree.2015.03.012. Epub 2015 
+      Apr 20.
+
+PMID- 29092409
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20181105
+LR  - 20181105
+IS  - 1089-7682 (Electronic)
+IS  - 1054-1500 (Linking)
+VI  - 27
+IP  - 10
+DP  - 2017 Oct
+TI  - Dissipative structures and biological rhythms.
+PG  - 104612
+LID - 10.1063/1.4990783 [doi]
+AB  - Sustained oscillations abound in biological systems. They occur at all levels of 
+      biological organization over a wide range of periods, from a fraction of a second to 
+      years, and with a variety of underlying mechanisms. They control major physiological 
+      functions, and their dysfunction is associated with a variety of physiological 
+      disorders. The goal of this review is (i) to give an overview of the main rhythms 
+      observed at the cellular and supracellular levels, (ii) to briefly describe how the 
+      study of biological rhythms unfolded in the course of time, in parallel with studies 
+      on chemical oscillations, (iii) to present the major roles of biological rhythms in 
+      the control of physiological functions, and (iv) the pathologies associated with the 
+      alteration, disappearance, or spurious occurrence of biological rhythms. Two tables 
+      present the main examples of cellular and supracellular rhythms ordered according to 
+      their period, and their role in physiology and pathophysiology. Among the rhythms 
+      discussed are neural and cardiac rhythms, metabolic oscillations such as those 
+      occurring in glycolysis in yeast, intracellular Ca(++) oscillations, cyclic AMP 
+      oscillations in Dictyostelium amoebae, the segmentation clock that controls 
+      somitogenesis, pulsatile hormone secretion, circadian rhythms which occur in all 
+      eukaryotes and some bacteria with a period close to 24 h, the oscillatory dynamics 
+      of the enzymatic network driving the cell cycle, and oscillations in transcription 
+      factors such as NF-ΚB and tumor suppressors such as p53. Ilya Prigogine's concept of 
+      dissipative structures applies to temporal oscillations and allows us to unify 
+      within a common framework the various rhythms observed at different levels of 
+      biological organization, regardless of their period and underlying mechanism.
+FAU - Goldbeter, Albert
+AU  - Goldbeter A
+AD  - Unité de Chronobiologie théorique, Service de Chimie physique et Biologie théorique, 
+      Faculté des Sciences, Université Libre de Bruxelles (ULB), Campus Plaine, CP 231, 
+      B-1050 Brussels, Belgium.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Chaos
+JT  - Chaos (Woodbury, N.Y.)
+JID - 100971574
+SB  - IM
+MH  - Circadian Rhythm/*physiology
+MH  - Disease
+MH  - Humans
+MH  - *Models, Biological
+MH  - Time Factors
+EDAT- 2017/11/03 06:00
+MHDA- 2018/11/06 06:00
+CRDT- 2017/11/03 06:00
+PHST- 2017/11/03 06:00 [entrez]
+PHST- 2017/11/03 06:00 [pubmed]
+PHST- 2018/11/06 06:00 [medline]
+AID - 10.1063/1.4990783 [doi]
+PST - ppublish
+SO  - Chaos. 2017 Oct;27(10):104612. doi: 10.1063/1.4990783.
+
+PMID- 32651383
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200831
+LR  - 20210710
+IS  - 2041-1723 (Electronic)
+IS  - 2041-1723 (Linking)
+VI  - 11
+IP  - 1
+DP  - 2020 Jul 10
+TI  - Biological rhythms in the deep-sea hydrothermal mussel Bathymodiolus azoricus.
+PG  - 3454
+LID - 10.1038/s41467-020-17284-4 [doi]
+LID - 3454
+AB  - Biological rhythms are a fundamental property of life. The deep ocean covers 66% of 
+      our planet surface and is one of the largest biomes. The deep sea has long been 
+      considered as an arrhythmic environment because sunlight is totally absent below 
+      1,000 m depth. In the present study, we have sequenced the temporal transcriptomes 
+      of a deep-sea species, the ecosystem-structuring vent mussel Bathymodiolus azoricus. 
+      We reveal that tidal cycles predominate in the transcriptome and physiology of 
+      mussels fixed directly at hydrothermal vents at 1,688 m depth at the Mid-Atlantic 
+      Ridge, whereas daily cycles prevail in mussels sampled after laboratory acclimation. 
+      We identify B. azoricus canonical circadian clock genes, and show that oscillations 
+      observed in deep-sea mussels could be either a direct response to environmental 
+      stimulus, or be driven endogenously by one or more biological clocks. This work 
+      generates in situ insights into temporal organisation in a deep-sea organism.
+FAU - Mat, Audrey M
+AU  - Mat AM
+AUID- ORCID: 0000-0003-2930-6268
+AD  - Univ Brest, Ifremer, CNRS, IRD, LEMAR, F-29280, Plouzané, France. 
+      audrey.mat@hotmail.com.
+AD  - Ifremer, EEP, F-29280, Plouzané, France. audrey.mat@hotmail.com.
+FAU - Sarrazin, Jozée
+AU  - Sarrazin J
+AUID- ORCID: 0000-0002-5435-8011
+AD  - Ifremer, EEP, F-29280, Plouzané, France.
+FAU - Markov, Gabriel V
+AU  - Markov GV
+AUID- ORCID: 0000-0002-8566-7482
+AD  - Sorbonne Université, CNRS, Integrative Biology of Marine Models (LBI2M), Station 
+      Biologique de Roscoff (SBR), 29680, Roscoff, France.
+FAU - Apremont, Vincent
+AU  - Apremont V
+AD  - Univ Brest, Ifremer, CNRS, IRD, LEMAR, F-29280, Plouzané, France.
+AD  - Ifremer, EEP, F-29280, Plouzané, France.
+FAU - Dubreuil, Christine
+AU  - Dubreuil C
+AD  - Univ Brest, Ifremer, CNRS, IRD, LEMAR, F-29280, Plouzané, France.
+FAU - Eché, Camille
+AU  - Eché C
+AD  - GeT-PlaGe, Genotoul, INRA Auzeville, Auzeville, France.
+FAU - Fabioux, Caroline
+AU  - Fabioux C
+AUID- ORCID: 0000-0002-9436-5128
+AD  - Univ Brest, Ifremer, CNRS, IRD, LEMAR, F-29280, Plouzané, France.
+FAU - Klopp, Christophe
+AU  - Klopp C
+AUID- ORCID: 0000-0001-7126-5477
+AD  - INRA, Plate-forme Genotoul Bioinfo, UR875, Auzeville, France.
+FAU - Sarradin, Pierre-Marie
+AU  - Sarradin PM
+AUID- ORCID: 0000-0002-3866-2574
+AD  - Ifremer, EEP, F-29280, Plouzané, France.
+FAU - Tanguy, Arnaud
+AU  - Tanguy A
+AD  - Sorbonne Université, CNRS, Lab. Adaptation et Diversité en Milieu Marin, Team ABICE, 
+      Station Biologique de Roscoff, 29680, Roscoff, France.
+FAU - Huvet, Arnaud
+AU  - Huvet A
+AUID- ORCID: 0000-0001-6912-881X
+AD  - Univ Brest, Ifremer, CNRS, IRD, LEMAR, F-29280, Plouzané, France.
+FAU - Matabos, Marjolaine
+AU  - Matabos M
+AUID- ORCID: 0000-0003-1983-9896
+AD  - Ifremer, EEP, F-29280, Plouzané, France. marjolaine.matabos@ifremer.fr.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200710
+TA  - Nat Commun
+JT  - Nature communications
+JID - 101528555
+SB  - IM
+MH  - Animals
+MH  - Ecosystem
+MH  - Hydrothermal Vents
+MH  - Marine Biology
+MH  - Mytilidae/*physiology
+MH  - Periodicity
+PMC - PMC7351958
+COIS- The authors declare no competing interests.
+EDAT- 2020/07/12 06:00
+MHDA- 2020/09/01 06:00
+CRDT- 2020/07/12 06:00
+PHST- 2019/12/11 00:00 [received]
+PHST- 2020/06/17 00:00 [accepted]
+PHST- 2020/07/12 06:00 [entrez]
+PHST- 2020/07/12 06:00 [pubmed]
+PHST- 2020/09/01 06:00 [medline]
+AID - 10.1038/s41467-020-17284-4 [pii]
+AID - 17284 [pii]
+AID - 10.1038/s41467-020-17284-4 [doi]
+PST - epublish
+SO  - Nat Commun. 2020 Jul 10;11(1):3454. doi: 10.1038/s41467-020-17284-4.
+
+PMID- 32376902
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210611
+LR  - 20210715
+IS  - 2399-3642 (Electronic)
+IS  - 2399-3642 (Linking)
+VI  - 3
+IP  - 1
+DP  - 2020 May 6
+TI  - Methylation deficiency disrupts biological rhythms from bacteria to humans.
+PG  - 211
+LID - 10.1038/s42003-020-0942-0 [doi]
+LID - 211
+AB  - The methyl cycle is a universal metabolic pathway providing methyl groups for the 
+      methylation of nuclei acids and proteins, regulating all aspects of cellular 
+      physiology. We have previously shown that methyl cycle inhibition in mammals 
+      strongly affects circadian rhythms. Since the methyl cycle and circadian clocks have 
+      evolved early during evolution and operate in organisms across the tree of life, we 
+      sought to determine whether the link between the two is also conserved. Here, we 
+      show that methyl cycle inhibition affects biological rhythms in species ranging from 
+      unicellular algae to humans, separated by more than 1 billion years of evolution. In 
+      contrast, the cyanobacterial clock is resistant to methyl cycle inhibition, although 
+      we demonstrate that methylations themselves regulate circadian rhythms in this 
+      organism. Mammalian cells with a rewired bacteria-like methyl cycle are protected, 
+      like cyanobacteria, from methyl cycle inhibition, providing interesting new 
+      possibilities for the treatment of methylation deficiencies.
+FAU - Fustin, Jean-Michel
+AU  - Fustin JM
+AUID- ORCID: 0000-0002-6200-6075
+AD  - Graduate School of Pharmaceutical Sciences, Laboratory of Molecular Metabology, 
+      Kyoto University, Kyoto, Japan. jean-michel.fustin@manchester.ac.uk.
+AD  - The University of Manchester, Faculty of Biology, Medicine and Health, Oxford Road, 
+      Manchester, M13 9PL, UK. jean-michel.fustin@manchester.ac.uk.
+FAU - Ye, Shiqi
+AU  - Ye S
+AD  - Graduate School of Pharmaceutical Sciences, Laboratory of Molecular Metabology, 
+      Kyoto University, Kyoto, Japan.
+FAU - Rakers, Christin
+AU  - Rakers C
+AUID- ORCID: 0000-0002-5668-6844
+AD  - Graduate School of Pharmaceutical Sciences, Kyoto University, Kyoto, Japan.
+FAU - Kaneko, Kensuke
+AU  - Kaneko K
+AD  - Graduate School of Pharmaceutical Sciences, Department of System Chemotherapy and 
+      Molecular Sciences, Kyoto University, Kyoto, Japan.
+FAU - Fukumoto, Kazuki
+AU  - Fukumoto K
+AD  - Graduate School of Pharmaceutical Sciences, Laboratory of Molecular Metabology, 
+      Kyoto University, Kyoto, Japan.
+FAU - Yamano, Mayu
+AU  - Yamano M
+AD  - Graduate School of Pharmaceutical Sciences, Laboratory of Molecular Metabology, 
+      Kyoto University, Kyoto, Japan.
+FAU - Versteven, Marijke
+AU  - Versteven M
+AD  - Institute of Neuro- and Behavioral Biology, University of Münster, Münster, Germany.
+FAU - Grünewald, Ellen
+AU  - Grünewald E
+AD  - School of Biological Sciences, University of Edinburgh, Edinburgh, UK.
+FAU - Cargill, Samantha J
+AU  - Cargill SJ
+AD  - School of Biological Sciences, University of Edinburgh, Edinburgh, UK.
+FAU - Tamai, T Katherine
+AU  - Tamai TK
+AUID- ORCID: 0000-0002-5538-5206
+AD  - Department of Psychiatry and Biobehavioral Sciences, University of California, Los 
+      Angeles, Los Angeles, CA, USA.
+FAU - Xu, Yao
+AU  - Xu Y
+AD  - Department of Biological Sciences, Vanderbilt University, Nashville, TN, USA.
+FAU - Jabbur, Maria Luísa
+AU  - Jabbur ML
+AD  - Department of Biological Sciences, Vanderbilt University, Nashville, TN, USA.
+FAU - Kojima, Rika
+AU  - Kojima R
+AD  - Karolinska Institute, Stockholm, Sweden.
+FAU - Lamberti, Melisa L
+AU  - Lamberti ML
+AD  - Department of Science and Technology, National University of Quilmes/CONICET, Buenos 
+      Aires, Argentina.
+FAU - Yoshioka-Kobayashi, Kumiko
+AU  - Yoshioka-Kobayashi K
+AD  - Institute for Frontier Life and Medical Sciences, Kyoto University, Kyoto, Japan.
+FAU - Whitmore, David
+AU  - Whitmore D
+AUID- ORCID: 0000-0003-2420-8220
+AD  - Centre for Cell and Molecular Dynamics, Department of Cell and Developmental 
+      Biology, University College London, London, UK.
+FAU - Tammam, Stephanie
+AU  - Tammam S
+AD  - Molecular Medicine, Peter Gilgan Centre for Research and Learning (PGCRL), The 
+      Hospital for Sick Children, Toronto, ON, Canada.
+FAU - Howell, P Lynne
+AU  - Howell PL
+AUID- ORCID: 0000-0002-2776-062X
+AD  - Molecular Medicine, Peter Gilgan Centre for Research and Learning (PGCRL), The 
+      Hospital for Sick Children, Toronto, ON, Canada.
+AD  - Department of Biochemistry, University of Toronto, Toronto, ON, Canada.
+FAU - Kageyama, Ryoichiro
+AU  - Kageyama R
+AD  - Institute for Frontier Life and Medical Sciences, Kyoto University, Kyoto, Japan.
+FAU - Matsuo, Takuya
+AU  - Matsuo T
+AD  - Center for Gene Research, Nagoya University, Nagoya, Japan.
+FAU - Stanewsky, Ralf
+AU  - Stanewsky R
+AUID- ORCID: 0000-0001-8238-6864
+AD  - Institute of Neuro- and Behavioral Biology, University of Münster, Münster, Germany.
+FAU - Golombek, Diego A
+AU  - Golombek DA
+AD  - Department of Science and Technology, National University of Quilmes/CONICET, Buenos 
+      Aires, Argentina.
+FAU - Johnson, Carl Hirschie
+AU  - Johnson CH
+AD  - Department of Biological Sciences, Vanderbilt University, Nashville, TN, USA.
+FAU - Kakeya, Hideaki
+AU  - Kakeya H
+AUID- ORCID: 0000-0002-4293-7331
+AD  - Graduate School of Pharmaceutical Sciences, Department of System Chemotherapy and 
+      Molecular Sciences, Kyoto University, Kyoto, Japan.
+FAU - van Ooijen, Gerben
+AU  - van Ooijen G
+AUID- ORCID: 0000-0001-7967-0637
+AD  - School of Biological Sciences, University of Edinburgh, Edinburgh, UK.
+FAU - Okamura, Hitoshi
+AU  - Okamura H
+AD  - Graduate School of Pharmaceutical Sciences, Laboratory of Molecular Brain Science, 
+      Kyoto University, Kyoto, Japan. okamura.hitoshi.4u@kyoto-u.ac.jp.
+AD  - Kyoto University, Graduate School of Medicine, Department of Neuroscience, Division 
+      of Physiology and Neurobiology, Yoshida-Konoe-cho, Sakyo-ku, Kyoto, 606-8501, Japan. 
+      okamura.hitoshi.4u@kyoto-u.ac.jp.
+LA  - eng
+GR  - R01 GM107434/GM/NIGMS NIH HHS/United States
+GR  - R01 GM067152/GM/NIGMS NIH HHS/United States
+GR  - MR/S031812/1/MRC_/Medical Research Council/United Kingdom
+GR  - WT_/Wellcome Trust/United Kingdom
+GR  - R37 GM067152/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200506
+TA  - Commun Biol
+JT  - Communications biology
+JID - 101719179
+RN  - Synechococcus elongatus
+SB  - IM
+EIN - Commun Biol. 2020 Jun 4;3(1):295. PMID: 32499511
+MH  - Animals
+MH  - Arabidopsis/physiology
+MH  - Caenorhabditis elegans/physiology
+MH  - Chlamydomonas reinhardtii/physiology
+MH  - Chlorophyta/physiology
+MH  - *Circadian Rhythm
+MH  - Drosophila melanogaster/physiology
+MH  - Humans
+MH  - *Methylation
+MH  - Mice/physiology
+MH  - Synechococcus/physiology
+MH  - Zebrafish/physiology
+PMC - PMC7203018
+COIS- The authors declare no competing interests.
+EDAT- 2020/05/08 06:00
+MHDA- 2021/06/12 06:00
+CRDT- 2020/05/08 06:00
+PHST- 2019/10/30 00:00 [received]
+PHST- 2020/04/03 00:00 [accepted]
+PHST- 2020/05/08 06:00 [entrez]
+PHST- 2020/05/08 06:00 [pubmed]
+PHST- 2021/06/12 06:00 [medline]
+AID - 10.1038/s42003-020-0942-0 [pii]
+AID - 942 [pii]
+AID - 10.1038/s42003-020-0942-0 [doi]
+PST - epublish
+SO  - Commun Biol. 2020 May 6;3(1):211. doi: 10.1038/s42003-020-0942-0.
+
+PMID- 23798299
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20131105
+LR  - 20130626
+IS  - 2040-4603 (Electronic)
+IS  - 2040-4603 (Linking)
+VI  - 2
+IP  - 2
+DP  - 2012 Apr
+TI  - Integration of biological clocks and rhythms.
+PG  - 1213-39
+LID - 10.1002/cphy.c100088 [doi]
+AB  - Animals, plants, and microorganisms exhibit numerous biological rhythms that are 
+      generated by numerous biological clocks. This article summarizes experimental data 
+      pertinent to the often-ignored issue of integration of multiple rhythms. Five 
+      contexts of integration are discussed: (i) integration of circadian rhythms of 
+      multiple processes within an individual organism, (ii) integration of biological 
+      rhythms operating in different time scales (such as tidal, daily, and seasonal), 
+      (iii) integration of rhythms across multiple species, (iv) integration of rhythms of 
+      different members of a species, and (v) integration of rhythmicity and physiological 
+      homeostasis. Understanding of these multiple rhythmic interactions is an important 
+      first step in the eventual thorough understanding of how organisms arrange their 
+      vital functions temporally within and without their bodies.
+CI  - © 2012 American Physiological Society. Compr Physiol 2:1213-1239, 2012.
+FAU - Refinetti, Roberto
+AU  - Refinetti R
+AD  - Circadian Rhythm Laboratory, University of South Carolina, Walterboro, South 
+      Carolina, USA. refinetti@sc.edu
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - United States
+TA  - Compr Physiol
+JT  - Comprehensive Physiology
+JID - 101574442
+SB  - IM
+MH  - Animals
+MH  - Biological Clocks/*physiology
+MH  - Body Temperature/physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Homeostasis/physiology
+MH  - Species Specificity
+EDAT- 2012/04/01 00:00
+MHDA- 2013/11/06 06:00
+CRDT- 2013/06/27 06:00
+PHST- 2013/06/27 06:00 [entrez]
+PHST- 2012/04/01 00:00 [pubmed]
+PHST- 2013/11/06 06:00 [medline]
+AID - 10.1002/cphy.c100088 [doi]
+PST - ppublish
+SO  - Compr Physiol. 2012 Apr;2(2):1213-39. doi: 10.1002/cphy.c100088.
+
+PMID- 23348014
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20130827
+LR  - 20181202
+IS  - 1879-016X (Electronic)
+IS  - 0163-7258 (Linking)
+VI  - 138
+IP  - 2
+DP  - 2013 May
+TI  - Biological rhythms and melatonin in mood disorders and their treatments.
+PG  - 176-84
+LID - S0163-7258(13)00017-X [pii]
+LID - 10.1016/j.pharmthera.2013.01.005 [doi]
+AB  - Affective disorders such as major depression, bipolar disorders and seasonal 
+      affective disorders have been described as alterations of various neuronal systems. 
+      In addition to the classical monoaminergic hypotheses that have been long proposed 
+      to explain the pathophysiology of these disorders, a strong association between 
+      circadian rhythms and mood regulation has been suggested in the light of several 
+      clinical and preclinical findings. In this review, we summarize the different 
+      hypotheses on pathophysiology mechanisms underlying depressive disorders and put a 
+      special emphasis on the alterations of melatonin secretion and associated changes in 
+      biological rhythms that characterize mood disorders. Causal relationships between 
+      alterations in circadian rhythms and mood disorders are strongly supported by the 
+      antidepressant efficacy of innovative pharmacological treatments aimed at 
+      resynchronizing endogenous rhythms in depressed patients. Genetic, epigenetic and 
+      environmental factors generating desynchronization between endogenous biological 
+      rhythms and exogenous rhythms driven by environmental and societal constraints are 
+      very probably involved in the vulnerability to mood disorders. Further 
+      investigations of the molecular/cellular bases of the relationships between stress 
+      axis dysfunctions, endogenous biological rhythm dysregulations and associated 
+      functional and anatomical brain alterations should allow important progress in the 
+      knowledge of pathophysiological mechanisms of affective disorders and the downstream 
+      development of innovative, more effective and better tolerated, therapies.
+CI  - Copyright © 2013 Elsevier Inc. All rights reserved.
+FAU - Lanfumey, Laurence
+AU  - Lanfumey L
+AD  - Inserm, UMR 894, 75013 Paris, France. laurence.lanfumey@upmc.fr
+FAU - Mongeau, Raymond
+AU  - Mongeau R
+FAU - Hamon, Michel
+AU  - Hamon M
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20130121
+PL  - England
+TA  - Pharmacol Ther
+JT  - Pharmacology & therapeutics
+JID - 7905840
+RN  - 0 (Acetamides)
+RN  - 0 (Antidepressive Agents)
+RN  - 0 (Hypnotics and Sedatives)
+RN  - 138112-76-2 (S 20098)
+RN  - JL5DK93RCL (Melatonin)
+SB  - IM
+MH  - Acetamides/administration & dosage/therapeutic use
+MH  - Animals
+MH  - Antidepressive Agents/administration & dosage/therapeutic use
+MH  - Brain/drug effects/metabolism/physiopathology
+MH  - Chronobiology Disorders/drug therapy/genetics/metabolism
+MH  - Circadian Rhythm/drug effects/genetics/*physiology
+MH  - Humans
+MH  - Hypnotics and Sedatives/administration & dosage/therapeutic use
+MH  - Melatonin/agonists/biosynthesis/*metabolism
+MH  - Mood Disorders/*drug therapy/genetics/metabolism/psychology
+MH  - Neuronal Plasticity/drug effects/physiology
+EDAT- 2013/01/26 06:00
+MHDA- 2013/08/28 06:00
+CRDT- 2013/01/26 06:00
+PHST- 2012/12/21 00:00 [received]
+PHST- 2012/12/21 00:00 [accepted]
+PHST- 2013/01/26 06:00 [entrez]
+PHST- 2013/01/26 06:00 [pubmed]
+PHST- 2013/08/28 06:00 [medline]
+AID - S0163-7258(13)00017-X [pii]
+AID - 10.1016/j.pharmthera.2013.01.005 [doi]
+PST - ppublish
+SO  - Pharmacol Ther. 2013 May;138(2):176-84. doi: 10.1016/j.pharmthera.2013.01.005. Epub 
+      2013 Jan 21.
+
+PMID- 20598847
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20101202
+LR  - 20151119
+IS  - 1769-6623 (Electronic)
+IS  - 0750-7658 (Linking)
+VI  - 29
+IP  - 6
+DP  - 2010 Jun
+TI  - [Biological rhythms for anaesthesia and intensive care].
+PG  - 470-7
+LID - 10.1016/j.annfar.2010.05.005 [doi]
+AB  - Knowledge of biological rhythms has led to better understanding of the time-of-day 
+      dependent effects of anaesthetic drugs. These chronopharmacological effects are 
+      currently explained by the biological rhythms modulating the pharmacokinetic, toxic 
+      and pharmacodynamic parameters of these substances. Such effect has been described 
+      for general anesthetics, local anaesthetics, analgesics as well as for antibiotics. 
+      But recent data also highlight that general anaesthetics, probably part of their 
+      brain effects, also alter the regulation of biological rhythms, including the 
+      sleep-wake or the endogenous circadian temperature rhythms. This desynchronization 
+      of biological rhythms can led to disturbance of the circadian secretion of many 
+      substances, including hormones. Finally, biological rhythms have been also described 
+      with regard to physiology of pain and cardiovascular physiopathology. The concept of 
+      biological rhythm should be present in mind not only for the clinical management of 
+      patients but also for setting studies in the field of anaesthesia, pain and 
+      intensive care.
+CI  - 2010. Published by Elsevier SAS.
+FAU - Dispersyn, G
+AU  - Dispersyn G
+AD  - Inserm U, CHRU de Strasbourg, université Louis-Pasteur, France.
+FAU - Chassard, D
+AU  - Chassard D
+FAU - Pain, L
+AU  - Pain L
+LA  - fre
+PT  - English Abstract
+PT  - Journal Article
+PT  - Review
+TT  - L'anesthésie-réanimation et les rythmes biologiques.
+DEP - 20100703
+PL  - France
+TA  - Ann Fr Anesth Reanim
+JT  - Annales francaises d'anesthesie et de reanimation
+JID - 8213275
+RN  - 0 (Anesthetics)
+SB  - IM
+MH  - *Anesthesia/methods
+MH  - Anesthetics/pharmacology
+MH  - *Biological Clocks/drug effects
+MH  - Circadian Rhythm/drug effects
+MH  - *Critical Care/methods
+MH  - Humans
+EDAT- 2010/07/06 06:00
+MHDA- 2010/12/14 06:00
+CRDT- 2010/07/06 06:00
+PHST- 2009/04/30 00:00 [received]
+PHST- 2010/05/14 00:00 [accepted]
+PHST- 2010/07/06 06:00 [entrez]
+PHST- 2010/07/06 06:00 [pubmed]
+PHST- 2010/12/14 06:00 [medline]
+AID - S0750-7658(10)00223-6 [pii]
+AID - 10.1016/j.annfar.2010.05.005 [doi]
+PST - ppublish
+SO  - Ann Fr Anesth Reanim. 2010 Jun;29(6):470-7. doi: 10.1016/j.annfar.2010.05.005. Epub 
+      2010 Jul 3.
+
+PMID- 27836939
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171218
+LR  - 20181113
+IS  - 1552-4531 (Electronic)
+IS  - 0748-7304 (Print)
+IS  - 0748-7304 (Linking)
+VI  - 32
+IP  - 1
+DP  - 2017 Feb
+TI  - Statistics for Sleep and Biological Rhythms Research.
+PG  - 18-25
+LID - 10.1177/0748730416670051 [doi]
+AB  - This article is part of a Journal of Biological Rhythms series exploring analysis 
+      and statistical topics relevant to researchers in biological rhythms and sleep 
+      research. The goal is to provide an overview of the most common issues that arise in 
+      the analysis and interpretation of data in these fields. In this article, we address 
+      issues related to the collection of multiple data points from the same organism or 
+      system at different times, since such longitudinal data collection is fundamental to 
+      the assessment of biological rhythms. Rhythmic longitudinal data require additional 
+      specific statistical considerations, ranging from curve fitting to threshold 
+      definitions to accounting for correlation structure. We discuss statistical analyses 
+      of longitudinal data including issues of correlational structure and stationarity, 
+      markers of biological rhythms, demasking of biological rhythms, and determining 
+      phase, waveform, and amplitude of biological rhythms.
+FAU - Klerman, Elizabeth B
+AU  - Klerman EB
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+AD  - Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, 
+      Massachusetts.
+FAU - Wang, Wei
+AU  - Wang W
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+AD  - Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, 
+      Massachusetts.
+FAU - Phillips, Andrew J K
+AU  - Phillips AJ
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+AD  - Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, 
+      Massachusetts.
+FAU - Bianchi, Matt T
+AU  - Bianchi MT
+AD  - Neurology Department, Massachusetts General Hospital, Boston, Massachusetts.
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+LA  - eng
+GR  - R01 HL128538/HL/NHLBI NIH HHS/United States
+GR  - K24 HL105664/HL/NHLBI NIH HHS/United States
+GR  - RC2 HL101340/HL/NHLBI NIH HHS/United States
+GR  - M01 RR002635/RR/NCRR NIH HHS/United States
+GR  - R01 HL114088/HL/NHLBI NIH HHS/United States
+GR  - R00 HL119618/HL/NHLBI NIH HHS/United States
+GR  - P01 AG009975/AG/NIA NIH HHS/United States
+GR  - UL1 RR025758/RR/NCRR NIH HHS/United States
+GR  - R01 GM105018/GM/NIGMS NIH HHS/United States
+GR  - R21 HD086392/HD/NICHD NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20161025
+TA  - J Biol Rhythms
+JT  - Journal of biological rhythms
+JID - 8700115
+RN  - 0 (Biomarkers)
+SB  - IM
+MH  - Animals
+MH  - Biomarkers/analysis
+MH  - Biomedical Research/*methods
+MH  - Circadian Rhythm/*physiology
+MH  - Data Collection/methods/statistics & numerical data
+MH  - Humans
+MH  - Models, Biological
+MH  - Sleep/*physiology
+MH  - Statistics as Topic/*methods
+MH  - Time Factors
+PMC - PMC5483995
+MID - NIHMS862998
+OTO - NOTNLM
+OT  - *biological rhythms
+OT  - *circadian rhythms
+OT  - *longitudinal analyses
+OT  - *periodicity
+OT  - *statistics
+EDAT- 2016/11/12 06:00
+MHDA- 2017/12/19 06:00
+CRDT- 2016/11/13 06:00
+PHST- 2016/11/12 06:00 [pubmed]
+PHST- 2017/12/19 06:00 [medline]
+PHST- 2016/11/13 06:00 [entrez]
+AID - 0748730416670051 [pii]
+AID - 10.1177/0748730416670051 [doi]
+PST - ppublish
+SO  - J Biol Rhythms. 2017 Feb;32(1):18-25. doi: 10.1177/0748730416670051. Epub 2016 Oct 
+      25.
+
+PMID- 23393414
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20130806
+LR  - 20211021
+IS  - 1958-5969 (Electronic)
+IS  - 1294-8322 (Print)
+IS  - 1294-8322 (Linking)
+VI  - 14
+IP  - 4
+DP  - 2012 Dec
+TI  - Biological rhythms and mood disorders.
+PG  - 369-79
+AB  - Integration of several approaches concerning time and temporality can enhance the 
+      pathophysiological study of major mood disorders of unknown etiology. We propose 
+      that these conditions might be interpreted as disturbances of temporal profile of 
+      biological rhythms, as well as alterations of time-consciousness. Useful approaches 
+      to study time and temporality include philological suggestions, phenomenological and 
+      psychopathological conceptualizatíons, clinical descriptions, and research on 
+      circadian and ultradían rhythms, as well as nonlinear dynamics approaches to their 
+      analysis.
+FAU - Salvatore, Paola
+AU  - Salvatore P
+AD  - Department of Psychiatry, Harvard Medical School and McLean Hospital, Boston, 
+      Massachusetts, USA.
+FAU - Indic, Premananda
+AU  - Indic P
+FAU - Murray, Greg
+AU  - Murray G
+FAU - Baldessarini, Ross J
+AU  - Baldessarini RJ
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+TA  - Dialogues Clin Neurosci
+JT  - Dialogues in clinical neuroscience
+JID - 101238198
+SB  - IM
+MH  - Biological Clocks/*physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - Mood Disorders/physiopathology/*psychology
+PMC - PMC3553575
+OTO - NOTNLM
+OT  - bipolar disorder
+OT  - circadian rhythm
+OT  - locomotor activity
+OT  - major depression
+OT  - nonlinear dynamics
+EDAT- 2013/02/09 06:00
+MHDA- 2013/08/07 06:00
+CRDT- 2013/02/09 06:00
+PHST- 2013/02/09 06:00 [entrez]
+PHST- 2013/02/09 06:00 [pubmed]
+PHST- 2013/08/07 06:00 [medline]
+AID - 10.31887/DCNS.2012.14.4/psalvatore [doi]
+PST - ppublish
+SO  - Dialogues Clin Neurosci. 2012 Dec;14(4):369-79. doi: 
+      10.31887/DCNS.2012.14.4/psalvatore.
+
+PMID- 27880761
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170316
+LR  - 20181202
+IS  - 1476-4687 (Electronic)
+IS  - 0028-0836 (Linking)
+VI  - 540
+IP  - 7631
+DP  - 2016 Dec 1
+TI  - Biological rhythms: Wild times.
+PG  - 49-50
+LID - 10.1038/nature20481 [doi]
+FAU - Buck, C Loren
+AU  - Buck CL
+AD  - Department of Biological Sciences and the Center for Bioengineering Innovation, 
+      Northern Arizona University, Flagstaff, Arizona 86011, USA.
+LA  - eng
+PT  - Comment
+PT  - Journal Article
+DEP - 20161123
+PL  - England
+TA  - Nature
+JT  - Nature
+JID - 0410462
+SB  - IM
+CON - Nature. 2016 Dec 1;540(7631):109-113. PMID: 27880762
+MH  - *Circadian Rhythm
+MH  - Humans
+EDAT- 2016/11/24 06:00
+MHDA- 2017/03/17 06:00
+CRDT- 2016/11/24 06:00
+PHST- 2016/11/24 06:00 [pubmed]
+PHST- 2017/03/17 06:00 [medline]
+PHST- 2016/11/24 06:00 [entrez]
+AID - nature20481 [pii]
+AID - 10.1038/nature20481 [doi]
+PST - ppublish
+SO  - Nature. 2016 Dec 1;540(7631):49-50. doi: 10.1038/nature20481. Epub 2016 Nov 23.
+
+PMID- 32094321
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20201210
+LR  - 20201214
+IS  - 1643-3750 (Electronic)
+IS  - 1234-1010 (Print)
+IS  - 1234-1010 (Linking)
+VI  - 26
+DP  - 2020 Feb 25
+TI  - The Comparison of the Biological Rhythms of Patients with Fibromyalgia Syndrome with 
+      Biological Rhythms of Healthy Controls.
+PG  - e920462
+LID - 10.12659/MSM.920462 [doi]
+AB  - BACKGROUND Fibromyalgia syndrome (FMS) is a rheumatic disease characterized by 
+      diffuse body pain and decreased muscle function. The aim of the present study was to 
+      compare the biological rhythms of patients with fibromyalgia syndrome with the 
+      biological rhythms of healthy controls. MATERIAL AND METHODS This was a 
+      cross-sectional, single blind, and single center case-control study. The patients 
+      with fibromyalgia were evaluated using a Fibromyalgia Impact Questionnaire (FIQ), 
+      Biological Rhythms Interview of Assessment in Neuropsychiatry (BRIAN) Scale, Visual 
+      Analog Scale (VAS), Pittsburg Sleep Quality Index (PSQI) and Beck Depression 
+      Inventory (BDI). RESULTS The study included 77 female patients with FMS, and 32 
+      healthy female individuals as the control group. We found that the patients in the 
+      FMS group achieved higher scores in VAS, BDI, PSQI, and the BRIAN scale than the 
+      patients in the control group (P<0.001). An evaluation of the relationship between 
+      FMS evaluation parameters and biological rhythm scores in patients with FMS revealed 
+      a significant positive correlation between total BRAIN and VAS, FIQ, BDI, and PSQI 
+      scores. When the relationship between FMS evaluation parameters and biological 
+      rhythm scores was evaluated in patients with FMS, a significant positive correlation 
+      was found between total BRAIN and VAS, FIQ, BDI, and PSQI scores (r=0.555, P<0.001; 
+      r=0.461, P<0.001; r=0.630, P<0.001; and r=0.551, P<0.001 respectively). CONCLUSIONS 
+      We consider that an evaluation of the biological rhythm of female patients with FMS, 
+      and appropriate treatment when required, would contribute significantly to the 
+      treatment and follow-up process of the patients.
+FAU - Bulbul, Feridun
+AU  - Bulbul F
+AD  - Department of Psychiatry, School of Medicine, Cukurova University, Adana, Turkey.
+FAU - Koca, Irfan
+AU  - Koca I
+AD  - Department of Physical Medicine and Rehabilitation, Faculty of Medicine, Gaziantep 
+      University, Gaziantep, Turkey.
+FAU - Savas, Esen
+AU  - Savas E
+AD  - Department of Internal Medicine, Faculty of Medicine, Gaziantep University, 
+      Gaziantep, Turkey.
+FAU - Dokuyucu, Recep
+AU  - Dokuyucu R
+AD  - Department of Physiology, Medical Specialty Training Center (TUSMER), Ankara, 
+      Turkey.
+LA  - eng
+PT  - Journal Article
+DEP - 20200225
+TA  - Med Sci Monit
+JT  - Medical science monitor : international medical journal of experimental and clinical 
+      research
+JID - 9609063
+SB  - IM
+MH  - Adult
+MH  - Case-Control Studies
+MH  - Cross-Sectional Studies
+MH  - Female
+MH  - Fibromyalgia/*metabolism/*physiopathology
+MH  - Humans
+MH  - Middle Aged
+MH  - Pain/metabolism/*physiopathology
+MH  - Pain Measurement/methods
+MH  - *Periodicity
+MH  - Psychiatric Status Rating Scales
+MH  - Single-Blind Method
+MH  - Sleep
+MH  - Surveys and Questionnaires
+MH  - Visual Analog Scale
+PMC - PMC7059434
+COIS- Conflict of interest None.
+EDAT- 2020/02/26 06:00
+MHDA- 2020/12/15 06:00
+CRDT- 2020/02/26 06:00
+PHST- 2020/02/26 06:00 [entrez]
+PHST- 2020/02/26 06:00 [pubmed]
+PHST- 2020/12/15 06:00 [medline]
+AID - 920462 [pii]
+AID - 10.12659/MSM.920462 [doi]
+PST - epublish
+SO  - Med Sci Monit. 2020 Feb 25;26:e920462. doi: 10.12659/MSM.920462.
+
+PMID- 8283159
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19940215
+LR  - 20190904
+IS  - 0954-6820 (Print)
+IS  - 0954-6820 (Linking)
+VI  - 235
+IP  - 1
+DP  - 1994 Jan
+TI  - Light and biological rhythms.
+PG  - 5-19
+AB  - Chronobiology--derived from chronos (time), bios (life), and logos (study of)--is 
+      the objective description of biological time structures and plays an important role 
+      in medicine. Circadian rhythms regulate the behaviour, physiology and function of 
+      living organisms at many biochemical levels. The influence of the rhythmic 
+      manifestation of life may be shown in the constructive effects of growth, 
+      development and maturation and is named anachronobiology. In contrast 
+      catachronobiology denotes deleterious effects of time and rhythm which may lead to a 
+      diseased state. This article summarizes some new data about light as a synchronizer 
+      of biological rhythms. A time-keeper--biological clock--is used by the body for 
+      readjustment of rhythms when this is desirable. More recently, light has been used 
+      to adjust the biological clock following changes of circadian rhythms during shift 
+      work or jet lag occurring when flying from one time zone to another. Light may be 
+      used to treat depression, sleep disorders, menstrual dysregulations and other 
+      illnesses with disturbed circadian and seasonal rhythms. Examples of the importance 
+      of chronopharmacology (time-dependent changes in drug metabolism and drug effect) 
+      are also presented. New findings indicate that circadian oscillators are under 
+      genetic control; a light-influenced regulatory role for cellular immediate-early 
+      genes in circadian behaviour has been discovered. This suggests that light is of 
+      importance in regulation of macromolecular synthesis at all levels of the circadian 
+      system.
+FAU - Wetterberg, L
+AU  - Wetterberg L
+AD  - Karolinska Institute, Department of Psychiatry, St Göran's Hospital, Stockholm, 
+      Sweden.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - J Intern Med
+JT  - Journal of internal medicine
+JID - 8904841
+SB  - IM
+MH  - Chronobiology Phenomena/*physiology
+MH  - Circadian Rhythm/genetics/*physiology
+MH  - Humans
+MH  - *Light
+MH  - Seasons
+RF  - 47
+EDAT- 1994/01/01 00:00
+MHDA- 1994/01/01 00:01
+CRDT- 1994/01/01 00:00
+PHST- 1994/01/01 00:00 [pubmed]
+PHST- 1994/01/01 00:01 [medline]
+PHST- 1994/01/01 00:00 [entrez]
+AID - 10.1111/j.1365-2796.1994.tb01027.x [doi]
+PST - ppublish
+SO  - J Intern Med. 1994 Jan;235(1):5-19. doi: 10.1111/j.1365-2796.1994.tb01027.x.
+
+PMID- 32051619
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210104
+LR  - 20210104
+IS  - 2038-2502 (Electronic)
+IS  - 0035-6484 (Linking)
+VI  - 55
+IP  - 1
+DP  - 2020 Jan-Feb
+TI  - [The Italian contribution to studies on the biological rhythms implicated in 
+      psychiatric disorders].
+PG  - 1-3
+LID - 10.1708/3301.32712 [doi]
+AB  - This editorial summarizes the main studies, carried out in the last 10 years, by 
+      various Italian research groups, on the alterations of circadian rhythms in 
+      psychiatric disorders. The results of these researches, as well as those obtained in 
+      various international contexts, encourage to teach in the medical schools for 
+      psychiatry, about the new chronoterapeutic interventions and the implementation of 
+      combined therapies for increasingly personalized psychiatric therapies.
+FAU - Iannitelli, Angela
+AU  - Iannitelli A
+AD  - Dipartimento di Neuroscienze Umane, Ospedale Policlinico Umberto I, Sapienza 
+      Università di Roma.
+FAU - Biondi, Massimo
+AU  - Biondi M
+AD  - Dipartimento di Neuroscienze Umane, Ospedale Policlinico Umberto I, Sapienza 
+      Università di Roma.
+LA  - ita
+PT  - Editorial
+TT  - Il contributo italiano agli studi sui ritmi biologici implicati nei disturbi 
+      psichiatrici.
+PL  - Italy
+TA  - Riv Psichiatr
+JT  - Rivista di psichiatria
+JID - 0425672
+RN  - 0 (Antipsychotic Agents)
+SB  - IM
+MH  - Antipsychotic Agents/therapeutic use
+MH  - Biological Clocks/physiology
+MH  - *Chronotherapy
+MH  - Circadian Rhythm/*physiology
+MH  - Combined Modality Therapy
+MH  - Humans
+MH  - Italy
+MH  - Mental Disorders/*physiopathology/*therapy
+MH  - Nobel Prize
+EDAT- 2020/02/14 06:00
+MHDA- 2021/01/05 06:00
+CRDT- 2020/02/14 06:00
+PHST- 2020/02/14 06:00 [entrez]
+PHST- 2020/02/14 06:00 [pubmed]
+PHST- 2021/01/05 06:00 [medline]
+AID - 10.1708/3301.32712 [doi]
+PST - ppublish
+SO  - Riv Psichiatr. 2020 Jan-Feb;55(1):1-3. doi: 10.1708/3301.32712.
+
+PMID- 26426177
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20191120
+IS  - 0043-3144 (Print)
+IS  - 2309-5830 (Electronic)
+IS  - 0043-3144 (Linking)
+VI  - 64
+IP  - 3
+DP  - 2015 Jun
+TI  - Analysing Biological Rhythms in Fibromyalgia Syndrome.
+PG  - 241-4
+LID - 10.7727/wimj.2014.366 [doi]
+AB  - AIM: This study evaluated biological rhythm disorders in patients with fibromyalgia 
+      syndrome (FMS). METHODS: The study enrolled 82 patients with FMS and 82 controls. 
+      Pain intensity was evaluated using a visual analogue scale (VAS). The psychological 
+      conditions of the patients were evaluated using the Beck Depression Inventory (BDI). 
+      The Biological Rhythms Interview of Assessment in Neuropsychiatry (BRIAN) was used 
+      to assess disturbances in biological rhythms (ie sleep, activity, social and eating 
+      patterns). RESULTS: There was no difference between the two groups at baseline (all 
+      p > 0.05). The BDI, BRIAN total, sleep, activity, social, and eating scores were 
+      higher in patients with FMS than in the controls (all p < 0.001). Further, a 
+      significant correlation was found between biological rhythms and BDI scores (p < 
+      0.001) and there were positive correlations between the VAS score and BRIAN total, 
+      sleep, and eating and BDI in patients with FMS (all p < 0.001). CONCLUSION: There 
+      are marked biological rhythm disturbances in FMS. There is an important relationship 
+      between rhythm disorders and FMS. The disturbances in sleep, functional activities, 
+      social participation, and disordered rhythms like eating patterns show the need for 
+      a multidisciplinary approach to treating patients with FMS.
+FAU - Ucar, M
+AU  - Ucar M
+AD  - Bozok University Medical School, Department of Physical Medicine and Rehabilitation, 
+      Yozgat TR-66001, Turkey. drmehmetucar@msn.com.
+FAU - Sarp, Ü
+AU  - Sarp Ü
+AD  - Yozgat State Hospital, Department of Physical Medicine and Rehabilitation, Yozgat, 
+      Turkey.
+FAU - Gül, A I
+AU  - Gül AI
+AD  - Bozok University Medical School, Department of Psychiatry, Turkey.
+FAU - Tanik, N
+AU  - Tanik N
+AD  - Bozok University Medical School, Department of Neurology, Yozgat, Turkey.
+FAU - Yetisgin, A
+AU  - Yetisgin A
+AD  - Şanlıurfa Education and Research Hospital, Department of Physical Medicine and 
+      Rehabilitation, Şanlıurfa, Turkey.
+FAU - Arik, H O
+AU  - Arik HO
+AD  - Yozgat State Hospital, Department of Orthopedics and Traumatology, Yozgat, Turkey.
+FAU - Nas, O
+AU  - Nas O
+AD  - Yozgat State Hospital, Department of Physical Medicine and Rehabilitation, Yozgat, 
+      Turkey.
+FAU - Yılmaz, Y K
+AU  - Yılmaz YK
+AD  - Bozok University Medical School, Department of Cardiovascular Surgery, Yozgat, 
+      Turkey.
+LA  - eng
+PT  - Journal Article
+DEP - 20150420
+TA  - West Indian Med J
+JT  - The West Indian medical journal
+JID - 0417410
+SB  - IM
+PMC - PMC4763899
+OAB - Publisher: Abstract available from the publisher.
+OABL- spa
+EDAT- 2015/10/02 06:00
+MHDA- 2015/10/02 06:01
+CRDT- 2015/10/02 06:00
+PHST- 2014/10/01 00:00 [received]
+PHST- 2015/03/30 00:00 [accepted]
+PHST- 2015/10/02 06:00 [entrez]
+PHST- 2015/10/02 06:00 [pubmed]
+PHST- 2015/10/02 06:01 [medline]
+AID - wimj.2014.366 [pii]
+AID - 10.7727/wimj.2014.366 [doi]
+PST - ppublish
+SO  - West Indian Med J. 2015 Jun;64(3):241-4. doi: 10.7727/wimj.2014.366. Epub 2015 Apr 
+      20.
+
+PMID- 22654399
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20121002
+LR  - 20211021
+IS  - 0976-2787 (Electronic)
+IS  - 0973-7847 (Print)
+IS  - 0973-6581 (Linking)
+VI  - 6
+IP  - 11
+DP  - 2012 Jan
+TI  - Chronopharmacognosy.
+PG  - 6-15
+LID - 10.4103/0973-7847.95852 [doi]
+AB  - This study aims to review the concept of biological rhythms in medicinal plants. 
+      Dictionariesgenerally define pharmacognosy as the subject of the study of crude 
+      drugs of plant and animal origin. The name is derived from the Greek words pharmakon 
+      (drug) and gnosis (knowledge). Today pharmacognosy is also defined as the study of 
+      physical, chemical, biochemical and biological properties of drugs, drug substances, 
+      or potential drugs or drug substances of natural origin, as well as the search for 
+      new drugs from natural sources. Also, another important phenomenon to be taken care 
+      of in the production of therapeutic compounds in medicinal plants is the use of 
+      circardian clock. The circardian clock is studied by chronobiology, which can be 
+      defined as a field of science that examines periodic (cyclic) phenomena in living 
+      organisms and their adaptation to solar and lunar related rhythms. Thus, it is the 
+      scientific study of the effect of time on living systems and of biological rhythms. 
+      Also rhythmic oscillations in plants lead to the enormous production of particular 
+      compounds in plants at particular time, which may or may not produce any therapeutic 
+      effect in humans. Thus, the study of chronobiology and pharmacognosy can be put 
+      together as chronopharmacognosy.
+FAU - Ajay, J Y
+AU  - Ajay JY
+AD  - Department of Pharmaceutical Technology, School of Chemical and Biotechnology, 
+      Shanmugha Arts, Science, Technology & Research Academy University, Tanjavur, Tamil 
+      Nadu, India.
+FAU - Gajula, Pradeep Kumar
+AU  - Gajula PK
+FAU - Kalaimagal, K
+AU  - Kalaimagal K
+FAU - Hari, B N Vedha
+AU  - Hari BN
+LA  - eng
+PT  - Journal Article
+TA  - Pharmacogn Rev
+JT  - Pharmacognosy reviews
+JID - 101570880
+PMC - PMC3358969
+OTO - NOTNLM
+OT  - Chronobiology
+OT  - circadian rhythm
+OT  - melatonin
+OT  - pharmacognosy
+COIS- Conflict of Interest: None declared
+EDAT- 2012/06/02 06:00
+MHDA- 2012/06/02 06:01
+CRDT- 2012/06/02 06:00
+PHST- 2010/10/07 00:00 [received]
+PHST- 2011/08/05 00:00 [revised]
+PHST- 2012/05/08 00:00 [accepted]
+PHST- 2012/06/02 06:00 [entrez]
+PHST- 2012/06/02 06:00 [pubmed]
+PHST- 2012/06/02 06:01 [medline]
+AID - PRev-6-6 [pii]
+AID - 10.4103/0973-7847.95852 [doi]
+PST - ppublish
+SO  - Pharmacogn Rev. 2012 Jan;6(11):6-15. doi: 10.4103/0973-7847.95852.
+
+PMID- 20178756
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20100607
+LR  - 20100224
+IS  - 1879-0445 (Electronic)
+IS  - 0960-9822 (Linking)
+VI  - 20
+IP  - 4
+DP  - 2010 Feb 23
+TI  - Biological rhythms: the taste-time continuum.
+PG  - R147-9
+LID - 10.1016/j.cub.2010.01.010 [doi]
+AB  - The gustatory system allows the fly to assess food quality, eliciting either 
+      acceptance or avoidance behaviors. A new study demonstrates that circadian clocks in 
+      gustatory receptor neurons regulate rhythms in taste sensitivity, drive rhythms in 
+      appetitive behavior and influence feeding.
+CI  - Copyright 2010 Elsevier Ltd. All rights reserved.
+FAU - Krupp, Joshua J
+AU  - Krupp JJ
+AD  - Department of Biology, University of Toronto at Mississauga, 3359 Mississauga Road, 
+      North Mississauga, ON L5L 1C6, Canada. joshua.krupp@utoronto.ca
+FAU - Levine, Joel D
+AU  - Levine JD
+LA  - eng
+PT  - Comment
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - Curr Biol
+JT  - Current biology : CB
+JID - 9107782
+RN  - 0 (Basic-Leucine Zipper Transcription Factors)
+RN  - 0 (Drosophila Proteins)
+RN  - 0 (PDP1 protein, Drosophila)
+RN  - 0 (Receptors, Cell Surface)
+RN  - 0 (gustatory receptor, Drosophila)
+SB  - IM
+CON - Curr Biol. 2010 Feb 23;20(4):300-9. PMID: 20153192
+MH  - Animals
+MH  - Appetitive Behavior/*physiology
+MH  - Basic-Leucine Zipper Transcription Factors/*metabolism
+MH  - Chemoreceptor Cells/*metabolism
+MH  - Circadian Rhythm/*physiology
+MH  - Drosophila Proteins/*metabolism
+MH  - Drosophila melanogaster/*physiology
+MH  - Receptors, Cell Surface/*metabolism
+MH  - Taste/*physiology
+RF  - 20
+EDAT- 2010/02/25 06:00
+MHDA- 2010/06/09 06:00
+CRDT- 2010/02/25 06:00
+PHST- 2010/02/25 06:00 [entrez]
+PHST- 2010/02/25 06:00 [pubmed]
+PHST- 2010/06/09 06:00 [medline]
+AID - S0960-9822(10)00013-8 [pii]
+AID - 10.1016/j.cub.2010.01.010 [doi]
+PST - ppublish
+SO  - Curr Biol. 2010 Feb 23;20(4):R147-9. doi: 10.1016/j.cub.2010.01.010.
+
+PMID- 27642096
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170908
+LR  - 20180220
+IS  - 1531-4332 (Electronic)
+IS  - 1095-6433 (Linking)
+VI  - 203
+DP  - 2017 Jan
+TI  - Nonphotic entrainment in fish.
+PG  - 133-143
+LID - S1095-6433(16)30196-9 [pii]
+LID - 10.1016/j.cbpa.2016.09.006 [doi]
+AB  - Organisms that live on the Earth are subjected to environmental variables that 
+      display cyclic variations, such as light, temperature and tides. Since these cyclic 
+      changes in the environment are constant and predictable, they have affected 
+      biological evolution through selecting the occurrence of biological rhythms in the 
+      physiology of all living organisms, from prokaryotes to mammals. Biological clocks 
+      confer organisms an adaptive advantage as they can synchronize their behavioral and 
+      physiological processes to occur at a given moment of time when effectiveness and 
+      success would be greater and/or the cost and risk for organisms would be lower. 
+      Among environmental synchronizers, light has been mostly widely studied to date. 
+      However, other environmental signals play an important role in biological rhythms, 
+      especially in aquatic animals like fish. This review focuses on current knowledge 
+      about the role of nonphotic synchronizers (temperature, food and tidal cycles) on 
+      biological rhythms in fish, and on the entrainment of the fish circadian system to 
+      these synchronizers.
+CI  - Copyright Â© 2016 Elsevier Inc. All rights reserved.
+FAU - López-Olmeda, Jose F
+AU  - López-Olmeda JF
+AD  - Department of Animal Physiology, Faculty of Biology, Regional Campus of 
+      International Excellence "Campus Mare Nostrum", University of Murcia, 30100 Murcia, 
+      Spain. Electronic address: jflopez@um.es.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20160915
+PL  - United States
+TA  - Comp Biochem Physiol A Mol Integr Physiol
+JT  - Comparative biochemistry and physiology. Part A, Molecular & integrative physiology
+JID - 9806096
+SB  - IM
+MH  - Animals
+MH  - Fishes/*physiology
+MH  - *Periodicity
+OTO - NOTNLM
+OT  - *Behavioral rhythms
+OT  - *Circadian system
+OT  - *Clock genes
+OT  - *Food cycles
+OT  - *Teleost
+OT  - *Temperature cycles
+OT  - *Tidal cycles
+EDAT- 2016/10/28 06:00
+MHDA- 2017/09/09 06:00
+CRDT- 2016/11/07 06:00
+PHST- 2016/04/11 00:00 [received]
+PHST- 2016/09/09 00:00 [revised]
+PHST- 2016/09/13 00:00 [accepted]
+PHST- 2016/10/28 06:00 [pubmed]
+PHST- 2017/09/09 06:00 [medline]
+PHST- 2016/11/07 06:00 [entrez]
+AID - S1095-6433(16)30196-9 [pii]
+AID - 10.1016/j.cbpa.2016.09.006 [doi]
+PST - ppublish
+SO  - Comp Biochem Physiol A Mol Integr Physiol. 2017 Jan;203:133-143. doi: 
+      10.1016/j.cbpa.2016.09.006. Epub 2016 Sep 15.
+
+PMID- 33144967
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20201106
+IS  - 2045-7758 (Print)
+IS  - 2045-7758 (Electronic)
+IS  - 2045-7758 (Linking)
+VI  - 10
+IP  - 20
+DP  - 2020 Oct
+TI  - Resource competition shapes biological rhythms and promotes temporal niche 
+      differentiation in a community simulation.
+PG  - 11322-11334
+LID - 10.1002/ece3.6770 [doi]
+AB  - Competition for resources often contributes strongly to defining an organism's 
+      ecological niche. Endogenous biological rhythms are important adaptations to the 
+      temporal dimension of niches, but how other organisms influence such temporal niches 
+      has not been much studied, and the role of competition in particular has been even 
+      less examined. We investigated how interspecific competition and intraspecific 
+      competition for resources shape an organism's activity rhythms.To do this, we 
+      simulated communities of one or two species in an agent-based model. Individuals in 
+      the simulation move according to a circadian activity rhythm and compete for limited 
+      resources. Probability of reproduction is proportional to an individual's success in 
+      obtaining resources. Offspring may have variance in rhythm parameters, which allow 
+      for the population to evolve over time.We demonstrate that when organisms are 
+      arrhythmic, one species will always be competitively excluded from the environment, 
+      but the existence of activity rhythms allows niche differentiation and indefinite 
+      coexistence of the two species. Two species which are initially active at the same 
+      phase will differentiate their phase angle of entrainment over time to avoid each 
+      other. When only one species is present in an environment, competition within the 
+      species strongly selects for niche expansion through arrhythmicity, but the addition 
+      of an interspecific competitor facilitates evolution of increased rhythmic amplitude 
+      when combined with additional adaptations for temporal specialization. Finally, if 
+      individuals preferentially mate with others who are active at similar times of day, 
+      then disruptive selection by intraspecific competition can split one population into 
+      two reproductively isolated groups separated in activity time.These simulations 
+      suggest that biological rhythms are an effective method to temporally differentiate 
+      ecological niches and that competition is an important ecological pressure promoting 
+      the evolution of rhythms and sleep. This is the first study to use ecological 
+      modeling to examine biological rhythms.
+CI  - © 2020 The Authors. Ecology and Evolution published by John Wiley & Sons Ltd.
+FAU - Gao, Vance Difan
+AU  - Gao VD
+AUID- ORCID: 0000-0003-4492-1154
+AD  - UMR 8576 Unité de Glycobiologie Structurale et Fonctionnelle CNRS University of 
+      Lille Lille France.
+AD  - Center for Sleep and Circadian Biology Northwestern University Evanston IL USA.
+FAU - Morley-Fletcher, Sara
+AU  - Morley-Fletcher S
+AUID- ORCID: 0000-0003-0423-5563
+AD  - UMR 8576 Unité de Glycobiologie Structurale et Fonctionnelle CNRS University of 
+      Lille Lille France.
+AD  - International Associated Laboratory (LIA) "Perinatal Stress and Neurodegenerative 
+      Diseases" University of Lille Lille France.
+FAU - Maccari, Stefania
+AU  - Maccari S
+AUID- ORCID: 0000-0002-8336-5990
+AD  - UMR 8576 Unité de Glycobiologie Structurale et Fonctionnelle CNRS University of 
+      Lille Lille France.
+AD  - International Associated Laboratory (LIA) "Perinatal Stress and Neurodegenerative 
+      Diseases" University of Lille Lille France.
+AD  - Department of Medico-Surgical Sciences and Biotechnologies University Sapienza of 
+      Rome Rome Italy.
+FAU - Vitaterna, Martha Hotz
+AU  - Vitaterna MH
+AUID- ORCID: 0000-0001-6243-2093
+AD  - Center for Sleep and Circadian Biology Northwestern University Evanston IL USA.
+FAU - Turek, Fred W
+AU  - Turek FW
+AD  - Center for Sleep and Circadian Biology Northwestern University Evanston IL USA.
+LA  - eng
+SI  - Dryad/10.5061/dryad.gf1vhhmmj
+GR  - T32 HL007909/HL/NHLBI NIH HHS/United States
+PT  - Journal Article
+DEP - 20200918
+TA  - Ecol Evol
+JT  - Ecology and evolution
+JID - 101566408
+PMC - PMC7593148
+OTO - NOTNLM
+OT  - biological rhythms
+OT  - circadian rhythms
+OT  - competition
+OT  - ecological modeling
+OT  - sleep
+OT  - speciation
+OT  - temporal niche
+COIS- The authors report no conflicts of interest.
+EDAT- 2020/11/05 06:00
+MHDA- 2020/11/05 06:01
+CRDT- 2020/11/04 05:43
+PHST- 2020/06/10 00:00 [received]
+PHST- 2020/08/02 00:00 [revised]
+PHST- 2020/08/06 00:00 [accepted]
+PHST- 2020/11/04 05:43 [entrez]
+PHST- 2020/11/05 06:00 [pubmed]
+PHST- 2020/11/05 06:01 [medline]
+AID - ECE36770 [pii]
+AID - 10.1002/ece3.6770 [doi]
+PST - epublish
+SO  - Ecol Evol. 2020 Sep 18;10(20):11322-11334. doi: 10.1002/ece3.6770. eCollection 2020 
+      Oct.
+
+PMID- 17575413
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20070713
+LR  - 20190902
+IS  - 0015-5691 (Print)
+IS  - 0015-5691 (Linking)
+VI  - 129
+IP  - 6
+DP  - 2007 Jun
+TI  - [Sleep and biological rhythms].
+PG  - 400-3
+FAU - Hashimoto, Satoko
+AU  - Hashimoto S
+AD  - sahashim@med.hokudai.ac.jp
+FAU - Honma, Sato
+AU  - Honma S
+FAU - Honma, Ken-ichi
+AU  - Honma K
+LA  - jpn
+PT  - Journal Article
+PT  - Review
+PL  - Japan
+TA  - Nihon Yakurigaku Zasshi
+JT  - Nihon yakurigaku zasshi. Folia pharmacologica Japonica
+JID - 0420550
+SB  - IM
+MH  - Biological Clocks/genetics
+MH  - Humans
+MH  - *Periodicity
+MH  - Sleep/*physiology
+RF  - 12
+EDAT- 2007/06/19 09:00
+MHDA- 2007/07/14 09:00
+CRDT- 2007/06/19 09:00
+PHST- 2007/06/19 09:00 [pubmed]
+PHST- 2007/07/14 09:00 [medline]
+PHST- 2007/06/19 09:00 [entrez]
+AID - JST.JSTAGE/fpj/129.400 [pii]
+AID - 10.1254/fpj.129.400 [doi]
+PST - ppublish
+SO  - Nihon Yakurigaku Zasshi. 2007 Jun;129(6):400-3. doi: 10.1254/fpj.129.400.
+
+PMID- 24500332
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140623
+LR  - 20140512
+IS  - 1555-2101 (Electronic)
+IS  - 0160-6689 (Linking)
+VI  - 75
+IP  - 4
+DP  - 2014 Apr
+TI  - The relationship between bipolar disorder and biological rhythms.
+PG  - e323-31
+LID - 10.4088/JCP.13r08507 [doi]
+AB  - BACKGROUND: Rhythm disruption is a core feature of bipolar disorder and it has been 
+      hypothesized that disturbances of the circadian timing system play a fundamental 
+      role in the etiology of the disorder. OBJECTIVE: We sought to investigate (1) 
+      theoretical models for biological rhythm disruptions in bipolar disorder, (2) 
+      physiological disturbances of biological rhythms in bipolar disorder, (3) clinical 
+      and therapeutic implications of biological rhythm disturbances in bipolar disorder, 
+      and (4) associations between circadian gene variations and bipolar disorder. DATA 
+      SOURCES: PubMed database was searched systematically for articles that were 
+      published on or before May 5, 2013, and were written in English using the terms 
+      bipolar disorder, clock genes, endogenous clock, molecular clock, biological 
+      rhythms, circadian, suprachiasmatic nucleus, circadian rhythm, melatonin, and sleep. 
+      STUDY SELECTION: Seventy-four articles highlighting the objectives were included in 
+      the review. DATA EXTRACTION: Data regarding exploring the association between 
+      bipolar disorder and circadian and chronobiological phenomena were reviewed and 
+      findings summarized. RESULTS: The literature reviewed suggests that circadian rhythm 
+      disturbance may be a feature of bipolar disorder. CONCLUSIONS: In toto, the 
+      literature suggests that circadian rhythm disturbances may be a feature of bipolar 
+      disorder. This area of research has received theoretical consideration as playing a 
+      significant role in the pathophysiology of the illness but has been understudied to 
+      this point. Further research in the field is warranted.
+CI  - © Copyright 2014 Physicians Postgraduate Press, Inc.
+FAU - Gonzalez, Robert
+AU  - Gonzalez R
+AD  - Department of Psychiatry, Texas Tech University Health Sciences Center at El Paso, 
+      El Paso, TX 79905 Robert99.Gonzalez@ttuhsc.edu.
+LA  - eng
+GR  - P30 MH089868/MH/NIMH NIH HHS/United States
+GR  - T32 MH067543-05/MH/NIMH NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Review
+PL  - United States
+TA  - J Clin Psychiatry
+JT  - The Journal of clinical psychiatry
+JID - 7801243
+RN  - JL5DK93RCL (Melatonin)
+SB  - IM
+MH  - Bipolar Disorder/*etiology/genetics/physiopathology
+MH  - Chronobiology Disorders/*complications/genetics/physiopathology
+MH  - Circadian Rhythm/genetics/physiology
+MH  - Genetic Predisposition to Disease/genetics
+MH  - Humans
+MH  - Melatonin/physiology
+MH  - Seasons
+MH  - Sleep Disorders, Circadian Rhythm/complications/physiopathology
+EDAT- 2014/02/07 06:00
+MHDA- 2014/06/24 06:00
+CRDT- 2014/02/07 06:00
+PHST- 2013/03/31 00:00 [received]
+PHST- 2013/08/29 00:00 [accepted]
+PHST- 2014/02/07 06:00 [entrez]
+PHST- 2014/02/07 06:00 [pubmed]
+PHST- 2014/06/24 06:00 [medline]
+AID - 10.4088/JCP.13r08507 [doi]
+PST - ppublish
+SO  - J Clin Psychiatry. 2014 Apr;75(4):e323-31. doi: 10.4088/JCP.13r08507.
+
+PMID- 1427649
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19921223
+LR  - 20180215
+IS  - 0301-0163 (Print)
+IS  - 0301-0163 (Linking)
+VI  - 37 Suppl 3
+DP  - 1992
+TI  - Biological rhythms in reproductive processes.
+PG  - 93-8
+AB  - Biological rhythms play an important role in the regulation of many different 
+      physiological systems, including the reproductive system. The 24-hour clock system 
+      plays a role in regulating the production, release, synthesis and action of 
+      reproductive hormones and in the timing of critical events in the ovarian cycle. 
+      Research into the importance of biological rhythms on human reproduction is just 
+      beginning, future work is likely to reveal new and unexpected ways in which these 
+      rhythms affect human reproduction.
+FAU - Turek, F W
+AU  - Turek FW
+AD  - Northwestern University, Evanston, Ill 60208-3520.
+LA  - eng
+GR  - HD-09885/HD/NICHD NIH HHS/United States
+GR  - P0I-HD-21921/HD/NICHD NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+PT  - Research Support, U.S. Gov't, P.H.S.
+PT  - Review
+PL  - Switzerland
+TA  - Horm Res
+JT  - Hormone research
+JID - 0366126
+RN  - 0 (Gonadal Steroid Hormones)
+SB  - IM
+MH  - Activity Cycles/physiology
+MH  - Adult
+MH  - Aged
+MH  - Animals
+MH  - Circadian Rhythm/physiology
+MH  - Female
+MH  - Gonadal Steroid Hormones/physiology
+MH  - Humans
+MH  - Male
+MH  - Ovary/physiology
+MH  - *Periodicity
+MH  - Reproduction/*physiology
+MH  - Seasons
+RF  - 21
+EDAT- 1992/01/01 00:00
+MHDA- 1992/01/01 00:01
+CRDT- 1992/01/01 00:00
+PHST- 1992/01/01 00:00 [pubmed]
+PHST- 1992/01/01 00:01 [medline]
+PHST- 1992/01/01 00:00 [entrez]
+AID - 10.1159/000182408 [doi]
+PST - ppublish
+SO  - Horm Res. 1992;37 Suppl 3:93-8. doi: 10.1159/000182408.
+
+PMID- 23542543
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140410
+LR  - 20151119
+IS  - 1769-7115 (Electronic)
+IS  - 0928-4257 (Linking)
+VI  - 107
+IP  - 4
+DP  - 2013 Sep
+TI  - Biological and psychological rhythms: an integrative approach to rhythm disturbances 
+      in autistic disorder.
+PG  - 298-309
+LID - S0928-4257(13)00011-9 [pii]
+LID - 10.1016/j.jphysparis.2013.03.009 [doi]
+AB  - Biological rhythms are crucial phenomena that are perfect examples of the adaptation 
+      of organisms to their environment. A considerable amount of work has described 
+      different types of biological rhythms (from circadian to ultradian), individual 
+      differences in their patterns and the complexity of their regulation. In particular, 
+      the regulation and maturation of the sleep-wake cycle have been thoroughly studied. 
+      Its desynchronization, both endogenous and exogenous, is now well understood, as are 
+      its consequences for cognitive impairments and health problems. From a completely 
+      different perspective, psychoanalysts have shown a growing interest in the rhythms 
+      of psychic life. This interest extends beyond the original focus of psychoanalysis 
+      on dreams and the sleep-wake cycle, incorporating central theoretical and practical 
+      psychoanalytic issues related to the core functioning of the psychic life: the 
+      rhythmic structures of drive dynamics, intersubjective developmental processes and 
+      psychic containment functions. Psychopathological and biological approaches to the 
+      study of infantile autism reveal the importance of specific biological and 
+      psychological rhythmic disturbances in this disorder. Considering data and 
+      hypotheses from both perspectives, this paper proposes an integrative approach to 
+      the study of these rhythmic disturbances and offers an etiopathogenic hypothesis 
+      based on this integrative approach.
+CI  - Copyright © 2013 Elsevier Ltd. All rights reserved.
+FAU - Botbol, Michel
+AU  - Botbol M
+AD  - Laboratoire Psychologie de la Perception, Université Paris Descartes et CNRS UMR 
+      8158, Paris, France. botbolmichel@orange.fr
+FAU - Cabon, Philippe
+AU  - Cabon P
+FAU - Kermarrec, Solenn
+AU  - Kermarrec S
+FAU - Tordjman, Sylvie
+AU  - Tordjman S
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20130329
+PL  - France
+TA  - J Physiol Paris
+JT  - Journal of physiology, Paris
+JID - 9309351
+SB  - IM
+MH  - Adaptation, Physiological/*physiology
+MH  - Autistic Disorder/diagnosis/*physiopathology/psychology
+MH  - Chronobiology Disorders/diagnosis/*physiopathology/psychology
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - *Periodicity
+MH  - Sleep/*physiology
+MH  - Sleep Wake Disorders/diagnosis/physiopathology/psychology
+OTO - NOTNLM
+OT  - Biological rhythms
+OT  - Circadian rhythms
+OT  - Infantile autism
+OT  - Melatonin cycle
+OT  - Psychic rhythms
+EDAT- 2013/04/02 06:00
+MHDA- 2014/04/11 06:00
+CRDT- 2013/04/02 06:00
+PHST- 2013/04/02 06:00 [entrez]
+PHST- 2013/04/02 06:00 [pubmed]
+PHST- 2014/04/11 06:00 [medline]
+AID - S0928-4257(13)00011-9 [pii]
+AID - 10.1016/j.jphysparis.2013.03.009 [doi]
+PST - ppublish
+SO  - J Physiol Paris. 2013 Sep;107(4):298-309. doi: 10.1016/j.jphysparis.2013.03.009. 
+      Epub 2013 Mar 29.
+
+PMID- 18706345
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20081010
+LR  - 20151119
+IS  - 0003-4509 (Print)
+IS  - 0003-4509 (Linking)
+VI  - 66
+IP  - 3
+DP  - 2008 Jun
+TI  - [Affective disorders and biological rhythms].
+PG  - 169-74
+LID - 10.1016/j.pharma.2008.04.005 [doi]
+AB  - Disruptions of circadian rhythms are described in affective disorders, including 
+      unipolar and bipolar disorder, but also seasonal affective disorder. Sleep-wake and 
+      hormone circadian rhythms are among the most quoted examples. Depression could be 
+      conceptualized as a desynchronization between the endogenous circadian pacemaker and 
+      the exogenous stimuli, such as sunlight and social rhythms. Accordingly, Clock genes 
+      have been studied and the literature suggests that variants in these genes confer a 
+      higher risk of relapse, more sleep disturbances associated with depression, as well 
+      as incomplete treatment response. Most of therapeutic interventions in depression 
+      have an impact on biological rhythms. Some of them exclusively act via a biological 
+      pathway, such as sleep deprivation or light therapy. Some psychosocial interventions 
+      are specifically focusing on social rhythms, particularly in bipolar disorder, in 
+      which the promotion of stabilization is emphasized. Finally, all antidepressant 
+      medications could improve biological rhythms, but some new agents are now totally 
+      focusing this novel approach for the treatment of depression.
+FAU - Le Strat, Y
+AU  - Le Strat Y
+AD  - Inserm U675, IFR02, faculté Xavier-Bichat, université Paris-VII, Paris, France.
+FAU - Ramoz, N
+AU  - Ramoz N
+FAU - Gorwood, P
+AU  - Gorwood P
+LA  - fre
+PT  - English Abstract
+PT  - Journal Article
+PT  - Review
+TT  - Troubles de l'humeur et rythmes biologiques.
+DEP - 20080620
+PL  - France
+TA  - Ann Pharm Fr
+JT  - Annales pharmaceutiques francaises
+JID - 2985176R
+SB  - IM
+MH  - Animals
+MH  - Biological Clocks/physiology
+MH  - Circadian Rhythm/physiology
+MH  - Humans
+MH  - *Periodicity
+MH  - Seasonal Affective Disorder/*psychology
+MH  - Sleep Wake Disorders/psychology
+RF  - 59
+EDAT- 2008/08/19 09:00
+MHDA- 2008/10/11 09:00
+CRDT- 2008/08/19 09:00
+PHST- 2008/04/02 00:00 [received]
+PHST- 2008/04/04 00:00 [accepted]
+PHST- 2008/08/19 09:00 [pubmed]
+PHST- 2008/10/11 09:00 [medline]
+PHST- 2008/08/19 09:00 [entrez]
+AID - S0003-4509(08)00043-6 [pii]
+AID - 10.1016/j.pharma.2008.04.005 [doi]
+PST - ppublish
+SO  - Ann Pharm Fr. 2008 Jun;66(3):169-74. doi: 10.1016/j.pharma.2008.04.005. Epub 2008 
+      Jun 20.
+
+PMID- 17946830
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20080306
+LR  - 20200306
+IS  - 1557-170X (Print)
+IS  - 1557-170X (Linking)
+VI  - 2006
+DP  - 2006
+TI  - Why life oscillates--biological rhythms and health.
+PG  - 424-8
+AB  - A multitude of biological rhythms have been identified in the whole organism as well 
+      as within each living cell. Some of these rhythms reflect adaptations to our 
+      environment, while others run on their own. Recent evidence shows that these rhythms 
+      and their interaction might be more important not only for recreation but also for 
+      our health. Disturbance of the circadian rhythms by jet lag or shift work not only 
+      disturbs our metabolic balance but also increases the incidence of cancer. Rhythms 
+      in the organism obviously stabilize systemic functions: They increase organismic 
+      stability by calibrating the system's characteristics. Regulation curves in time and 
+      space are crucial for controlling physiological long-term stability. To be 
+      continuously aware of its properties an autopetic system may vary its parameters 
+      slightly over several time scales at different frequencies--akin to what our body 
+      does, e.g. in heart-rate variability.
+FAU - Moser, Maximilian
+AU  - Moser M
+AD  - Humanomed Centre, A-9330 Althofen, Austria. max.moser@meduni-graz.at
+FAU - Penter, Reiner
+AU  - Penter R
+FAU - Fruehwirth, Matthias
+AU  - Fruehwirth M
+FAU - Kenner, Thomas
+AU  - Kenner T
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+PL  - United States
+TA  - Conf Proc IEEE Eng Med Biol Soc
+JT  - Conference proceedings : ... Annual International Conference of the IEEE Engineering 
+      in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. 
+      Annual Conference
+JID - 101243413
+SB  - IM
+MH  - Biological Clocks/*physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - *Models, Biological
+MH  - Neoplasms/*physiopathology
+MH  - Oscillometry/*methods
+RF  - 50
+EDAT- 2007/10/20 09:00
+MHDA- 2008/03/07 09:00
+CRDT- 2007/10/20 09:00
+PHST- 2007/10/20 09:00 [pubmed]
+PHST- 2008/03/07 09:00 [medline]
+PHST- 2007/10/20 09:00 [entrez]
+AID - 10.1109/IEMBS.2006.259562 [doi]
+PST - ppublish
+SO  - Conf Proc IEEE Eng Med Biol Soc. 2006;2006:424-8. doi: 10.1109/IEMBS.2006.259562.
+
+PMID- 27716514
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170911
+LR  - 20180111
+IS  - 1879-1379 (Electronic)
+IS  - 0022-3956 (Linking)
+VI  - 84
+DP  - 2017 Jan
+TI  - Mood disorders and biological rhythms in young adults: A large population-based 
+      study.
+PG  - 98-104
+LID - S0022-3956(16)30449-6 [pii]
+LID - 10.1016/j.jpsychires.2016.09.030 [doi]
+AB  - BACKGROUND: It is known that sleep disturbance has been considered a trait-marker of 
+      mood disorders. However, the role of disruptions in biological rhythms, such as 
+      eating, activity, and social patterns, needs to be better understood. AIM: To assess 
+      the differences in biological rhythms in subjects with bipolar disorder, major 
+      depressive disorder, and healthy controls. We also tested the association between 
+      disruptions of biological rhythms and circadian preferences. METHODS: A 
+      cross-sectional, population-based study with a representative sample of 1023 young 
+      adults. Bipolar disorder and depression were diagnosed using The Mini International 
+      Neuropsychiatric Interview - PLUS and DSM Structured Clinical Interview. 
+      Self-reported biological rhythms and circadian preference were assessed using the 
+      Biological Rhythm Interview of Assessment in Neuropsychiatry (BRIAN). RESULTS: 
+      Bipolar disorders and depression subjects presented higher rates of disruption in 
+      biological rhythms when compared to healthy controls even after adjusting for sex, 
+      socioeconomic status, alcohol, tobacco, illicit drug use, anxiety disorder and 
+      psychotropic medication use. Euthymic subjects showed higher biological rhythm 
+      disruption when compared to controls. Higher disruption in biological rhythms was 
+      observed in subjects with evening preferences. CONCLUSION: Higher disruption in 
+      biological rhythms occurs in individuals with depression and bipolar disorder even 
+      on periods of euthymia.
+CI  - Copyright Â© 2016 Elsevier Ltd. All rights reserved.
+FAU - Mondin, Thaíse Campos
+AU  - Mondin TC
+AD  - Translational Science on Brain Disorders, Department of Health and Behavior, 
+      Catholic University of Pelotas, 373 Gonçalves Chaves, 416C, Pelotas, RS, 96015-560, 
+      Brazil.
+FAU - Cardoso, Taiane de Azevedo
+AU  - Cardoso TA
+AD  - Translational Science on Brain Disorders, Department of Health and Behavior, 
+      Catholic University of Pelotas, 373 Gonçalves Chaves, 416C, Pelotas, RS, 96015-560, 
+      Brazil; Department of Psychiatry and Behavioral Sciences, Center for Translational 
+      Psychiatry, UT Center of Excellence on Mood Disorders, 1941 East Road, BBSB 5102, 
+      Houston, TX, 77054, United States.
+FAU - Souza, Luciano Dias de Mattos
+AU  - Souza LDM
+AD  - Translational Science on Brain Disorders, Department of Health and Behavior, 
+      Catholic University of Pelotas, 373 Gonçalves Chaves, 416C, Pelotas, RS, 96015-560, 
+      Brazil.
+FAU - Jansen, Karen
+AU  - Jansen K
+AD  - Translational Science on Brain Disorders, Department of Health and Behavior, 
+      Catholic University of Pelotas, 373 Gonçalves Chaves, 416C, Pelotas, RS, 96015-560, 
+      Brazil; Department of Psychiatry and Behavioral Sciences, Center for Translational 
+      Psychiatry, UT Center of Excellence on Mood Disorders, 1941 East Road, BBSB 5102, 
+      Houston, TX, 77054, United States.
+FAU - da Silva Magalhães, Pedro Vieira
+AU  - da Silva Magalhães PV
+AD  - Department of Psychiatry and Behavioral Sciences, Center for Translational 
+      Psychiatry, UT Center of Excellence on Mood Disorders, 1941 East Road, BBSB 5102, 
+      Houston, TX, 77054, United States; Universidade Federal do Rio Grande do Sul - 
+      Departamento de psiquiatria e medicina legal, Brazil.
+FAU - Kapczinski, Flávio
+AU  - Kapczinski F
+AD  - Department of Psychiatry and Behavioral Sciences, Center for Translational 
+      Psychiatry, UT Center of Excellence on Mood Disorders, 1941 East Road, BBSB 5102, 
+      Houston, TX, 77054, United States; Universidade Federal do Rio Grande do Sul - 
+      Departamento de psiquiatria e medicina legal, Brazil.
+FAU - da Silva, Ricardo Azevedo
+AU  - da Silva RA
+AD  - Translational Science on Brain Disorders, Department of Health and Behavior, 
+      Catholic University of Pelotas, 373 Gonçalves Chaves, 416C, Pelotas, RS, 96015-560, 
+      Brazil. Electronic address: ricardo.as@uol.com.br.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20160930
+PL  - England
+TA  - J Psychiatr Res
+JT  - Journal of psychiatric research
+JID - 0376331
+SB  - IM
+MH  - Adolescent
+MH  - Bipolar Disorder/*physiopathology
+MH  - *Circadian Rhythm
+MH  - Cohort Studies
+MH  - Cross-Sectional Studies
+MH  - Depressive Disorder, Major/*physiopathology
+MH  - Feeding Behavior
+MH  - Female
+MH  - Humans
+MH  - Interview, Psychological
+MH  - Male
+MH  - Motor Activity
+MH  - Multivariate Analysis
+MH  - Psychiatric Status Rating Scales
+MH  - Regression Analysis
+MH  - Self Report
+MH  - Sleep
+MH  - Social Behavior
+MH  - Socioeconomic Factors
+MH  - Young Adult
+OTO - NOTNLM
+OT  - *Biological rhythms
+OT  - *Bipolar disorder
+OT  - *Circadian preferences
+OT  - *Major depression
+OT  - *Mood disorders
+EDAT- 2016/10/08 06:00
+MHDA- 2017/09/12 06:00
+CRDT- 2016/10/08 06:00
+PHST- 2016/04/13 00:00 [received]
+PHST- 2016/08/01 00:00 [revised]
+PHST- 2016/09/29 00:00 [accepted]
+PHST- 2016/10/08 06:00 [pubmed]
+PHST- 2017/09/12 06:00 [medline]
+PHST- 2016/10/08 06:00 [entrez]
+AID - S0022-3956(16)30449-6 [pii]
+AID - 10.1016/j.jpsychires.2016.09.030 [doi]
+PST - ppublish
+SO  - J Psychiatr Res. 2017 Jan;84:98-104. doi: 10.1016/j.jpsychires.2016.09.030. Epub 
+      2016 Sep 30.
+
+PMID- 16527209
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20060508
+LR  - 20070413
+IS  - 0767-0974 (Print)
+IS  - 0767-0974 (Linking)
+VI  - 22
+IP  - 3
+DP  - 2006 Mar
+TI  - [Aging and biological rhythms in primates].
+PG  - 279-83
+AB  - All living organisms exhibit rhythmic activities in a wide variety of endocrine and 
+      behavioural parameters. These biological rhythms are endogenously generated by a 
+      circadian clock, and they are entrained by cyclic variations of environmental 
+      factors called synchronizers. Aging is associated with changes in amplitude and 
+      temporal organization of many daily and seasonal rhythms. In humans, daily rhythms 
+      of sleep, thermoregulation and hormonal secretion are severely altered with aging. 
+      Except in humans, studies on primates are scarce. However, age-related effects on 
+      biological rhythms are relatively consistent among primate species studied to date, 
+      including humans. Therefore, non human primates are of valuable use for such 
+      investigations. Most studies have been performed on the Rhesus macaque (longevity 
+      35-40 years) and on the gray mouse lemur (longevity 10-12 years). Like in humans, 
+      the rest-activity rhythm becomes fragmented in aged primates, and shows an increased 
+      activity during the resting period. Aging induces a decrease in amplitude of the 
+      body temperature rhythm and an increase in energy consumption. Various hormonal 
+      secretions exhibit a decrease with aging, but the rhythmic components of these 
+      declines have not always been depicted. Moreover, changes (amplitude or phase) in 
+      daily variations depended of the hormonal secretion tested. Taken together, these 
+      results suggest that the biological clock in the brain would be a primary target of 
+      aging. The main central clock is located in the suprachiasmatic nucleus of the 
+      hypothalamus whose endogenous oscillations are entrained by light. In this brain 
+      structure, cellular function and sensitivity to light show drastic changes with age 
+      in the mouse lemur. The precise knowledge of age-related alterations of biological 
+      rhythms in primates can have important consequences on the development of new 
+      treatments to maintain or restore biological rhythmicity in the elderly.
+FAU - Perret, Martine
+AU  - Perret M
+AD  - UMR 5176 (CNRS-MNHN), Département Ecologie et gestion de la biodiversité, 4, avenue 
+      du petit Château, 91800 Brunoy, France. martine.perret@wanadoo.fr
+FAU - Aujard, Fabienne
+AU  - Aujard F
+LA  - fre
+PT  - English Abstract
+PT  - Journal Article
+PT  - Review
+TT  - Vieillissement et rythmes biologiques chez les primates.
+PL  - France
+TA  - Med Sci (Paris)
+JT  - Medecine sciences : M/S
+JID - 8710980
+SB  - IM
+MH  - Aging/*physiology
+MH  - Animals
+MH  - Body Temperature
+MH  - Humans
+MH  - Lemur/growth & development
+MH  - Longevity
+MH  - Macaca mulatta/growth & development
+MH  - Primates/*growth & development
+RF  - 30
+EDAT- 2006/03/11 09:00
+MHDA- 2006/05/09 09:00
+CRDT- 2006/03/11 09:00
+PHST- 2006/03/11 09:00 [pubmed]
+PHST- 2006/05/09 09:00 [medline]
+PHST- 2006/03/11 09:00 [entrez]
+AID - 00/00/08/CD/ [pii]
+AID - 10.1051/medsci/2006223279 [doi]
+PST - ppublish
+SO  - Med Sci (Paris). 2006 Mar;22(3):279-83. doi: 10.1051/medsci/2006223279.
+
+PMID- 27343724
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171208
+LR  - 20180621
+IS  - 1873-3360 (Electronic)
+IS  - 0306-4530 (Linking)
+VI  - 72
+DP  - 2016 Oct
+TI  - Biological rhythms, metabolic syndrome and current depressive episode in a community 
+      sample.
+PG  - 34-9
+LID - S0306-4530(16)30180-9 [pii]
+LID - 10.1016/j.psyneuen.2016.06.007 [doi]
+AB  - The purpose of this study was to assess the disruption in biological rhythms and 
+      metabolic syndrome (MetS) in individuals with depressive episode. This was a 
+      cross-sectional, population-based study with a representative sample of 905 young 
+      adults. Current depressive episode were confirmed by a psychologist using the Mini 
+      International Neuropsychiatric Interview (MINI)-Plus. Self-reported biological 
+      rhythms were assessed using the Biological Rhythms Interview of Assessment in 
+      Neuropsychiatry (BRIAN). MetS was defined using modified NCEP/ATPIII criteria. 
+      Significant main effects of current depressive episode (p<0.001, η(2)=0.163) and 
+      MetS (p=0.001, η(2)=0.011) were observed on total BRIAN score. There was a 
+      significant interaction between depression and MetS in total biological rhythm 
+      scores (p=0.002, η(2)=0.011) as well as sleep (p=0.001, η(2)=0.016) and social 
+      domains (p<0.001, η(2)=0.014). In the depressive group, subjects with MetS had a 
+      higher disruption in total BRIAN scores (p=0.010), sleep domain (p=0.004), social 
+      domain (p=0.005) and in the eating pattern domain approached the level of 
+      significance (p=0.098), when compared to subjects with no MetS. The results of the 
+      present study showed that self-reported disruptions in biological rhythms are 
+      associated with key components of the MetS in community adults with MDD. The 
+      understanding of the complex interactions between biological rhythms, MetS and 
+      depression are important in the development of preventive and therapeutic 
+      strategies.
+CI  - Copyright © 2016 Elsevier Ltd. All rights reserved.
+FAU - Moreira, Fernanda Pedrotti
+AU  - Moreira FP
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+FAU - Jansen, Karen
+AU  - Jansen K
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil. Electronic address: karen.jansen@pq.cnpq.br.
+FAU - Mondin, Thaíse Campos
+AU  - Mondin TC
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+FAU - Cardoso, Taiane de Azevedo
+AU  - Cardoso Tde A
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+FAU - Magalhães, Pedro Vieira da Silva
+AU  - Magalhães PV
+AD  - Department of Psychiatry and Forensic Medicine, Universidade Federal do Rio Grande 
+      do Sul, RS, Brazil.
+FAU - Kapczinski, Flavio
+AU  - Kapczinski F
+AD  - Department of Psychiatry and Forensic Medicine, Universidade Federal do Rio Grande 
+      do Sul, RS, Brazil.
+FAU - Frey, Benicio N
+AU  - Frey BN
+AD  - Department of Psychiatry and Behavioural Neurosciences, McMaster University, 
+      Hamilton, ON, Canada.
+FAU - Oses, Jean Pierre
+AU  - Oses JP
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+FAU - Souza, Luciano Dias de Mattos
+AU  - Souza LD
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+FAU - da Silva, Ricardo Azevedo
+AU  - da Silva RA
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+FAU - Wiener, Carolina David
+AU  - Wiener CD
+AD  - Postgraduate Program in Health and Behavior, Universidade Católica de Pelotas, 
+      Pelotas, RS, Brazil.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20160609
+PL  - England
+TA  - Psychoneuroendocrinology
+JT  - Psychoneuroendocrinology
+JID - 7612148
+SB  - IM
+MH  - Adult
+MH  - Cross-Sectional Studies
+MH  - Depressive Disorder, Major/metabolism/*physiopathology
+MH  - Feeding Behavior/*physiology
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - Metabolic Syndrome/metabolism/*physiopathology
+MH  - *Periodicity
+MH  - Sleep Wake Disorders/metabolism/*physiopathology
+MH  - Young Adult
+OTO - NOTNLM
+OT  - *Biological rhythm
+OT  - *Depression
+OT  - *Metabolic syndrome
+EDAT- 2016/06/28 06:00
+MHDA- 2017/12/09 06:00
+CRDT- 2016/06/26 06:00
+PHST- 2016/03/28 00:00 [received]
+PHST- 2016/06/08 00:00 [revised]
+PHST- 2016/06/09 00:00 [accepted]
+PHST- 2016/06/26 06:00 [entrez]
+PHST- 2016/06/28 06:00 [pubmed]
+PHST- 2017/12/09 06:00 [medline]
+AID - S0306-4530(16)30180-9 [pii]
+AID - 10.1016/j.psyneuen.2016.06.007 [doi]
+PST - ppublish
+SO  - Psychoneuroendocrinology. 2016 Oct;72:34-9. doi: 10.1016/j.psyneuen.2016.06.007. 
+      Epub 2016 Jun 9.
+
+PMID- 9507438
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19980501
+LR  - 20081121
+IS  - 0035-8819 (Print)
+IS  - 0035-8819 (Linking)
+VI  - 32
+IP  - 1
+DP  - 1998 Jan-Feb
+TI  - Biological rhythms: the science of chronobiology.
+PG  - 27-35
+AB  - Biological rhythms are an essential component of homoeostasis: 'everything is 
+      rhythmic unless proved otherwise'. Circadian (ca 24 h) rhythms are driven by an 
+      internal clock situated in the hypothalamus. Without time cues, they deviate from 24 
+      h and assume a periodicity of, on average, 24.3 h. Periodicity is inherited, and 
+      progress has recently been made in identifying 'clock' genes. Circadian rhythms are 
+      synchronised to the 24-h day mostly by light-dark cycles and social time cues. 
+      Suitably timed bright light and the pineal hormone melatonin will change the timing 
+      of circadian rhythms and can be used to treat biological rhythm disorders, whether 
+      occupational or pathological. Rhythm disorder is usually manifested as sleep 
+      problems, but some major pathology (eg cardiovascular disease) is associated with 
+      frequent rhythm disruption as found in shift workers. Menstrual cycle variations are 
+      clearly of importance, and even human seasonality must be taken into consideration. 
+      Many drugs show rhythmic variations in pharmacokinetics and pharmacodynamics. 
+      Exploitation of this phenomenon, together with underlying target tissue sensitivity, 
+      is underway.
+FAU - Arendt, J
+AU  - Arendt J
+AD  - School of Biological Sciences, University of Surrey, Guildford.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - J R Coll Physicians Lond
+JT  - Journal of the Royal College of Physicians of London
+JID - 7503108
+SB  - IM
+MH  - Animals
+MH  - Chronobiology Phenomena/*physiology
+MH  - Circadian Rhythm/physiology
+MH  - Humans
+MH  - Models, Biological
+MH  - *Periodicity
+RF  - 21
+EDAT- 1998/03/21 00:00
+MHDA- 1998/03/21 00:01
+CRDT- 1998/03/21 00:00
+PHST- 1998/03/21 00:00 [pubmed]
+PHST- 1998/03/21 00:01 [medline]
+PHST- 1998/03/21 00:00 [entrez]
+PST - ppublish
+SO  - J R Coll Physicians Lond. 1998 Jan-Feb;32(1):27-35.
+
+PMID- 32053788
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200929
+LR  - 20210212
+IS  - 1934-6069 (Electronic)
+IS  - 1931-3128 (Print)
+IS  - 1931-3128 (Linking)
+VI  - 27
+IP  - 2
+DP  - 2020 Feb 12
+TI  - Periodic Parasites and Daily Host Rhythms.
+PG  - 176-187
+LID - S1931-3128(20)30044-5 [pii]
+LID - 10.1016/j.chom.2020.01.005 [doi]
+AB  - Biological rhythms appear to be an elegant solution to the challenge of coordinating 
+      activities with the consequences of the Earth's daily and seasonal rotation. The 
+      genes and molecular mechanisms underpinning circadian clocks in multicellular 
+      organisms are well understood. In contrast, the regulatory mechanisms and fitness 
+      consequences of biological rhythms exhibited by parasites remain mysterious. Here, 
+      we explore how periodicity in parasite traits is generated and why daily rhythms 
+      matter for parasite fitness. We focus on malaria (Plasmodium) parasites which 
+      exhibit developmental rhythms during replication in the mammalian host's blood and 
+      in transmission to vectors. Rhythmic in-host parasite replication is responsible for 
+      eliciting inflammatory responses, the severity of disease symptoms, and fueling 
+      transmission, as well as conferring tolerance to anti-parasite drugs. Thus, 
+      understanding both how and why the timing and synchrony of parasites are connected 
+      to the daily rhythms of hosts and vectors may make treatment more effective and less 
+      toxic to hosts.
+CI  - Copyright © 2020 Elsevier Inc. All rights reserved.
+FAU - Prior, Kimberley F
+AU  - Prior KF
+AD  - Institute of Evolutionary Biology & Institute of Immunology and Infection Research, 
+      University of Edinburgh, Edinburgh, UK. Electronic address: 
+      kimberley.prior@ed.ac.uk.
+FAU - Rijo-Ferreira, Filipa
+AU  - Rijo-Ferreira F
+AD  - Department of Neuroscience, Peter O'Donnell Jr. Brain Institute & Howard Hughes 
+      Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.
+FAU - Assis, Patricia A
+AU  - Assis PA
+AD  - Department of Medicine, University of Massachusetts Medical School, Worcester, MA, 
+      USA.
+FAU - Hirako, Isabella C
+AU  - Hirako IC
+AD  - Department of Medicine, University of Massachusetts Medical School, Worcester, MA, 
+      USA; Laboratório de Imunopatologia, Fundação Oswaldo Cruz - Minas, Belo Horizonte, 
+      MG, Brazil.
+FAU - Weaver, David R
+AU  - Weaver DR
+AD  - Department of Neurobiology & NeuroNexus Institute, University of Massachusetts 
+      Medical School, Worcester, MA, USA.
+FAU - Gazzinelli, Ricardo T
+AU  - Gazzinelli RT
+AD  - Department of Medicine, University of Massachusetts Medical School, Worcester, MA, 
+      USA; Laboratório de Imunopatologia, Fundação Oswaldo Cruz - Minas, Belo Horizonte, 
+      MG, Brazil.
+FAU - Reece, Sarah E
+AU  - Reece SE
+AD  - Institute of Evolutionary Biology & Institute of Immunology and Infection Research, 
+      University of Edinburgh, Edinburgh, UK.
+LA  - eng
+GR  - 202769/Z/16/Z/WT_/Wellcome Trust/United Kingdom
+GR  - HHMI/Howard Hughes Medical Institute/United States
+GR  - R21 AI131632/AI/NIAID NIH HHS/United States
+GR  - U19 AI089681/AI/NIAID NIH HHS/United States
+GR  - R21 NS103180/NS/NINDS NIH HHS/United States
+GR  - R01 AI079293/AI/NIAID NIH HHS/United States
+GR  - R01 NS098747/NS/NINDS NIH HHS/United States
+GR  - WT_/Wellcome Trust/United Kingdom
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+TA  - Cell Host Microbe
+JT  - Cell host & microbe
+JID - 101302316
+SB  - IM
+MH  - Animals
+MH  - Biological Evolution
+MH  - Circadian Clocks/physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Erythrocytes/parasitology
+MH  - Host-Parasite Interactions/*physiology
+MH  - Humans
+MH  - Immunity/physiology
+MH  - Inflammation/parasitology
+MH  - Malaria
+MH  - Mice
+MH  - Mosquito Vectors/parasitology/physiology
+MH  - Parasites/physiology
+MH  - Plasmodium/*physiology
+PMC - PMC7137616
+MID - NIHMS1569266
+OTO - NOTNLM
+OT  - *Plasmodium
+OT  - *circadian clock
+OT  - *circadian rhythm
+OT  - *entrainment
+OT  - *fitness
+OT  - *host-parasite interactions
+OT  - *inflammatory response
+OT  - *intra-erythrocytic development cycle
+OT  - *metabolism
+OT  - *nutrient sensing
+OT  - *periodicity
+OT  - *synchronicity
+COIS- Declaration of Interests The authors declare no competing interests.
+EDAT- 2020/02/14 06:00
+MHDA- 2020/09/30 06:00
+CRDT- 2020/02/14 06:00
+PHST- 2020/02/14 06:00 [entrez]
+PHST- 2020/02/14 06:00 [pubmed]
+PHST- 2020/09/30 06:00 [medline]
+AID - S1931-3128(20)30044-5 [pii]
+AID - 10.1016/j.chom.2020.01.005 [doi]
+PST - ppublish
+SO  - Cell Host Microbe. 2020 Feb 12;27(2):176-187. doi: 10.1016/j.chom.2020.01.005.
+
+PMID- 17705158
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20080505
+LR  - 20191210
+IS  - 0022-3549 (Print)
+IS  - 0022-3549 (Linking)
+VI  - 97
+IP  - 3
+DP  - 2008 Mar
+TI  - Biological rhythms: a neglected factor of variability in pharmacokinetic studies.
+PG  - 1099-108
+AB  - Biological rhythms may influence drug response (chronopharmacology) and some 
+      chronopharmacological studies have underlined the influence of time of day on drug 
+      pharmacodynamics and pharmacokinetics. The aim of the present review is to underline 
+      how biological rhythms may interfere with drug kinetics and to try to underline 
+      when, how, and why taking into account the moment of administration of a drug. Many 
+      physiological factors, possibly implicated in different steps of the fate of drugs 
+      in the organism (e.g., absorption, distribution, metabolism, and elimination) vary 
+      along the 24 h scale. Taking into account biological rhythms in kinetic studies, 
+      should be indicated when the concerned drug will be used in a chronobiological 
+      disease (e.g., asthma, cancer, depression, hypertension, gastrointestinal diseases, 
+      rheumatisms), etc. In case of a drug characterised by a high inter- and 
+      intra-variability, a narrow therapeutic range or when the drug will be further used 
+      following a once-a-day formulation. It is of importance to rigorously control 
+      factors which are known to influence pharmacokinetic processes in chronokinetic 
+      studies. Time of day has to be regarded as an additional variable to influence the 
+      kinetics of a drug.
+CI  - (Copyright) 2008 Wiley-Liss, Inc.
+FAU - Bruguerolle, Bernard
+AU  - Bruguerolle B
+AD  - Clinical and Experimental Pharmacology, Faculty of Medicine of Marseille, Université 
+      de la Méditerranée, 27 Bld J. Moulin 13.385, Marseille Cedex 5, France. 
+      bernard.bruguerolle@medecine.univ-mrs.fr <bernard.bruguerolle@medecine.univ-mrs.fr>
+FAU - Boulamery, Audrey
+AU  - Boulamery A
+FAU - Simon, Nicolas
+AU  - Simon N
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - United States
+TA  - J Pharm Sci
+JT  - Journal of pharmaceutical sciences
+JID - 2985195R
+SB  - IM
+MH  - Animals
+MH  - Confounding Factors, Epidemiologic
+MH  - Humans
+MH  - *Periodicity
+MH  - *Pharmacokinetics
+RF  - 59
+EDAT- 2007/08/21 09:00
+MHDA- 2008/05/06 09:00
+CRDT- 2007/08/21 09:00
+PHST- 2007/08/21 09:00 [pubmed]
+PHST- 2008/05/06 09:00 [medline]
+PHST- 2007/08/21 09:00 [entrez]
+AID - S0022-3549(16)32510-2 [pii]
+AID - 10.1002/jps.21044 [doi]
+PST - ppublish
+SO  - J Pharm Sci. 2008 Mar;97(3):1099-108. doi: 10.1002/jps.21044.
+
+PMID- 17119476
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20110126
+LR  - 20201019
+IS  - 0013-7006 (Print)
+IS  - 0013-7006 (Linking)
+VI  - 32
+IP  - 5 Pt 2
+DP  - 2006 Oct
+TI  - [Biological rhythms and anxiety disorders].
+PG  - S810-2
+FAU - Servant, D
+AU  - Servant D
+AD  - Service de Psychiatrie (Pr M. Goudemand), rue André Verhaeghe, 59037 Lille cedex.
+LA  - fre
+PT  - Journal Article
+PT  - Review
+TT  - Rythmes biologiques dans les troubles anxieux.
+PL  - France
+TA  - Encephale
+JT  - L'Encephale
+JID - 7505643
+RN  - JL5DK93RCL (Melatonin)
+RN  - WI4X0X7BPJ (Hydrocortisone)
+SB  - IM
+MH  - Anxiety Disorders/*physiopathology
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - Hydrocortisone/blood
+MH  - Hypothalamo-Hypophyseal System/physiopathology
+MH  - Melatonin/blood
+MH  - Obsessive-Compulsive Disorder/physiopathology
+MH  - Panic Disorder/physiopathology
+MH  - Pituitary-Adrenal System/physiopathology
+MH  - Polysomnography
+MH  - Seasons
+MH  - Sleep Stages/physiology
+MH  - Stress Disorders, Post-Traumatic/physiopathology
+EDAT- 2006/11/23 09:00
+MHDA- 2011/01/28 06:00
+CRDT- 2006/11/23 09:00
+PHST- 2006/11/23 09:00 [pubmed]
+PHST- 2011/01/28 06:00 [medline]
+PHST- 2006/11/23 09:00 [entrez]
+AID - S0013-7006(06)76235-2 [pii]
+AID - 10.1016/s0013-7006(06)76235-2 [doi]
+PST - ppublish
+SO  - Encephale. 2006 Oct;32(5 Pt 2):S810-2. doi: 10.1016/s0013-7006(06)76235-2.
+
+PMID- 1958644
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19920109
+LR  - 20181113
+IS  - 1180-4882 (Print)
+IS  - 1488-2434 (Electronic)
+IS  - 1180-4882 (Linking)
+VI  - 16
+IP  - 3
+DP  - 1991 Sep
+TI  - [Biological rhythms associated with sleep and psychological adjustment].
+PG  - 115-22
+AB  - Because of their influence on psychological adaptation, biological rhythms 
+      associated with sleep have received growing attention during the last two decades. 
+      We are presenting an outline of (1) the ultradian rhythms of rapid-eye-movement 
+      (REM) sleep and of slow wave sleep (SWS), (2) the circadian rhythms of sleep/wake, 
+      body temperature and melatonine secretion, and (3) the infradian rhythms of the 
+      menstrual cycle and seasonal affective disorders emphasizing their importance in 
+      psychological adaptation. Particular attention is given to the consequences of the 
+      desynchronization of the circadian phase of sleeping and waking with that of core 
+      body temperature observed in the cases of abrupt time zone changes, shift work and 
+      some forms of insomnia and depression. New methods of intervention, such as the use 
+      of exposure to bright lights are discussed. A case is made for increased attention 
+      to a new form of hygiene, that of the biological rhythms associated with sleeping 
+      and waking.
+FAU - De Koninck, J
+AU  - De Koninck J
+AD  - Ecole de psychologie, Université d'Ottawa, Ontario, Canada.
+LA  - fre
+PT  - English Abstract
+PT  - Journal Article
+PT  - Review
+TT  - Les rythmes biologiques liés au sommeil et l'adaptation psychologique.
+TA  - J Psychiatry Neurosci
+JT  - Journal of psychiatry & neuroscience : JPN
+JID - 9107859
+SB  - IM
+MH  - Activity Cycles/*physiology
+MH  - Adaptation, Psychological/*physiology
+MH  - Animals
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - Sleep Stages/*physiology
+PMC - PMC1188318
+OAB - Because of their influence on psychological adaptation, biological rhythms 
+      associated with sleep have received growing attention during the last two decades. 
+      We are presenting an outline of (1) the ultradian rhythms of rapid-eye-movement 
+      (REM) sleep and of slow wave sleep (SWS), (2) the circadian rhythms of sleep/wake, 
+      body temperature and melatonine secretion, and (3) the infradian rhythms of the 
+      menstrual cycle and seasonal affective disorders emphasizing their importance in 
+      psychological adaptation. Particular attention is given to the consequences of the 
+      desynchronization of the circadian phase of sleeping and waking with that of core 
+      body temperature observed in the cases of abrupt time zone changes, shift work and 
+      some forms of insomnia and depression. New methods of intervention, such as the use 
+      of exposure to bright lights are discussed. A case is made for increased attention 
+      to a new form of hygiene, that of the biological rhythms associated with sleeping 
+      and waking.
+OABL- eng
+EDAT- 1991/09/01 00:00
+MHDA- 1991/09/01 00:01
+CRDT- 1991/09/01 00:00
+PHST- 1991/09/01 00:00 [pubmed]
+PHST- 1991/09/01 00:01 [medline]
+PHST- 1991/09/01 00:00 [entrez]
+PST - ppublish
+SO  - J Psychiatry Neurosci. 1991 Sep;16(3):115-22.
+
+PMID- 28569118
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180302
+LR  - 20180325
+IS  - 1552-4531 (Electronic)
+IS  - 0748-7304 (Linking)
+VI  - 32
+IP  - 3
+DP  - 2017 Jun
+TI  - Analysis of Nonstationary Time Series for Biological Rhythms Research.
+PG  - 187-194
+LID - 10.1177/0748730417709105 [doi]
+AB  - This article is part of a Journal of Biological Rhythms series exploring analysis 
+      and statistics topics relevant to researchers in biological rhythms and sleep 
+      research. The goal is to provide an overview of the most common issues that arise in 
+      the analysis and interpretation of data in these fields. In this article on time 
+      series analysis for biological rhythms, we describe some methods for assessing the 
+      rhythmic properties of time series, including tests of whether a time series is 
+      indeed rhythmic. Because biological rhythms can exhibit significant fluctuations in 
+      their period, phase, and amplitude, their analysis may require methods appropriate 
+      for nonstationary time series, such as wavelet transforms, which can measure how 
+      these rhythmic parameters change over time. We illustrate these methods using 
+      simulated and real time series.
+FAU - Leise, Tanya L
+AU  - Leise TL
+AD  - Department of Mathematics and Statistics, Amherst College, Amherst, MA, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20170601
+PL  - United States
+TA  - J Biol Rhythms
+JT  - Journal of biological rhythms
+JID - 8700115
+SB  - IM
+MH  - Animals
+MH  - *Circadian Rhythm
+MH  - Humans
+MH  - Mathematical Concepts
+MH  - Mice
+MH  - *Periodicity
+MH  - Statistics as Topic
+MH  - Time Factors
+MH  - Wavelet Analysis
+OTO - NOTNLM
+OT  - *biological rhythms
+OT  - *circadian rhythms
+OT  - *mathematical analyses
+OT  - *time-frequency analysis
+OT  - *wavelet transform
+EDAT- 2017/06/02 06:00
+MHDA- 2018/03/03 06:00
+CRDT- 2017/06/02 06:00
+PHST- 2017/06/02 06:00 [pubmed]
+PHST- 2018/03/03 06:00 [medline]
+PHST- 2017/06/02 06:00 [entrez]
+AID - 10.1177/0748730417709105 [doi]
+PST - ppublish
+SO  - J Biol Rhythms. 2017 Jun;32(3):187-194. doi: 10.1177/0748730417709105. Epub 2017 Jun 
+      1.
+
+PMID- 27836938
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171218
+LR  - 20181113
+IS  - 1552-4531 (Electronic)
+IS  - 0748-7304 (Print)
+IS  - 0748-7304 (Linking)
+VI  - 32
+IP  - 1
+DP  - 2017 Feb
+TI  - Statistics for Sleep and Biological Rhythms Research.
+PG  - 7-17
+LID - 10.1177/0748730416670050 [doi]
+AB  - The Journal of Biological Rhythms will be publishing articles exploring analysis and 
+      statistical topics relevant to researchers in biological rhythms and sleep research. 
+      The goal is to provide an overview of the most common issues that arise in the 
+      analysis and interpretation of data in these fields. By using case examples and 
+      highlighting the pearls and pitfalls of statistical inference, the authors will 
+      identify and explain ways in which experimental scientists can avoid common 
+      analytical and statistical mistakes and use appropriate analytical and statistical 
+      methods in their research. In this first article, we address the first steps in 
+      analysis of data: understanding the underlying statistical distribution of the data 
+      and establishing associative versus causal relationships. These ideas are then 
+      applied to sample size, power calculations, correlation testing, differences between 
+      description and prediction, and the narrative fallacy.
+FAU - Bianchi, Matt T
+AU  - Bianchi MT
+AD  - Neurology Department, Massachusetts General Hospital, Boston, Massachusetts.
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+FAU - Phillips, Andrew J K
+AU  - Phillips AJ
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+AD  - Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, 
+      Massachusetts.
+FAU - Wang, Wei
+AU  - Wang W
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+AD  - Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, 
+      Massachusetts.
+FAU - Klerman, Elizabeth B
+AU  - Klerman EB
+AD  - Division of Sleep Medicine, Harvard Medical School, Boston, Massachusetts.
+AD  - Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, 
+      Massachusetts.
+LA  - eng
+GR  - R01 HL128538/HL/NHLBI NIH HHS/United States
+GR  - K24 HL105664/HL/NHLBI NIH HHS/United States
+GR  - RC2 HL101340/HL/NHLBI NIH HHS/United States
+GR  - K99 HL119618/HL/NHLBI NIH HHS/United States
+GR  - M01 RR002635/RR/NCRR NIH HHS/United States
+GR  - R01 HL114088/HL/NHLBI NIH HHS/United States
+GR  - R00 HL119618/HL/NHLBI NIH HHS/United States
+GR  - P01 AG009975/AG/NIA NIH HHS/United States
+GR  - UL1 RR025758/RR/NCRR NIH HHS/United States
+GR  - R01 GM105018/GM/NIGMS NIH HHS/United States
+GR  - R21 HD086392/HD/NICHD NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20161025
+TA  - J Biol Rhythms
+JT  - Journal of biological rhythms
+JID - 8700115
+SB  - IM
+MH  - Biomedical Research/*methods
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - Sample Size
+MH  - Sleep/*physiology
+MH  - Statistics as Topic/*methods
+PMC - PMC5501416
+MID - NIHMS862996
+OTO - NOTNLM
+OT  - *biological rhythms
+OT  - *circadian rhythms
+OT  - *correlations
+OT  - *mathematical analyses
+OT  - *statistics
+EDAT- 2016/11/12 06:00
+MHDA- 2017/12/19 06:00
+CRDT- 2016/11/13 06:00
+PHST- 2016/11/12 06:00 [pubmed]
+PHST- 2017/12/19 06:00 [medline]
+PHST- 2016/11/13 06:00 [entrez]
+AID - 0748730416670050 [pii]
+AID - 10.1177/0748730416670050 [doi]
+PST - ppublish
+SO  - J Biol Rhythms. 2017 Feb;32(1):7-17. doi: 10.1177/0748730416670050. Epub 2016 Oct 
+      25.
+
+PMID- 22672072
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20121009
+LR  - 20120607
+IS  - 2042-3306 (Electronic)
+IS  - 0425-1644 (Linking)
+VI  - 44
+IP  - 4
+DP  - 2012 Jul
+TI  - Biological rhythms, jetlag and performance in Thoroughbred racehorses.
+PG  - 377-8
+LID - 10.1111/j.2042-3306.2012.00589.x [doi]
+FAU - Tortonese, D J
+AU  - Tortonese DJ
+FAU - Short, R V
+AU  - Short RV
+LA  - eng
+GR  - Wellcome Trust/United Kingdom
+PT  - Editorial
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - Equine Vet J
+JT  - Equine veterinary journal
+JID - 0173320
+SB  - IM
+MH  - Adaptation, Physiological
+MH  - Animals
+MH  - Biological Clocks
+MH  - Horses
+MH  - Jet Lag Syndrome/*veterinary
+MH  - Photoperiod
+MH  - *Physical Conditioning, Animal
+MH  - *Sports
+EDAT- 2012/06/08 06:00
+MHDA- 2012/10/10 06:00
+CRDT- 2012/06/08 06:00
+PHST- 2012/06/08 06:00 [entrez]
+PHST- 2012/06/08 06:00 [pubmed]
+PHST- 2012/10/10 06:00 [medline]
+AID - 10.1111/j.2042-3306.2012.00589.x [doi]
+PST - ppublish
+SO  - Equine Vet J. 2012 Jul;44(4):377-8. doi: 10.1111/j.2042-3306.2012.00589.x.
+
+PMID- 19766673
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20100126
+LR  - 20211020
+IS  - 1872-6321 (Electronic)
+IS  - 0165-0173 (Print)
+IS  - 0165-0173 (Linking)
+VI  - 62
+IP  - 1
+DP  - 2009 Dec 11
+TI  - Biological rhythms, higher brain function, and behavior: Gaps, opportunities, and 
+      challenges.
+PG  - 57-70
+LID - 10.1016/j.brainresrev.2009.09.005 [doi]
+AB  - Increasing evidence suggests that disrupted temporal organization impairs behavior, 
+      cognition, and affect; further, disruption of circadian clock genes impairs 
+      sleep-wake cycle and social rhythms which may be implicated in mental disorders. 
+      Despite this strong evidence, a gap in understanding the neural mechanisms of this 
+      interaction obscures whether biological rhythms disturbances are the underlying 
+      causes or merely symptoms of mental disorder. Here, we review current understanding, 
+      emerging concepts, gaps, and opportunities pertinent to (1) the neurobiology of the 
+      interactions between circadian oscillators and the neural circuits subserving higher 
+      brain function and behaviors of relevance to mental health, (2) the most promising 
+      approaches to determine how biological rhythms regulate brain function and behavior 
+      under normal and pathological conditions, (3) the gaps and challenges to advancing 
+      knowledge on the link between disrupted circadian rhythms/sleep and psychiatric 
+      disorders, and (4) the novel strategies for translation of basic science discoveries 
+      in circadian biology to clinical settings to define risk, prevent or delay onset of 
+      mental illnesses, design diagnostic tools, and propose new therapeutic strategies. 
+      The review is organized around five themes pertinent to (1) the impact of molecular 
+      clocks on physiology and behavior, (2) the interactions between circadian signals 
+      and cognitive functions, (3) the interface of circadian rhythms with sleep, (4) a 
+      clinical perspective on the relationship between circadian rhythm abnormalities and 
+      affective disorders, and (5) the pre-clinical models of circadian rhythm 
+      abnormalities and mood disorders.
+FAU - Benca, Ruth
+AU  - Benca R
+AD  - Department of Psychology and Psychiatry, University of Wisconsin-Madison, 53792, 
+      USA.
+FAU - Duncan, Marilyn J
+AU  - Duncan MJ
+FAU - Frank, Ellen
+AU  - Frank E
+FAU - McClung, Colleen
+AU  - McClung C
+FAU - Nelson, Randy J
+AU  - Nelson RJ
+FAU - Vicentic, Aleksandra
+AU  - Vicentic A
+LA  - eng
+GR  - HHSN278200551009C/MH/NIMH NIH HHS/United States
+PT  - Journal Article
+PT  - Review
+DEP - 20090918
+TA  - Brain Res Rev
+JT  - Brain research reviews
+JID - 101300366
+SB  - IM
+MH  - Affect/physiology
+MH  - Animals
+MH  - Behavior/*physiology
+MH  - Biological Clocks/*physiology
+MH  - Brain/*physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - Mood Disorders/physiopathology
+PMC - PMC2801350
+MID - NIHMS146742
+EDAT- 2009/09/22 06:00
+MHDA- 2010/01/27 06:00
+CRDT- 2009/09/22 06:00
+PHST- 2009/05/27 00:00 [received]
+PHST- 2009/09/14 00:00 [revised]
+PHST- 2009/09/15 00:00 [accepted]
+PHST- 2009/09/22 06:00 [entrez]
+PHST- 2009/09/22 06:00 [pubmed]
+PHST- 2010/01/27 06:00 [medline]
+AID - S0165-0173(09)00099-X [pii]
+AID - 10.1016/j.brainresrev.2009.09.005 [doi]
+PST - ppublish
+SO  - Brain Res Rev. 2009 Dec 11;62(1):57-70. doi: 10.1016/j.brainresrev.2009.09.005. Epub 
+      2009 Sep 18.
+
+PMID- 29221677
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20181211
+LR  - 20181211
+IS  - 0168-9525 (Print)
+IS  - 0168-9525 (Linking)
+VI  - 34
+IP  - 2
+DP  - 2018 Feb
+TI  - Epigenetic Regulation of Biological Rhythms: An Evolutionary Ancient Molecular 
+      Timer.
+PG  - 90-100
+LID - S0168-9525(17)30205-6 [pii]
+LID - 10.1016/j.tig.2017.11.003 [doi]
+AB  - Biological rhythms are pervasive in nature, yet our understanding of the molecular 
+      mechanisms that govern timing is far from complete. The rapidly emerging research 
+      focus on epigenetic plasticity has revealed a system that is highly dynamic and 
+      reversible. In this Opinion, I propose an epigenetic clock model that outlines how 
+      molecular modifications, such as DNA methylation, are integral components for timing 
+      endogenous biological rhythms. The hypothesis proposed is that an epigenetic clock 
+      serves to maintain the period of molecular rhythms via control over the phase of 
+      gene transcription and this timing mechanism resides in all cells, from unicellular 
+      to complex organisms. The model also provides a novel framework for the timing of 
+      epigenetic modifications during the lifespan and transgenerational inheritance of an 
+      organism.
+CI  - Copyright © 2017 Elsevier Ltd. All rights reserved.
+FAU - Stevenson, Tyler J
+AU  - Stevenson TJ
+AD  - Institute of Biological and Environmental Sciences, University of Aberdeen, 
+      Aberdeen, AB24 2TZ, UK. Electronic address: tyler.stevenson@abdn.ac.uk.
+LA  - eng
+PT  - Journal Article
+DEP - 20171205
+PL  - England
+TA  - Trends Genet
+JT  - Trends in genetics : TIG
+JID - 8507085
+RN  - 0 (Histones)
+SB  - IM
+MH  - Animals
+MH  - Bacteria/genetics/metabolism
+MH  - DNA Methylation
+MH  - Dinoflagellida/genetics/metabolism
+MH  - *Epigenesis, Genetic
+MH  - Histones/*genetics/metabolism
+MH  - Humans
+MH  - *Models, Genetic
+MH  - *Periodicity
+MH  - Photoperiod
+MH  - Plants/genetics/metabolism
+MH  - Saccharomyces cerevisiae/genetics/metabolism
+MH  - Transcription, Genetic
+OTO - NOTNLM
+OT  - *acetylation
+OT  - *circadian
+OT  - *infradian
+OT  - *methylation
+EDAT- 2017/12/10 06:00
+MHDA- 2018/12/12 06:00
+CRDT- 2017/12/10 06:00
+PHST- 2017/09/02 00:00 [received]
+PHST- 2017/11/09 00:00 [revised]
+PHST- 2017/11/15 00:00 [accepted]
+PHST- 2017/12/10 06:00 [pubmed]
+PHST- 2018/12/12 06:00 [medline]
+PHST- 2017/12/10 06:00 [entrez]
+AID - S0168-9525(17)30205-6 [pii]
+AID - 10.1016/j.tig.2017.11.003 [doi]
+PST - ppublish
+SO  - Trends Genet. 2018 Feb;34(2):90-100. doi: 10.1016/j.tig.2017.11.003. Epub 2017 Dec 
+      5.
+
+PMID- 22694861
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20121018
+LR  - 20181201
+IS  - 1550-5138 (Electronic)
+IS  - 0887-9311 (Linking)
+VI  - 26
+IP  - 4
+DP  - 2012 Jul-Aug
+TI  - Biological rhythms: the color of light and the quality of sleep.
+PG  - 181
+LID - 10.1097/HNP.0b013e318259c589 [doi]
+FAU - Donnelly, Gloria F
+AU  - Donnelly GF
+LA  - eng
+PT  - Comment
+PT  - Editorial
+PL  - United States
+TA  - Holist Nurs Pract
+JT  - Holistic nursing practice
+JID - 8702105
+SB  - N
+CON - Holist Nurs Pract. 2012 Jul-Aug;26(4):188-93. PMID: 22694863
+MH  - *Biological Clocks
+MH  - *Circadian Rhythm
+MH  - *Health
+MH  - Humans
+EDAT- 2012/06/15 06:00
+MHDA- 2012/10/19 06:00
+CRDT- 2012/06/15 06:00
+PHST- 2012/06/15 06:00 [entrez]
+PHST- 2012/06/15 06:00 [pubmed]
+PHST- 2012/10/19 06:00 [medline]
+AID - 00004650-201207000-00001 [pii]
+AID - 10.1097/HNP.0b013e318259c589 [doi]
+PST - ppublish
+SO  - Holist Nurs Pract. 2012 Jul-Aug;26(4):181. doi: 10.1097/HNP.0b013e318259c589.
+
+PMID- 10374239
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19990712
+LR  - 20061115
+IS  - 1340-2544 (Print)
+IS  - 1340-2544 (Linking)
+VI  - 19
+IP  - 1
+DP  - 1999 Feb
+TI  - [Biological rhythms and drugs].
+PG  - 11-20
+AB  - Precise, rhythmic, daily change of the internal milieu is a conspicuous feature of 
+      all living organisms. It affects the temporal patterns of all kinds of behaviors 
+      during a day and deeply influences both the social structure and daily life of 
+      individual human beings. These daily variations arise from the internal circadian 
+      mechanisms. Three functions of the endogenous clock are discriminated; rhythm 
+      generation, entrainment to light-dark cycle and output from the clock. The 
+      endogenous clock is localized in the suprachiasmatic nucleus in mammals. 
+      Interestingly, recent papers demonstrated the widespread expression (hippocampus, 
+      cerebellum and also peripheral body) of clock genes such as mPer1 and mPer2 
+      (homologs of the Dorsophila period gene). In this review, I describe the cellular 
+      mechanisms of circadian oscillation, entrainment and output. Serotonergic drugs and 
+      melatonin affect the light and non light-induced entrainment, and lithium and 
+      estrogen change the oscillation. Thus drugs can regulate the circadian oscillation, 
+      entrainment and outputs. Therefore, I mention the possibility that CNS drugs are 
+      useful to keep physiological homeostasis through their action on biological rhythms.
+FAU - Shibata, S
+AU  - Shibata S
+AD  - Department of Pharmacology, School of Human Sciences, Waseda University, Tokorozawa, 
+      Japan.
+LA  - jpn
+PT  - English Abstract
+PT  - Journal Article
+PT  - Review
+PL  - Japan
+TA  - Nihon Shinkei Seishin Yakurigaku Zasshi
+JT  - Nihon shinkei seishin yakurigaku zasshi = Japanese journal of psychopharmacology
+JID - 9509023
+SB  - IM
+MH  - Animals
+MH  - Circadian Rhythm/*drug effects/genetics
+MH  - Humans
+MH  - *Periodicity
+RF  - 45
+EDAT- 1999/06/22 00:00
+MHDA- 1999/06/22 00:01
+CRDT- 1999/06/22 00:00
+PHST- 1999/06/22 00:00 [pubmed]
+PHST- 1999/06/22 00:01 [medline]
+PHST- 1999/06/22 00:00 [entrez]
+PST - ppublish
+SO  - Nihon Shinkei Seishin Yakurigaku Zasshi. 1999 Feb;19(1):11-20.
+
+PMID- 18786378
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20081201
+LR  - 20161124
+IS  - 0960-9822 (Print)
+IS  - 0960-9822 (Linking)
+VI  - 18
+IP  - 17
+DP  - 2008 Sep 9
+TI  - Biological rhythms: clocks for all times.
+PG  - R751-R753
+LID - 10.1016/j.cub.2008.06.044 [doi]
+FAU - Goldbeter, Albert
+AU  - Goldbeter A
+LA  - eng
+PT  - Editorial
+PL  - England
+TA  - Curr Biol
+JT  - Current biology : CB
+JID - 9107782
+SB  - IM
+MH  - Animals
+MH  - Biological Clocks/*physiology
+MH  - Cell Cycle
+MH  - *Periodicity
+MH  - Physiological Phenomena
+MH  - Signal Transduction
+EDAT- 2008/09/13 09:00
+MHDA- 2008/12/17 09:00
+CRDT- 2008/09/13 09:00
+PHST- 2008/09/13 09:00 [pubmed]
+PHST- 2008/12/17 09:00 [medline]
+PHST- 2008/09/13 09:00 [entrez]
+AID - S0960-9822(08)00801-4 [pii]
+AID - 10.1016/j.cub.2008.06.044 [doi]
+PST - ppublish
+SO  - Curr Biol. 2008 Sep 9;18(17):R751-R753. doi: 10.1016/j.cub.2008.06.044.
+
+PMID- 24473803
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20141211
+LR  - 20211021
+IS  - 1678-8060 (Electronic)
+IS  - 0074-0276 (Print)
+IS  - 0074-0276 (Linking)
+VI  - 108 Suppl 1
+IP  - Suppl 1
+DP  - 2013
+TI  - Biological rhythms and vector insects.
+PG  - 59-62
+LID - S0074-02762013000900059 [pii]
+LID - 10.1590/0074-0276130396 [doi]
+AB  - The adjustment of all species, animals and plants, to the Earth's cyclic 
+      environments is ensured by their temporal organisation. The relationships between 
+      parasites, vectors and hosts rely greatly upon the synchronisation of their 
+      biological rhythms, especially circadian rhythms. In this short note, parasitic 
+      infections by Protozoa and by microfilariae have been chosen as examples of the 
+      dependence of successful transmission mechanisms on temporal components.
+FAU - Marques, Mirian David
+AU  - Marques MD
+LA  - eng
+PT  - Journal Article
+TA  - Mem Inst Oswaldo Cruz
+JT  - Memorias do Instituto Oswaldo Cruz
+JID - 7502619
+SB  - IM
+MH  - Adaptation, Physiological/physiology
+MH  - Animals
+MH  - Biological Clocks/physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Host-Parasite Interactions/*physiology
+MH  - Insect Vectors/*parasitology
+MH  - Leishmania/physiology
+MH  - Plasmodium/*physiology
+MH  - Protozoan Infections/transmission
+MH  - Psychodidae/physiology
+MH  - Triatominae/*physiology
+MH  - Trypanosoma/physiology
+PMC - PMC4109180
+EDAT- 2014/01/30 06:00
+MHDA- 2014/12/17 06:00
+CRDT- 2014/01/30 06:00
+PHST- 2013/08/12 00:00 [received]
+PHST- 2013/12/03 00:00 [accepted]
+PHST- 2014/01/30 06:00 [entrez]
+PHST- 2014/01/30 06:00 [pubmed]
+PHST- 2014/12/17 06:00 [medline]
+AID - S0074-02762013000900059 [pii]
+AID - 0074-0276130396 [pii]
+AID - 10.1590/0074-0276130396 [doi]
+PST - ppublish
+SO  - Mem Inst Oswaldo Cruz. 2013;108 Suppl 1(Suppl 1):59-62. doi: 
+      10.1590/0074-0276130396.
+
+PMID- 23825204
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140303
+LR  - 20211021
+IS  - 1471-2954 (Electronic)
+IS  - 0962-8452 (Print)
+IS  - 0962-8452 (Linking)
+VI  - 280
+IP  - 1765
+DP  - 2013 Aug 22
+TI  - Latitudinal clines: an evolutionary view on biological rhythms.
+PG  - 20130433
+LID - 10.1098/rspb.2013.0433 [doi]
+LID - 20130433
+AB  - Properties of the circadian and annual timing systems are expected to vary 
+      systematically with latitude on the basis of different annual light and temperature 
+      patterns at higher latitudes, creating specific selection pressures. We review 
+      literature with respect to latitudinal clines in circadian phenotypes as well as in 
+      polymorphisms of circadian clock genes and their possible association with annual 
+      timing. The use of latitudinal (and altitudinal) clines in identifying selective 
+      forces acting on biological rhythms is discussed, and we evaluate how these studies 
+      can reveal novel molecular and physiological components of these rhythms.
+FAU - Hut, Roelof A
+AU  - Hut RA
+AD  - Chronobiology unit, Centre for Behaviour and Neuroscience, University of Groningen, 
+      Groningen, The Netherlands. r.a.hut@rug.nl
+FAU - Paolucci, Silvia
+AU  - Paolucci S
+FAU - Dor, Roi
+AU  - Dor R
+FAU - Kyriacou, Charalambos P
+AU  - Kyriacou CP
+FAU - Daan, Serge
+AU  - Daan S
+LA  - eng
+GR  - BB/F014082/1/Biotechnology and Biological Sciences Research Council/United Kingdom
+GR  - BB/H018093/1/Biotechnology and Biological Sciences Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20130703
+TA  - Proc Biol Sci
+JT  - Proceedings. Biological sciences
+JID - 101245157
+SB  - IM
+MH  - *Altitude
+MH  - Animals
+MH  - *Biological Clocks/genetics/physiology
+MH  - *Biological Evolution
+MH  - *Circadian Clocks/genetics/physiology
+MH  - Circadian Rhythm/physiology
+MH  - Insecta/genetics/physiology
+MH  - Photoperiod
+MH  - Polymorphism, Genetic
+MH  - Seasons
+MH  - Vertebrates/genetics/physiology
+PMC - PMC3712436
+OTO - NOTNLM
+OT  - circadian
+OT  - circannual
+OT  - diapause
+OT  - latitude
+OT  - photoperiod
+OT  - reproduction
+EDAT- 2013/07/05 06:00
+MHDA- 2014/03/04 06:00
+CRDT- 2013/07/05 06:00
+PHST- 2013/07/05 06:00 [entrez]
+PHST- 2013/07/05 06:00 [pubmed]
+PHST- 2014/03/04 06:00 [medline]
+AID - rspb.2013.0433 [pii]
+AID - rspb20130433 [pii]
+AID - 10.1098/rspb.2013.0433 [doi]
+PST - epublish
+SO  - Proc Biol Sci. 2013 Jul 3;280(1765):20130433. doi: 10.1098/rspb.2013.0433. Print 
+      2013 Aug 22.
+
+PMID- 26010130
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20191120
+IS  - 1600-0447 (Electronic)
+IS  - 0001-690X (Linking)
+VI  - 133
+IP  - 2
+DP  - 2016 Feb
+TI  - The association between biological rhythms, depression, and functioning in bipolar 
+      disorder: a large multi-center study.
+PG  - 102-108
+LID - 10.1111/acps.12442 [doi]
+AB  - OBJECTIVE: We examined the relationship between biological rhythms and severity of 
+      depressive symptoms in subjects with bipolar disorder and the effects of biological 
+      rhythms alterations on functional impairment. METHOD: Bipolar patients (n = 260) and 
+      healthy controls (n = 191) were recruited from mood disorders programs in three 
+      sites (Spain, Brazil, and Canada). Parameters of biological rhythms were measured 
+      using the Biological Rhythms Assessment in Neuropsychiatry (BRIAN), an interviewer 
+      administered questionnaire that assesses disruptions in sleep, eating patterns, 
+      social rhythms, and general activity. RESULTS: Multivariate analyses of covariance 
+      showed significant intergroup differences after controlling for potential 
+      confounders (Pillai's F = 49.367; df = 2, P < 0.001). Depressed patients had the 
+      greatest biological rhythms disturbance, followed by patients with subsyndromal 
+      symptoms, euthymic patients, and healthy controls. Biological rhythms and HAMD 
+      scores were independent predictors of poor functioning (F = 12.841, df = 6, 
+      P < 0.001, R(2)  = 0.443). CONCLUSION: Our study shows a dose-dependent association 
+      between the severity of depressive symptoms and degree of biological rhythms 
+      disturbance. Biological rhythms disturbance was also an independent predictor of 
+      functional impairment. Although the directionality of this relationship remains 
+      unknown, our results suggest that stability of biological rhythms should be an 
+      important target of acute and long-term management of bipolar disorder and may aid 
+      in the improvement of functioning.
+CI  - © 2015 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+FAU - Pinho, M
+AU  - Pinho M
+AD  - Laboratory of Molecular Psychiatry, INCT for Translational Medicine - CNPq, Hospital 
+      de Clínicas de Porto Alegre, Universidade Federal do Rio Grande do Sul, Porto 
+      Alegre, Brazil.
+AD  - Post Graduate Program in Medicine, Department of Psychiatry, Universidade Federal do 
+      Rio Grande do Sul, Porto Alegre, Brazil.
+FAU - Sehmbi, M
+AU  - Sehmbi M
+AD  - MiNDS Neuroscience Graduate Program, McMaster University, Hamilton, ON, Canada.
+FAU - Cudney, L E
+AU  - Cudney LE
+AD  - Mood Disorders Program, St. Joseph's Healthcare Hamilton, Hamilton, ON, Canada.
+FAU - Kauer-Sant'anna, M
+AU  - Kauer-Sant'anna M
+AD  - Laboratory of Molecular Psychiatry, INCT for Translational Medicine - CNPq, Hospital 
+      de Clínicas de Porto Alegre, Universidade Federal do Rio Grande do Sul, Porto 
+      Alegre, Brazil.
+AD  - Post Graduate Program in Medicine, Department of Psychiatry, Universidade Federal do 
+      Rio Grande do Sul, Porto Alegre, Brazil.
+FAU - Magalhães, P V
+AU  - Magalhães PV
+AD  - Laboratory of Molecular Psychiatry, INCT for Translational Medicine - CNPq, Hospital 
+      de Clínicas de Porto Alegre, Universidade Federal do Rio Grande do Sul, Porto 
+      Alegre, Brazil.
+AD  - Post Graduate Program in Medicine, Department of Psychiatry, Universidade Federal do 
+      Rio Grande do Sul, Porto Alegre, Brazil.
+FAU - Reinares, M
+AU  - Reinares M
+AD  - Bipolar Disorders Program, Institute of Neurosciences, Hospital Clinic, University 
+      of Barcelona, IDIBAPS, Catalonia, Spain.
+AD  - Centro de Investigación Biomédica en Red de Salud Mental (CIBERSAM), Madrid, Spain.
+FAU - Bonnín, C M
+AU  - Bonnín CM
+AD  - Bipolar Disorders Program, Institute of Neurosciences, Hospital Clinic, University 
+      of Barcelona, IDIBAPS, Catalonia, Spain.
+AD  - Centro de Investigación Biomédica en Red de Salud Mental (CIBERSAM), Madrid, Spain.
+FAU - Sassi, R B
+AU  - Sassi RB
+AD  - MiNDS Neuroscience Graduate Program, McMaster University, Hamilton, ON, Canada.
+AD  - Mood Disorders Program, St. Joseph's Healthcare Hamilton, Hamilton, ON, Canada.
+AD  - Department of Psychiatry and Behavioural Neurosciences, McMaster University, 
+      Hamilton, ON, Canada.
+FAU - Kapczinski, F
+AU  - Kapczinski F
+AD  - Laboratory of Molecular Psychiatry, INCT for Translational Medicine - CNPq, Hospital 
+      de Clínicas de Porto Alegre, Universidade Federal do Rio Grande do Sul, Porto 
+      Alegre, Brazil.
+AD  - Post Graduate Program in Medicine, Department of Psychiatry, Universidade Federal do 
+      Rio Grande do Sul, Porto Alegre, Brazil.
+FAU - Colom, F
+AU  - Colom F
+AD  - Bipolar Disorders Program, Institute of Neurosciences, Hospital Clinic, University 
+      of Barcelona, IDIBAPS, Catalonia, Spain.
+AD  - Centro de Investigación Biomédica en Red de Salud Mental (CIBERSAM), Madrid, Spain.
+FAU - Vieta, E
+AU  - Vieta E
+AD  - Bipolar Disorders Program, Institute of Neurosciences, Hospital Clinic, University 
+      of Barcelona, IDIBAPS, Catalonia, Spain.
+AD  - Centro de Investigación Biomédica en Red de Salud Mental (CIBERSAM), Madrid, Spain.
+FAU - Frey, B N
+AU  - Frey BN
+AD  - MiNDS Neuroscience Graduate Program, McMaster University, Hamilton, ON, Canada.
+AD  - Mood Disorders Program, St. Joseph's Healthcare Hamilton, Hamilton, ON, Canada.
+AD  - Department of Psychiatry and Behavioural Neurosciences, McMaster University, 
+      Hamilton, ON, Canada.
+FAU - Rosa, A R
+AU  - Rosa AR
+AD  - Laboratory of Molecular Psychiatry, INCT for Translational Medicine - CNPq, Hospital 
+      de Clínicas de Porto Alegre, Universidade Federal do Rio Grande do Sul, Porto 
+      Alegre, Brazil.
+AD  - Post Graduate Program in Medicine, Department of Psychiatry, Universidade Federal do 
+      Rio Grande do Sul, Porto Alegre, Brazil.
+AD  - Department of Pharmacology, Universidade Federal do Rio Grande do Sul, Porto Alegre, 
+      Brazil.
+LA  - eng
+PT  - Journal Article
+DEP - 20150522
+PL  - United States
+TA  - Acta Psychiatr Scand
+JT  - Acta psychiatrica Scandinavica
+JID - 0370364
+OTO - NOTNLM
+OT  - biological rhythm
+OT  - bipolar disorder
+OT  - circadian rhythm
+OT  - depression
+OT  - functioning
+EDAT- 2015/05/27 06:00
+MHDA- 2015/05/27 06:01
+CRDT- 2015/05/27 06:00
+PHST- 2015/04/23 00:00 [accepted]
+PHST- 2015/05/27 06:00 [pubmed]
+PHST- 2015/05/27 06:01 [medline]
+PHST- 2015/05/27 06:00 [entrez]
+AID - 10.1111/acps.12442 [doi]
+PST - ppublish
+SO  - Acta Psychiatr Scand. 2016 Feb;133(2):102-108. doi: 10.1111/acps.12442. Epub 2015 
+      May 22.
+
+PMID- 18419258
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20080801
+LR  - 20181201
+IS  - 0091-7451 (Print)
+IS  - 0091-7451 (Linking)
+VI  - 72
+DP  - 2007
+TI  - Biological Rhythms Workshop I: introduction to chronobiology.
+PG  - 1-6
+LID - 10.1101/sqb.2007.72.059 [doi]
+AB  - In this chapter, we present a series of four articles derived from a Introductory 
+      Workshop on Biological Rhythms presented at the 72nd Annual Cold Spring Harbor 
+      Symposium on Quantitative Biology: Clocks and Rhythms. A diverse range of species, 
+      from cyanobacteria to humans, evolved endogenous biological clocks that allow for 
+      the anticipation of daily variations in light and temperature. The ability to 
+      anticipate environmental variation promotes optimal performance and survival. In the 
+      first article, Introduction to Chronobiology, we present a brief historical timeline 
+      of how circadian concepts and terminology have emerged since the early observation 
+      of daily leaf movement in plants made by an astronomer in the 1700s. Workshop Part 
+      IA provides an overview of the molecular basis for rhythms generation in several key 
+      model organisms, Workshop Part IB focuses on how biology built a brain clock capable 
+      of coordinating the daily timing of essential brain and physiological processes, and 
+      Workshop Part IC gives key insight into how researchers study sleep and rhythms in 
+      humans.
+FAU - Kuhlman, S J
+AU  - Kuhlman SJ
+AD  - Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, USA.
+FAU - Mackey, S R
+AU  - Mackey SR
+FAU - Duffy, J F
+AU  - Duffy JF
+LA  - eng
+PT  - Congress
+PT  - Historical Article
+PL  - United States
+TA  - Cold Spring Harb Symp Quant Biol
+JT  - Cold Spring Harbor symposia on quantitative biology
+JID - 1256107
+SB  - IM
+MH  - Animals
+MH  - *Chronobiology Phenomena
+MH  - Circadian Rhythm
+MH  - History, 18th Century
+MH  - History, 20th Century
+MH  - History, 21st Century
+MH  - Humans
+MH  - Models, Biological
+MH  - Periodicity
+MH  - Terminology as Topic
+EDAT- 2008/04/19 09:00
+MHDA- 2008/08/02 09:00
+CRDT- 2008/04/19 09:00
+PHST- 2008/04/19 09:00 [pubmed]
+PHST- 2008/08/02 09:00 [medline]
+PHST- 2008/04/19 09:00 [entrez]
+AID - 10.1101/sqb.2007.72.059 [pii]
+AID - 10.1101/sqb.2007.72.059 [doi]
+PST - ppublish
+SO  - Cold Spring Harb Symp Quant Biol. 2007;72:1-6. doi: 10.1101/sqb.2007.72.059.
+
+PMID- 16305023
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20060224
+LR  - 20051124
+IS  - 1259-4792 (Print)
+IS  - 1259-4792 (Linking)
+IP  - 226
+DP  - 2005 Oct
+TI  - [Biological rhythms].
+PG  - 1
+FAU - Morio, Catherine
+AU  - Morio C
+LA  - fre
+PT  - Editorial
+TT  - Rythmes biologiques.
+PL  - France
+TA  - Soins Pediatr Pueric
+JT  - Soins. Pediatrie, puericulture
+JID - 9604503
+SB  - N
+MH  - Child
+MH  - Humans
+MH  - *Periodicity
+MH  - *Schools
+MH  - Time Factors
+EDAT- 2005/11/25 09:00
+MHDA- 2006/02/25 09:00
+CRDT- 2005/11/25 09:00
+PHST- 2005/11/25 09:00 [pubmed]
+PHST- 2006/02/25 09:00 [medline]
+PHST- 2005/11/25 09:00 [entrez]
+PST - ppublish
+SO  - Soins Pediatr Pueric. 2005 Oct;(226):1.
+
+PMID- 23542545
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140410
+LR  - 20130902
+IS  - 1769-7115 (Electronic)
+IS  - 0928-4257 (Linking)
+VI  - 107
+IP  - 4
+DP  - 2013 Sep
+TI  - Rhythms, rhythmicity and aggression.
+PG  - 327-34
+LID - S0928-4257(13)00004-1 [pii]
+LID - 10.1016/j.jphysparis.2013.03.002 [doi]
+AB  - The relationships between biological rhythms and human aggressive behavior are 
+      addressed and discussed in this article: First, circadian rhythms and aggression are 
+      considered. Studies of sleep/waking cycle disturbances in aggression are reported. 
+      Severe aggression is associated with profound changes in sleep architecture. Causal 
+      link is difficult to establish given that sleep disturbance and aggressive behavior 
+      could be the symptoms of the same disorder. Specific aggressive behavior developed 
+      during sleep is also described. In addition, hormonal circadian rhythm studies are 
+      reported. Thus, low cortisol levels, in particular low cortisol variability, are 
+      associated with aggressive behavior, suggesting an inhibitory role of cortisol. 
+      Testosterone has daily and seasonal fluctuations, but no link with aggression has 
+      been established. Neurophysiological underlying mechanisms are discussed in the last 
+      part of this article, with a focus on the relationship between brain rhythm and 
+      aggression. Increase of slow-wave EEG activities is observed in individuals with 
+      aggressive behavior. Epilepsy, as a disease of brain rhythm could be associated with 
+      aggressive behavior, in pre, post and inter ictal periodes. Incidence of aggression 
+      is not likely more prevalent in epileptic individuals compared to those with other 
+      neurological conditions. Ictal changes take the form of profound behavioral changes, 
+      including aggressive behavior which has been interpreted as the emergence of 
+      "archeical" or innate motor patterns. In this multidisciplinary approach, the main 
+      difficulty is the categorization of the differents types of aggression. Finally, 
+      taken together, these studies suggest that biological rhythms, especially circadian 
+      rhythms, could provide therapeutic benefits to human aggressive behavior. Biological 
+      rhythymicity seems to be a necessary permanent training offering interesting 
+      perspectives for the adaptation to changes in the field of aggression.
+CI  - Copyright © 2013 Elsevier Ltd. All rights reserved.
+FAU - Bronsard, Guillaume
+AU  - Bronsard G
+AD  - Maison Départementale de l'Adolescent et CMPPD, Conseil Général des 
+      Bouches-du-Rhône,169 rue Paradis 13006 Marseille, France. guillaume.bronsard@free.fr
+FAU - Bartolomei, Fabrice
+AU  - Bartolomei F
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20130329
+PL  - France
+TA  - J Physiol Paris
+JT  - Journal of physiology, Paris
+JID - 9309351
+SB  - IM
+MH  - Aggression/*physiology/psychology
+MH  - Brain/*physiology
+MH  - Circadian Rhythm/*physiology
+MH  - Humans
+MH  - *Periodicity
+MH  - Sleep/*physiology
+OTO - NOTNLM
+OT  - Aggression
+OT  - Circadian rhythms
+OT  - Cortisol
+OT  - Epilepsy
+OT  - Sleep/waking cycle
+OT  - Testosterone
+EDAT- 2013/04/02 06:00
+MHDA- 2014/04/11 06:00
+CRDT- 2013/04/02 06:00
+PHST- 2013/04/02 06:00 [entrez]
+PHST- 2013/04/02 06:00 [pubmed]
+PHST- 2014/04/11 06:00 [medline]
+AID - S0928-4257(13)00004-1 [pii]
+AID - 10.1016/j.jphysparis.2013.03.002 [doi]
+PST - ppublish
+SO  - J Physiol Paris. 2013 Sep;107(4):327-34. doi: 10.1016/j.jphysparis.2013.03.002. Epub 
+      2013 Mar 29.
+
+PMID- 18571991
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20081118
+LR  - 20080825
+IS  - 1559-2030 (Electronic)
+IS  - 1551-7144 (Linking)
+VI  - 29
+IP  - 5
+DP  - 2008 Sep
+TI  - Analyzing biological rhythms in clinical trials.
+PG  - 720-6
+LID - 10.1016/j.cct.2008.05.001 [doi]
+AB  - BACKGROUND: The human body exhibits a variety of biological rhythms. There are 
+      patterns that correspond, among others, to the daily wake / sleep cycle, a yearly 
+      seasonal cycle and, in women, the menstrual cycle. Sine/cosine functions are often 
+      used to model biological patterns for continuous data, but this model is not 
+      appropriate for analysis of biological rhythms in failure time data. METHODS: We 
+      consider a method appropriate for analysis of biological rhythms in clinical trials. 
+      We present a method to provide an estimate and confidence interval of the time when 
+      the minimum hazard is achieved. A motivating example from a clinical trial of 
+      adjuvant of pre-menopausal breast cancer patients provides an important illustration 
+      of the methodology in practice. RESULTS: Adapting the Cosinor method to the Weibull 
+      proportional hazards model is proposed as useful way of modeling the biological 
+      rhythm data. It presents a method to estimate the time that achieves the minimum 
+      hazard along with its associated confidence interval. The application of this 
+      technique to the breast cancer data revealed that the optimal day for pre-resection 
+      incisional or excisional biopsy of 28-day cycle (i.e. the day associated with the 
+      lowest recurrence rate) is day 8 with 95% CI 5-10. We found that older age, fewer 
+      positive nodes, smaller tumor size, and experimental treatment are important 
+      prognostic factors of longer relapse-free survival. CONCLUSIONS: The analysis of 
+      biological/circadian rhythms is usually handled by Cosinor rhythmometry method. 
+      However, in FTD this is simply not possible. In this case, we propose to adapt the 
+      Cosinor method to the Weibull proportional hazard model. The advantage of the 
+      proposed method is its ability to model survival data. This method is not limited to 
+      breast cancer data, and may be applied to any biological rhythms linked to right 
+      censored data.
+FAU - Elkum, Naser B
+AU  - Elkum NB
+AD  - King Faisal Specialist Hospital and Research Center, Kingdom of Saudi Arabia.
+FAU - Myles, James D
+AU  - Myles JD
+FAU - Kumar, Pranesh
+AU  - Kumar P
+LA  - eng
+PT  - Journal Article
+DEP - 20080518
+PL  - United States
+TA  - Contemp Clin Trials
+JT  - Contemporary clinical trials
+JID - 101242342
+SB  - IM
+MH  - Adult
+MH  - Breast Neoplasms/mortality/*physiopathology/*surgery
+MH  - *Circadian Rhythm
+MH  - *Clinical Trials as Topic
+MH  - Female
+MH  - Humans
+MH  - *Menstrual Cycle
+MH  - Models, Statistical
+MH  - *Premenopause
+EDAT- 2008/06/24 09:00
+MHDA- 2008/11/19 09:00
+CRDT- 2008/06/24 09:00
+PHST- 2007/11/20 00:00 [received]
+PHST- 2008/05/06 00:00 [revised]
+PHST- 2008/05/13 00:00 [accepted]
+PHST- 2008/06/24 09:00 [pubmed]
+PHST- 2008/11/19 09:00 [medline]
+PHST- 2008/06/24 09:00 [entrez]
+AID - S1551-7144(08)00056-6 [pii]
+AID - 10.1016/j.cct.2008.05.001 [doi]
+PST - ppublish
+SO  - Contemp Clin Trials. 2008 Sep;29(5):720-6. doi: 10.1016/j.cct.2008.05.001. Epub 2008 
+      May 18.

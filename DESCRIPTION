@@ -1,0 +1,56 @@
+Package: refstudio
+Title: Extract and Process Bibliographical References
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Daniel",
+             family = "Vartanian",
+             role = c("aut", "cre", "cph"),
+             email = "danvartan@gmail.com",
+             comment = c(ORCID = "0000-0001-7782-759X")),
+      person(given = "Mario",
+             family = "Pedrazzoli",
+             email = "pedrazzo@usp.br",
+             role = c("aut", "sad"),
+             comment = c(ORCID = "0000-0002-5257-591X")),
+      person(given = "Interdisciplinary Sleep Research Group (GIPSO)",
+             role = "fnd"),
+      person(given = "University of Sao Paulo (USP)",
+             role = "fnd"))
+Maintainer: Daniel Vartanian <danvartan@gmail.com>
+Description: A set of tools to deal with the extraction and processing tasks
+     of bibliographical references.
+License: MIT + file LICENSE
+URL: https://gipso.github.io/refstudio/, 
+     https://github.com/gipso/refstudio/
+BugReports: https://github.com/gipso/refstudio/issues/
+Depends:
+    R (>= 4.0)
+Imports: 
+    checkmate (>= 2.0.0),
+    cli (>= 3.0.1),
+    dplyr (>= 1.0.7),
+    gutils,
+    lifecycle (>= 1.0.0),
+    readr (>= 2.0.2),
+    rlang (>= 0.4.11),
+    tidyr (>= 1.1.4),
+    stringr (>= 1.4.0)
+Suggests: 
+    covr,
+    knitr,
+    mockr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0),
+    utils
+Remotes: 
+    github::gipso/gutils
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+LazyDataCompression: bzip2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2

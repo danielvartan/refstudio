@@ -1,0 +1,22 @@
+citHeader("To cite {refstudio} in publications use:")
+
+citEntry(
+  entry       = "Unpublished",
+  title       = paste0("{refstudio}:", " ",
+                       "an R package for extracting and processing", " ",
+                       "bibliographical references"),
+  author      = personList(as.person("Daniel Vartanian"),
+                           as.person("Mario Pedrazzoli")),
+  year        = "2021",
+  url         = paste0("https://gipso.github.io/",
+                       "refstudio/"),
+  textVersion = paste0("Vartanian, D.", ", ",
+                       "Pedrazzoli, M.", " ",
+                       "(2021)",  ". ",
+                       "{refstudio}:", " ",
+                       "an R package for extracting and processing", " ",
+                       "bibliographical references", ". ",
+                       "https://gipso.github.io/",
+                       "refstudio/", "."),
+  note        = "Lifecycle: experimental"
+)

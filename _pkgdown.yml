@@ -1,0 +1,54 @@
+url: https://gipso.github.io/refstudio/
+
+template:
+  params:
+    bootswatch: cosmo
+    ganalytics: G-QD2557ZMGT
+    mathjax: true
+    noindex: false
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [github]
+  components:
+    home: ~
+    news: ~
+    articles: ~
+
+reference:
+- title: Keywords
+  contents:
+  - query
+  - tidy_keyword
+
+- title: References/Citations
+  contents:
+  - count_ref
+  - guess_ref
+  - read_ref
+
+- title: Data
+  contents:
+  - provider_tags
+  - ris_tags
+  - ris_types
+
+- title: Utilities
+  contents:
+  - raw_data
+
+authors:
+  Daniel Vartanian:
+    href: https://github.com/danielvartan
+  Mario Pedrazzoli:
+    href: https://github.com/pedrazzo
+  Interdisciplinary Sleep Research Group (GIPSO):
+    href: http://each.usp.br/gipso
+  University of Sao Paulo (USP):
+    href: http://usp.br
+
+development:
+  mode: auto
+  destination: doc
+  version_label: warning
