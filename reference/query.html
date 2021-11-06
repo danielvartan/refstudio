@@ -301,19 +301,21 @@ an error in those cases.</p>
 <code><a href='tidy_keyword.html'>tidy_keyword</a>()</code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='co'>## Creating simple queries</span>
-
-<span class='fu'>query</span><span class='op'>(</span><span class='st'>"Lorem"</span>, <span class='st'>"Ipsum, dolor"</span>, <span class='st'>"sit"</span>, provider <span class='op'>=</span> <span class='st'>"PubMed"</span>,
-      constraint <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"title"</span>, <span class='st'>"abstract"</span><span class='op'>)</span>, clipboard <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #BB0000; font-weight: bold;'>lorem[Title/Abstract] OR ipsum[Title/Abstract] OR dolor[Title/Abstract] OR sit[Title/Abstract]</span></div><div class='input'><span class='co'>#&gt; (lorem[Title/Abstract]) OR (ipsum[Title/Abstract]) OR</span>
-<span class='co'>#&gt; (dolor[Title/Abstract]) OR (sit[Title/Abstract]) # Expected</span>
-
-<span class='co'>## Creating queries from multiple domains</span>
-
-<span class='fu'>query</span><span class='op'>(</span><span class='st'>"Lorem"</span>, <span class='st'>"AND"</span>, <span class='st'>"Ipsum"</span>, <span class='st'>"NOT"</span>, <span class='st'>"dolor"</span>, provider <span class='op'>=</span> <span class='st'>"EMBASE"</span>,
-      constraint <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"title"</span>, <span class='st'>"abstract"</span><span class='op'>)</span>, clipboard <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #BB0000; font-weight: bold;'>(lorem:ti,ab) AND (ipsum:ti,ab) NOT (dolor:ti,ab)</span></div><div class='input'><span class='co'>#&gt; (lorem:ti,ab) AND (ipsum:ti,ab) NOT (dolor:ti,ab) # Expected</span>
-</div></pre>
+    <pre class="examples"><span class='r-in'><span class='co'>## Creating simple queries</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='fu'>query</span><span class='op'>(</span><span class='st'>"Lorem"</span>, <span class='st'>"Ipsum, dolor"</span>, <span class='st'>"sit"</span>, provider <span class='op'>=</span> <span class='st'>"PubMed"</span>,</span>
+<span class='r-in'>      constraint <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"title"</span>, <span class='st'>"abstract"</span><span class='op'>)</span>, clipboard <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BB0000; font-weight: bold;'>lorem[Title/Abstract] OR ipsum[Title/Abstract] OR dolor[Title/Abstract] OR sit[Title/Abstract]</span></span>
+<span class='r-in'><span class='co'>#&gt; (lorem[Title/Abstract]) OR (ipsum[Title/Abstract]) OR</span></span>
+<span class='r-in'><span class='co'>#&gt; (dolor[Title/Abstract]) OR (sit[Title/Abstract]) # Expected</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'>## Creating queries from multiple domains</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='fu'>query</span><span class='op'>(</span><span class='st'>"Lorem"</span>, <span class='st'>"AND"</span>, <span class='st'>"Ipsum"</span>, <span class='st'>"NOT"</span>, <span class='st'>"dolor"</span>, provider <span class='op'>=</span> <span class='st'>"EMBASE"</span>,</span>
+<span class='r-in'>      constraint <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"title"</span>, <span class='st'>"abstract"</span><span class='op'>)</span>, clipboard <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BB0000; font-weight: bold;'>(lorem:ti,ab) AND (ipsum:ti,ab) NOT (dolor:ti,ab)</span></span>
+<span class='r-in'><span class='co'>#&gt; (lorem:ti,ab) AND (ipsum:ti,ab) NOT (dolor:ti,ab) # Expected</span></span>
+</pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
