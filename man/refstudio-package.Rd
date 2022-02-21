@@ -6,9 +6,7 @@
 \alias{refstudio-package}
 \title{refstudio: Extract and Process Bibliographical References}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
-
-A set of tools to deal with the extraction and processing tasks of bibliographical references.
+Tools to extract and process bibliographical references.
 }
 \seealso{
 Useful links:

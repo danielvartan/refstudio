@@ -1,16 +1,11 @@
 {
-  "@context": [
-    "https://doi.org/10.5063/schema/codemeta-2.0",
-    "http://schema.org"
-  ],
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "identifier": "refstudio",
-  "description": "A set of tools to deal with the extraction and processing tasks\n     of bibliographical references.",
+  "description": "Tools to extract and process bibliographical references.",
   "name": "refstudio: Extract and Process Bibliographical References",
+  "relatedLink": "https://gipso.github.io/refstudio/",
   "codeRepository": "https://github.com/gipso/refstudio/",
-  "relatedLink": [
-    "https://gipso.github.io/refstudio/"
-  ],
   "issueTracker": "https://github.com/gipso/refstudio/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
@@ -36,7 +31,6 @@
       "@id": "https://orcid.org/0000-0002-5257-591X"
     }
   ],
-  "contributor": {},
   "copyrightHolder": [
     {
       "@type": "Person",
@@ -70,6 +64,7 @@
       "@type": "SoftwareApplication",
       "identifier": "covr",
       "name": "covr",
+      "version": ">= 3.5.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -82,6 +77,7 @@
       "@type": "SoftwareApplication",
       "identifier": "knitr",
       "name": "knitr",
+      "version": ">= 1.36",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -94,6 +90,7 @@
       "@type": "SoftwareApplication",
       "identifier": "mockr",
       "name": "mockr",
+      "version": ">= 0.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -106,6 +103,7 @@
       "@type": "SoftwareApplication",
       "identifier": "rmarkdown",
       "name": "rmarkdown",
+      "version": ">= 2.11",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -118,6 +116,7 @@
       "@type": "SoftwareApplication",
       "identifier": "spelling",
       "name": "spelling",
+      "version": ">= 2.2",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -142,17 +141,18 @@
     {
       "@type": "SoftwareApplication",
       "identifier": "utils",
-      "name": "utils"
+      "name": "utils",
+      "version": ">= 4.0.0"
     }
   ],
-  "softwareRequirements": [
-    {
+  "softwareRequirements": {
+    "1": {
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
       "version": ">= 4.0"
     },
-    {
+    "2": {
       "@type": "SoftwareApplication",
       "identifier": "checkmate",
       "name": "checkmate",
@@ -165,11 +165,11 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=checkmate"
     },
-    {
+    "3": {
       "@type": "SoftwareApplication",
       "identifier": "cli",
       "name": "cli",
-      "version": ">= 3.0.1",
+      "version": ">= 3.1.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -178,7 +178,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=cli"
     },
-    {
+    "4": {
       "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
@@ -191,17 +191,17 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=dplyr"
     },
-    {
+    "5": {
       "@type": "SoftwareApplication",
       "identifier": "gutils",
       "name": "gutils",
       "sameAs": "https://github.com/gipso/gutils"
     },
-    {
+    "6": {
       "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
-      "version": ">= 1.0.0",
+      "version": ">= 1.0.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -210,7 +210,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=lifecycle"
     },
-    {
+    "7": {
       "@type": "SoftwareApplication",
       "identifier": "readr",
       "name": "readr",
@@ -223,7 +223,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=readr"
     },
-    {
+    "8": {
       "@type": "SoftwareApplication",
       "identifier": "tidyr",
       "name": "tidyr",
@@ -236,7 +236,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=tidyr"
     },
-    {
+    "9": {
       "@type": "SoftwareApplication",
       "identifier": "stringr",
       "name": "stringr",
@@ -248,16 +248,14 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=stringr"
-    }
-  ],
-  "fileSize": "274.662KB",
-  "contIntegration": ["https://github.com/gipso/refstudio/actions", "https://codecov.io/gh/gipso/refstudio?branch=main"],
-  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
-  "releaseNotes": "https://github.com/gipso/refstudio/blob/master/NEWS.md",
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "260.255KB",
   "citation": [
     {
       "@type": "CreativeWork",
-      "datePublished": "2021",
+      "datePublished": "2022",
       "author": [
         {
           "@type": "Person",
@@ -275,10 +273,9 @@
       "description": "Lifecycle: experimental"
     }
   ],
-  "keywords": [
-    "r-package",
-    "evidence-synthesis",
-    "bibliographic-references"
-  ],
-  "readme": "https://github.com/gipso/refstudio/blob/main/README.md"
+  "releaseNotes": "https://github.com/gipso/refstudio/blob/master/NEWS.md",
+  "readme": "https://github.com/gipso/refstudio/blob/main/README.md",
+  "contIntegration": ["https://github.com/gipso/refstudio/actions", "https://codecov.io/gh/gipso/refstudio?branch=main"],
+  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
+  "keywords": ["r-package", "evidence-synthesis", "bibliographic-references", "r", "rstats"]
 }

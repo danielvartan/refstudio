@@ -16,8 +16,7 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: A set of tools to deal with the extraction and processing tasks
-     of bibliographical references.
+Description: Tools to extract and process bibliographical references.
 License: MIT + file LICENSE
 URL: https://gipso.github.io/refstudio/, 
      https://github.com/gipso/refstudio/
