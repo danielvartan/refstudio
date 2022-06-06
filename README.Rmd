@@ -24,12 +24,9 @@ library(refstudio)
 [![Codecov test coverage](https://codecov.io/gh/gipso/refstudio/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/refstudio?branch=main)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://gipso.github.io/refstudio/CODE_OF_CONDUCT.html)
-[![Buy Me A Coffee donate button](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://ko-fi.com/danielvartan)
 <!-- badges: end -->
 
 `refstudio` is an R package that provides a complete and consistent toolkit to extract and process bibliographical references. The aim of `refstudio` is to facilitate the evidence synthesis work while also helping with research reproducibility.
-
-> Please note that this package is currently on the development stage and have not yet been [peer reviewed](https://devguide.ropensci.org/softwarereviewintro.html).
 
 ## Prerequisites
 
