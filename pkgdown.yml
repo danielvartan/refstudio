@@ -1,8 +1,8 @@
 pandoc: 2.7.3
-pkgdown: 2.0.2
+pkgdown: 2.0.3
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-02-21T01:11Z
+last_built: 2022-06-06T19:28Z
 urls:
   reference: https://gipso.github.io/refstudio/reference
   article: https://gipso.github.io/refstudio/articles
