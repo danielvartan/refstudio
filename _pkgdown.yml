@@ -1,9 +1,8 @@
-url: https://gipso.github.io/refstudio/
+url: https://giperbio.github.io/refstudio/
 
 template:
   params:
     bootswatch: cosmo
-    ganalytics: G-QD2557ZMGT
     mathjax: true
     noindex: false
 
@@ -41,12 +40,6 @@ reference:
 authors:
   Daniel Vartanian:
     href: https://github.com/danielvartan
-  Mario Pedrazzoli:
-    href: https://github.com/pedrazzo
-  Interdisciplinary Sleep Research Group (GIPSO):
-    href: http://each.usp.br/gipso
-  University of Sao Paulo (USP):
-    href: http://usp.br
 
 development:
   mode: auto
