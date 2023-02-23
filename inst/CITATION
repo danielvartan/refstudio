@@ -1,22 +1,32 @@
-citHeader("To cite {refstudio} in publications use:")
-
-citEntry(
-  entry       = "Unpublished",
-  title       = paste0("{refstudio}:", " ",
-                       "an R package for extracting and processing", " ",
-                       "bibliographical references"),
-  author      = personList(as.person("Daniel Vartanian"),
-                           as.person("Mario Pedrazzoli")),
-  year        = "2022",
-  url         = paste0("https://gipso.github.io/",
-                       "refstudio/"),
-  textVersion = paste0("Vartanian, D.", ", & ",
-                       "Pedrazzoli, M.", " ",
-                       "(2022)",  ". ",
-                       "{refstudio}:", " ",
-                       "an R package for extracting and processing", " ",
-                       "bibliographical references", ". ",
-                       "https://gipso.github.io/",
-                       "refstudio/"),
-  note        = "Lifecycle: experimental"
-)
+utils::bibentry(
+    header = "To cite {refstudio} in publications use:",
+    bibtype  = "Unpublished",
+    title = paste0(
+        "{refstudio}:", " ",
+        "tools to extract and process bibliographical references"
+        ),
+    author = c(
+        utils::person(
+            given = "Daniel",
+            family = "Vartanian",
+            role = c("aut", "cre", "ccp", "cph"),
+            email = "danvartan@gmail.com",
+            comment = c(ORCID = "0000-0001-7782-759X")
+            )
+        ),
+    year = "2023",
+    url = paste0(
+        "https://giperbio.github.io/",
+        "refstudio/"
+        ),
+    note = "R package version 0.0.0.9000",
+    textVersion = paste0(
+        "Vartanian, D.", " ",
+        "(2023)",  ". ",
+        "{refstudio}:", " ",
+        "tools to extract and process bibliographical references", ". ",
+        "R package version 0.0.0.9000", ". ",
+        "https://giperbio.github.io/",
+        "refstudio/"
+        )
+    )

@@ -39,14 +39,16 @@ The \code{sep} argument is only used if the reference/citation files have
 duplicated tags. In those cases, \code{read_ref()} will join all the same tag
 values using the \code{sep} value.
 
-Example:\preformatted{read_ref(file, sep = " | ")
+Example:
+
+\if{html}{\out{<div class="sourceCode">}}\preformatted{read_ref(file, sep = " | ")
 
 AU  - Stoykova B
 AU  - Slota C
 AU  - Doward L
 
 Joined tags: AU - Stoykova B | Slota C | Doward L
-}
+}\if{html}{\out{</div>}}
 }
 
 \subsection{\code{lookup} argument}{

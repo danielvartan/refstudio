@@ -45,13 +45,14 @@
 #' Here are the documentation links of the database providers supported by the
 #' `query()` function.
 #'
-#' * `"apa"`: for [APA](http://help.psycnet.org/) (American Psychology
+#' * `"apa"`: for [APA](https://help.psycnet.org/) (American Psychology
 #' Association).
 #' * `"ebsco"`: for [EBSCO](http://support.ebsco.com/help/) (Elton Bryson
 #' Stephens Company).
 #' * `"embase"`: for [Embase](https://bit.ly/399d14T) (Excerpta Medica
 #' dataBASE)
-#' * `"lilacs"`: for [LILACS](https://bit.ly/3aqb2to) (Literatura
+#' * `"lilacs"`: for
+#' [LILACS](https://wiki.bireme.org/en/index.php/Search_tutorial) (Literatura
 #' Latino-americana e do Caribe em Ciencias da Saude).
 #' * `"pubmed"`: for [PubMed](https://pubmed.ncbi.nlm.nih.gov/help/).
 #' * `"scielo"`: for [SciELO](https://bit.ly/3lJvVnQ) (Scientific Electronic
@@ -352,8 +353,10 @@ builder <- function(x, provider, constraint, min_chars, enclosure, delimiter,
     if (is.list(x)) {
         out <- character()
         operators <- x$operators
-        stop_message <- paste0 ("There's no keyword left after tidying. ",
-                                "Check the function arguments.")
+        stop_message <- paste0(
+            "There's no keyword left after tidying. ",
+            "Check the function arguments."
+            )
 
         for (i in (seq(length(x) - 1))) {
             keyword <- tidy_keyword(x[[i]], min_chars = min_chars,

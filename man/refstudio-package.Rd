@@ -4,32 +4,21 @@
 \name{refstudio-package}
 \alias{refstudio}
 \alias{refstudio-package}
-\title{refstudio: Extract and Process Bibliographical References}
+\title{refstudio: Tools to Extract and Process Bibliographical References}
 \description{
-Tools to extract and process bibliographical references.
+A complete toolkit to extract and process bibliographical references.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://gipso.github.io/refstudio/}
-  \item \url{https://github.com/gipso/refstudio/}
-  \item Report bugs at \url{https://github.com/gipso/refstudio/issues/}
+  \item \url{https://giperbio.github.io/refstudio/}
+  \item \url{https://github.com/giperbio/refstudio/}
+  \item Report bugs at \url{https://github.com/giperbio/refstudio/issues/}
 }
 
 }
 \author{
-\strong{Maintainer}: Daniel Vartanian \email{danvartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [copyright holder]
-
-Authors:
-\itemize{
-  \item Mario Pedrazzoli \email{pedrazzo@usp.br} (\href{https://orcid.org/0000-0002-5257-591X}{ORCID}) [scientific advisor]
-}
-
-Other contributors:
-\itemize{
-  \item Interdisciplinary Sleep Research Group (GIPSO) [funder]
-  \item University of Sao Paulo (USP) [funder]
-}
+\strong{Maintainer}: Daniel Vartanian \email{danvartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [conceptor, copyright holder]
 
 }
 \keyword{internal}

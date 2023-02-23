@@ -44,7 +44,7 @@
 #' <https://bit.ly/3efSgHr>.
 #'
 #' * `"general"`: A general lookup table for RIS files.
-#' * `"apa"`: for [APA](http://help.psycnet.org/) (American Psychology
+#' * `"apa"`: for [APA](https://help.psycnet.org/) (American Psychology
 #' Association).
 #' * `"ebsco"`: for [EBSCO](http://support.ebsco.com/help/) (Elton Bryson
 #' Stephens Company).

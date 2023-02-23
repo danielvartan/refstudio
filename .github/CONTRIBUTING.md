@@ -6,13 +6,13 @@ First of all, thanks for considering contributing to `refstudio`! 👍 It's peop
 
 `refstudio` is an open source project, maintained by people who care. We are not directly funded to do so.
 
-[repo]: https://github.com/gipso/refstudio
-[issues]: https://github.com/gipso/refstudio/issues
-[discussions]: https://github.com/gipso/refstudio/discussions
-[new_issue]: https://github.com/gipso/refstudio/issues/new
-[new_discussion]: https://github.com/gipso/refstudio/discussions/new
-[website]: https://gipso.github.io/refstudio
-[citation]: https://gipso.github.io/refstudio/authors.html
+[repo]: https://github.com/giperbio/refstudio
+[issues]: https://github.com/giperbio/refstudio/issues
+[discussions]: https://github.com/giperbio/refstudio/discussions
+[new_issue]: https://github.com/giperbio/refstudio/issues/new
+[new_discussion]: https://github.com/giperbio/refstudio/discussions/new
+[website]: https://giperbio.github.io/refstudio
+[citation]: https://giperbio.github.io/refstudio/authors.html
 [email]: mailto:danvartan@gmail.com
 
 ## Code of conduct

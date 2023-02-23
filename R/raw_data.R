@@ -4,8 +4,8 @@
 #'
 #' `r lifecycle::badge("maturing")`
 #'
-#' `refstudio` comes bundled with raw fictional datasets for testing and learning
-#' purposes. `raw_data()` makes it easy to access their paths.
+#' `refstudio` comes bundled with raw fictional datasets for testing and
+#' learning purposes. `raw_data()` makes it easy to access their paths.
 #'
 #' @param file (optional) a `character` object indicating the raw data file
 #'   name(s). If `NULL`, all raw data file names will be printed (default:
