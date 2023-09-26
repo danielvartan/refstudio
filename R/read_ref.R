@@ -126,7 +126,7 @@ read_ref <- function(file = file.choose(), lookup = NULL, sep = " | ") {
     if (length(file) > 1 ||
         any(stringr::str_detect(file, "(?i).zip$"), na.rm = TRUE)) {
         if (any(stringr::str_detect(file, ".zip$"), na.rm = TRUE)) {
-            gutils:::require_pkg("utils")
+            rutils:::require_pkg("utils")
         }
 
         out <- dplyr::tibble()
@@ -178,7 +178,7 @@ read_ref <- function(file = file.choose(), lookup = NULL, sep = " | ") {
 chopp_ref <- function(data) {
     checkmate::assert_list(data)
 
-    out <- gutils::cutter(data$data, data$index, between = data$between) %>%
+    out <- rutils::cutter(data$data, data$index, between = data$between) %>%
         lapply(function(x) x[!stringr::str_detect(x, "^\\s*$")]) %>%
         lapply(function(x) x[!stringr::str_detect(x, "^ER$|^ER |^ER-")])
 
@@ -200,7 +200,7 @@ remove_ref_header <- function(x) {
     first_tag <- which(stringr::str_detect(x[[1]], pattern_tag) == TRUE)[1]
 
     if (!first_tag == 1) {
-        x[[1]] <- unlist(gutils::cutter(x[[1]], first_tag, between = "left",
+        x[[1]] <- unlist(rutils::cutter(x[[1]], first_tag, between = "left",
                                 rm_start = TRUE))
     }
 
@@ -216,7 +216,7 @@ join_ref_solo_lines <- function(x) {
 
     if (any(!tag_detect)) {
         x <- x %>%
-            gutils::cutter(index = tagged_elements, between = "left") %>%
+            rutils::cutter(index = tagged_elements, between = "left") %>%
             lapply(function(i) paste(trimws(i), collapse = " ")) %>%
             unlist()
     }
@@ -232,8 +232,8 @@ join_ref_tag_values <- function(x, sep) {
     pattern_data <- "(?<=-).*"
     tags <- stringr::str_extract(x, pattern_tag)
 
-    if (any(duplicated(gutils:::rm_na(tags)), na.rm = TRUE)) {
-        duplicated_tags <- unique(tags[duplicated(tags)]) %>% gutils:::rm_na()
+    if (any(duplicated(rutils:::rm_na(tags)), na.rm = TRUE)) {
+        duplicated_tags <- unique(tags[duplicated(tags)]) %>% rutils:::rm_na()
 
         for (i in duplicated_tags) {
             pattern <- paste0("^", i, "\\s", "|", "^", i, "-")
@@ -405,7 +405,7 @@ join_ref_col_values <- function(x, lookup, sep) {
 
     if (any(duplicated(lookup$name), na.rm = TRUE)) {
         duplicate_names <- unique(lookup$name[duplicated(lookup$name)]) %>%
-            gutils:::rm_na()
+            rutils:::rm_na()
 
         for (i in duplicate_names) {
             tags <- lookup$tag[which(lookup$name == i)]

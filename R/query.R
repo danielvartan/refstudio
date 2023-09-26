@@ -145,7 +145,7 @@ query <- function(..., provider, constraint = NULL, clipboard = TRUE,
                    enclosure = enclosure, clean_modifiers = clean_modifiers,
                    sort = sort, na_rm = na_rm, duplicate_rm = duplicate_rm)
 
-    gutils:::printer(out, print = print, clipboard = clipboard)
+    rutils:::printer(out, print = print, clipboard = clipboard)
 
     invisible(out)
 }
@@ -175,7 +175,7 @@ embase <- function(..., constraint = NULL) {
     x <- unlist(list(...), use.names = FALSE)
     tag <- get_tag(refstudio::provider_tags$embase, constraint)
 
-    if (gutils:::test_has_length(tag)) {
+    if (rutils:::test_has_length(tag)) {
         tag <- paste0(":", paste0(tag, collapse = ","))
     } else {
         tag <- ""
@@ -286,8 +286,8 @@ chopper <- function(..., delimiter = NULL) {
 
     x <- x %>%
         stringr::str_squish() %>%
-        gutils:::rm_na() %>%
-        gutils:::rm_pattern(pattern = "^OR$", ignore_case = TRUE) %>%
+        rutils:::rm_na() %>%
+        rutils:::rm_pattern(pattern = "^OR$", ignore_case = TRUE) %>%
         stringr::str_replace_all(
             stringr::regex(" OR | OR$|^OR ", ignore_case = TRUE),
             delimiter)
@@ -315,7 +315,7 @@ chopper <- function(..., delimiter = NULL) {
     index <- grep(pattern, x, perl = TRUE)
     operators <- x[index]
 
-    if (gutils:::test_has_length(index)) {
+    if (rutils:::test_has_length(index)) {
         if (index[1] == 1 || index[length(index)] == length(x)) {
             stop("You cannot use a boolean operator in the ",
                  "start or at the end of a query.", call. = FALSE)
@@ -326,8 +326,8 @@ chopper <- function(..., delimiter = NULL) {
         }
     }
 
-    if (gutils:::test_has_length(index)) {
-        out <- gutils::cutter(x, index)
+    if (rutils:::test_has_length(index)) {
+        out <- rutils::cutter(x, index)
         out[[length(out) + 1]] <- operators
         names(out)[length(out)] <- "operators"
 
@@ -366,7 +366,7 @@ builder <- function(x, provider, constraint, min_chars, enclosure, delimiter,
                                     sort = sort, na_rm = na_rm,
                                     duplicate_rm = duplicate_rm)
 
-            if (gutils:::test_has_length(keyword)) {
+            if (rutils:::test_has_length(keyword)) {
                 set <- do.call(tolower(provider),
                                list(keyword,
                                     constraint = constraint))
@@ -404,7 +404,7 @@ builder <- function(x, provider, constraint, min_chars, enclosure, delimiter,
                                 sort = sort, na_rm = na_rm,
                                 duplicate_rm = duplicate_rm)
 
-        if (gutils:::test_has_length(keyword)) {
+        if (rutils:::test_has_length(keyword)) {
             out <- do.call(tolower(provider), list(keyword,
                                                    constraint = constraint))
         } else {
@@ -448,7 +448,7 @@ paste_tag <- function(..., tag = NULL, type = "local", location = "right",
     checkmate::assert_string(sep)
 
     if (type == "local") {
-        if (gutils:::test_has_length(tag)) {
+        if (rutils:::test_has_length(tag)) {
             out <- character()
 
             for (i in tag) {
@@ -471,7 +471,7 @@ paste_tag <- function(..., tag = NULL, type = "local", location = "right",
             x
         }
     } else if (type == "global") {
-        if (gutils:::test_has_length(tag)) {
+        if (rutils:::test_has_length(tag)) {
             # x <- paste0("(", x, ")")
             x <- paste(x, collapse = " OR ")
             # if (grepl(" OR ", x)) x <- paste0("(", x, ")")

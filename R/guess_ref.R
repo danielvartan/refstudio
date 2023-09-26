@@ -29,7 +29,7 @@
 #' references/citations, the `between` value (see below) will be set to
 #' `"right"`, else, it will be set to `"left`.
 #' * `between`: a `"left"` or `"right"` value that can be used with the
-#' [`cutter()`][gutils::cutter()] function. See the documentation for the
+#' [`cutter()`][rutils::cutter()] function. See the documentation for the
 #' mentioned function to learn more.
 #'
 #' @param file (optional) a string indicating a reference/citation file. If not

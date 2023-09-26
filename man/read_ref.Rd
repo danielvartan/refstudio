@@ -65,7 +65,7 @@ provider from which the reference file was exported. You can see the
 \url{https://bit.ly/3efSgHr}.
 \itemize{
 \item \code{"general"}: A general lookup table for RIS files.
-\item \code{"apa"}: for \href{http://help.psycnet.org/}{APA} (American Psychology
+\item \code{"apa"}: for \href{https://help.psycnet.org/}{APA} (American Psychology
 Association).
 \item \code{"ebsco"}: for \href{http://support.ebsco.com/help/}{EBSCO} (Elton Bryson
 Stephens Company).

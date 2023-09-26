@@ -104,13 +104,14 @@ building your search.
 Here are the documentation links of the database providers supported by the
 \code{query()} function.
 \itemize{
-\item \code{"apa"}: for \href{http://help.psycnet.org/}{APA} (American Psychology
+\item \code{"apa"}: for \href{https://help.psycnet.org/}{APA} (American Psychology
 Association).
 \item \code{"ebsco"}: for \href{http://support.ebsco.com/help/}{EBSCO} (Elton Bryson
 Stephens Company).
 \item \code{"embase"}: for \href{https://bit.ly/399d14T}{Embase} (Excerpta Medica
 dataBASE)
-\item \code{"lilacs"}: for \href{https://bit.ly/3aqb2to}{LILACS} (Literatura
+\item \code{"lilacs"}: for
+\href{https://wiki.bireme.org/en/index.php/Search_tutorial}{LILACS} (Literatura
 Latino-americana e do Caribe em Ciencias da Saude).
 \item \code{"pubmed"}: for \href{https://pubmed.ncbi.nlm.nih.gov/help/}{PubMed}.
 \item \code{"scielo"}: for \href{https://bit.ly/3lJvVnQ}{SciELO} (Scientific Electronic

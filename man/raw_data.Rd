@@ -20,8 +20,8 @@ name(s). If \code{NULL}, all raw data file names will be printed (default:
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#maturing}{\figure{lifecycle-maturing.svg}{options: alt='[Maturing]'}}}{\strong{[Maturing]}}
 
-\code{refstudio} comes bundled with raw fictional datasets for testing and learning
-purposes. \code{raw_data()} makes it easy to access their paths.
+\code{refstudio} comes bundled with raw fictional datasets for testing and
+learning purposes. \code{raw_data()} makes it easy to access their paths.
 }
 \examples{
 \dontrun{

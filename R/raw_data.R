@@ -29,5 +29,5 @@
 #'
 #' raw_data(raw_data()[1])}
 raw_data <- function(file = NULL) {
-    gutils::raw_data_1(file, package = "refstudio")
+  rutils::raw_data_1(file, package = "refstudio")
 }

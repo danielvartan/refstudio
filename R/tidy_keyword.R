@@ -127,7 +127,7 @@ tidy_keyword <- function(..., min_chars = 1, delimiter = ",",
     out <- dplyr::if_else(
         is.na(out) | grepl("^[a-zA-Z0-9]+$", out, perl = TRUE) |
             grepl(modifiers, out, perl = TRUE),
-        out, gutils:::enclosure(out, enclosure))
+        out, rutils:::enclosure(out, enclosure))
 
     out
 }

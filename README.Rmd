@@ -45,7 +45,7 @@ remotes::install_github("giperbio/refstudio")
 
 ## Citation
 
-If you use `refstudio` in your research, please consider citing it. We put a lot of work to build and maintain a free and open-source R package. You can find the `refstudio` citation below.
+If you use `refstudio` in your research, please consider citing it. We put a lot of work to build and maintain a free and open-source R package. You can find the citation below.
 
 ```{r}
 citation("refstudio")

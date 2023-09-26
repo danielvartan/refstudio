@@ -39,7 +39,7 @@ count_ref <- function(file = file.choose()) {
     if (length(file) > 1 ||
         any(stringr::str_detect(file, "(?i).zip$"), na.rm = TRUE)) {
         if (any(stringr::str_detect(file, ".zip$"), na.rm = TRUE)) {
-            gutils:::require_pkg("utils")
+          rutils:::require_pkg("utils")
         }
 
         out <- 0

@@ -51,7 +51,7 @@ references/citations. If the cut point is located at the end of the
 references/citations, the \code{between} value (see below) will be set to
 \code{"right"}, else, it will be set to \verb{"left}.
 \item \code{between}: a \code{"left"} or \code{"right"} value that can be used with the
-\code{\link[gutils:cutter]{cutter()}} function. See the documentation for the
+\code{\link[rutils:cutter]{cutter()}} function. See the documentation for the
 mentioned function to learn more.
 }
 }
